@@ -20,6 +20,12 @@ class AirlineRepository(Protocol):
     def get(self, iata: str) -> Airline | None: ...
 
 
+class AirlineLogoRepository(Protocol):
+    def get(self, iata: str) -> bytes | None:
+        """PNG bytes of the airline's logo, or None when there is none."""
+        ...
+
+
 class RenderFormat(StrEnum):
     TEXT = "text"
     HTML = "html"

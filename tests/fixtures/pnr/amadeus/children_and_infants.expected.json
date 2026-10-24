@@ -65,7 +65,8 @@
       "passenger_count": 4,
       "airline": {
         "iata": "RO",
-        "name": "Tarom"
+        "name": "Tarom",
+        "logo_url": "/v1/airlines/RO/logo"
       },
       "operated_by": null,
       "origin_airport": {

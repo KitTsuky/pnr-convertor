@@ -48,7 +48,8 @@
       "passenger_count": 2,
       "airline": {
         "iata": "DL",
-        "name": "Delta Air Lines"
+        "name": "Delta Air Lines",
+        "logo_url": "/v1/airlines/DL/logo"
       },
       "operated_by": null,
       "origin_airport": {
@@ -95,7 +96,8 @@
       "passenger_count": 2,
       "airline": {
         "iata": "DL",
-        "name": "Delta Air Lines"
+        "name": "Delta Air Lines",
+        "logo_url": "/v1/airlines/DL/logo"
       },
       "operated_by": null,
       "origin_airport": {

@@ -29,7 +29,11 @@ def test_convert_returns_enrichment(client: TestClient) -> None:
 
     body = response.json()
     first = body["segments"][0]
-    assert first["airline"] == {"iata": "TK", "name": "Turkish Airlines"}
+    assert first["airline"] == {
+        "iata": "TK",
+        "name": "Turkish Airlines",
+        "logo_url": "/v1/airlines/TK/logo",
+    }
     assert first["origin_airport"]["timezone"] == "Europe/Bucharest"
     assert first["departure_at"] == "2026-04-10T09:05:00+03:00"
     assert first["duration_minutes"] == 105

@@ -30,7 +30,8 @@
       "passenger_count": 1,
       "airline": {
         "iata": "UA",
-        "name": "United Airlines"
+        "name": "United Airlines",
+        "logo_url": "/v1/airlines/UA/logo"
       },
       "operated_by": "BRUSSELS AIRLINES",
       "origin_airport": {
@@ -77,7 +78,8 @@
       "passenger_count": 1,
       "airline": {
         "iata": "UA",
-        "name": "United Airlines"
+        "name": "United Airlines",
+        "logo_url": "/v1/airlines/UA/logo"
       },
       "operated_by": null,
       "origin_airport": {

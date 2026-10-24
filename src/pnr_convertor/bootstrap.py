@@ -7,10 +7,16 @@ from dataclasses import dataclass
 
 from pnr_convertor.application.convert_pnr import ConvertPnr
 from pnr_convertor.application.enrich_itinerary import ItineraryEnricher
-from pnr_convertor.application.ports import Clock, ItineraryRenderer, RenderFormat
+from pnr_convertor.application.ports import (
+    AirlineLogoRepository,
+    Clock,
+    ItineraryRenderer,
+    RenderFormat,
+)
 from pnr_convertor.config import Settings
 from pnr_convertor.infrastructure.clock import SystemClock
 from pnr_convertor.infrastructure.reference_data import (
+    BundledAirlineLogoRepository,
     BundledAirlineRepository,
     BundledAirportRepository,
 )
@@ -28,6 +34,7 @@ class Container:
     settings: Settings
     convert_pnr: ConvertPnr
     renderers: Mapping[RenderFormat, ItineraryRenderer]
+    airline_logos: AirlineLogoRepository
 
 
 def build_parser_registry() -> ParserRegistry:
@@ -42,12 +49,16 @@ def build_renderers() -> dict[RenderFormat, ItineraryRenderer]:
 
 
 def build_container(settings: Settings, *, clock: Clock | None = None) -> Container:
+    logos = BundledAirlineLogoRepository()
     return Container(
         settings=settings,
         convert_pnr=ConvertPnr(
             build_parser_registry(),
-            ItineraryEnricher(BundledAirportRepository(), BundledAirlineRepository()),
+            ItineraryEnricher(
+                BundledAirportRepository(), BundledAirlineRepository(logo_codes=logos.codes)
+            ),
             clock or SystemClock(),
         ),
         renderers=build_renderers(),
+        airline_logos=logos,
     )
