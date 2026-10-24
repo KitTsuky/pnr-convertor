@@ -1,0 +1,208 @@
+{
+  "gds": "galileo",
+  "record_locator": "M3QX8T",
+  "passengers": [
+    {
+      "index": 1,
+      "last_name": "IONESCU",
+      "first_name": "ELENA",
+      "title": "MRS",
+      "type": "ADT",
+      "date_of_birth": null,
+      "infant": null
+    },
+    {
+      "index": 2,
+      "last_name": "IONESCU",
+      "first_name": "LUCA",
+      "title": "MSTR",
+      "type": "CHD",
+      "date_of_birth": null,
+      "infant": null
+    },
+    {
+      "index": 3,
+      "last_name": "IONESCU",
+      "first_name": "SARA",
+      "title": "MISS",
+      "type": "INF",
+      "date_of_birth": "2025-01-14",
+      "infant": null
+    }
+  ],
+  "segments": [
+    {
+      "index": 1,
+      "carrier": "QF",
+      "flight_number": "2",
+      "booking_class": "Y",
+      "origin": "LHR",
+      "destination": "SYD",
+      "departure_local": "2026-01-10T21:05:00",
+      "arrival_local": "2026-01-12T06:25:00",
+      "status": {
+        "code": "HS",
+        "category": "confirmed",
+        "description": "Holding sold"
+      },
+      "passenger_count": 2,
+      "airline": {
+        "iata": "QF",
+        "name": "Qantas"
+      },
+      "origin_airport": {
+        "iata": "LHR",
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "country": "GB",
+        "timezone": "Europe/London",
+        "latitude": 51.4706,
+        "longitude": -0.46194
+      },
+      "destination_airport": {
+        "iata": "SYD",
+        "name": "Sydney Kingsford Smith International Airport",
+        "city": "Sydney",
+        "country": "AU",
+        "timezone": "Australia/Sydney",
+        "latitude": -33.9461,
+        "longitude": 151.177
+      },
+      "departure_at": "2026-01-10T21:05:00Z",
+      "arrival_at": "2026-01-12T06:25:00+11:00",
+      "duration_minutes": 1340,
+      "distance": {
+        "km": 17016,
+        "miles": 10573
+      },
+      "seats": []
+    },
+    {
+      "index": 2,
+      "carrier": "QF",
+      "flight_number": "11",
+      "booking_class": "Y",
+      "origin": "SYD",
+      "destination": "LAX",
+      "departure_local": "2026-01-20T09:50:00",
+      "arrival_local": "2026-01-20T06:15:00",
+      "status": {
+        "code": "HL",
+        "category": "waitlisted",
+        "description": "Holding waitlisted"
+      },
+      "passenger_count": 2,
+      "airline": {
+        "iata": "QF",
+        "name": "Qantas"
+      },
+      "origin_airport": {
+        "iata": "SYD",
+        "name": "Sydney Kingsford Smith International Airport",
+        "city": "Sydney",
+        "country": "AU",
+        "timezone": "Australia/Sydney",
+        "latitude": -33.9461,
+        "longitude": 151.177
+      },
+      "destination_airport": {
+        "iata": "LAX",
+        "name": "Los Angeles International Airport",
+        "city": "Los Angeles",
+        "country": "US",
+        "timezone": "America/Los_Angeles",
+        "latitude": 33.942496,
+        "longitude": -118.408049
+      },
+      "departure_at": "2026-01-20T09:50:00+11:00",
+      "arrival_at": "2026-01-20T06:15:00-08:00",
+      "duration_minutes": 925,
+      "distance": {
+        "km": 12051,
+        "miles": 7488
+      },
+      "seats": []
+    },
+    {
+      "index": 3,
+      "carrier": "BA",
+      "flight_number": "282",
+      "booking_class": "Y",
+      "origin": "LAX",
+      "destination": "LHR",
+      "departure_local": "2026-01-22T19:40:00",
+      "arrival_local": "2026-01-23T14:05:00",
+      "status": {
+        "code": "UC",
+        "category": "cancelled",
+        "description": "Unable, waitlist closed"
+      },
+      "passenger_count": 2,
+      "airline": {
+        "iata": "BA",
+        "name": "British Airways"
+      },
+      "origin_airport": {
+        "iata": "LAX",
+        "name": "Los Angeles International Airport",
+        "city": "Los Angeles",
+        "country": "US",
+        "timezone": "America/Los_Angeles",
+        "latitude": 33.942496,
+        "longitude": -118.408049
+      },
+      "destination_airport": {
+        "iata": "LHR",
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "country": "GB",
+        "timezone": "Europe/London",
+        "latitude": 51.4706,
+        "longitude": -0.46194
+      },
+      "departure_at": "2026-01-22T19:40:00-08:00",
+      "arrival_at": "2026-01-23T14:05:00Z",
+      "duration_minutes": 625,
+      "distance": {
+        "km": 8781,
+        "miles": 5456
+      },
+      "seats": []
+    }
+  ],
+  "journeys": [
+    {
+      "segment_indexes": [
+        1
+      ],
+      "origin": "LHR",
+      "destination": "SYD",
+      "departure_at": "2026-01-10T21:05:00Z",
+      "arrival_at": "2026-01-12T06:25:00+11:00",
+      "duration_minutes": 1340,
+      "distance": {
+        "km": 17016,
+        "miles": 10573
+      },
+      "connections": []
+    },
+    {
+      "segment_indexes": [
+        2
+      ],
+      "origin": "SYD",
+      "destination": "LAX",
+      "departure_at": "2026-01-20T09:50:00+11:00",
+      "arrival_at": "2026-01-20T06:15:00-08:00",
+      "duration_minutes": 925,
+      "distance": {
+        "km": 12051,
+        "miles": 7488
+      },
+      "connections": []
+    }
+  ],
+  "tickets": [],
+  "contacts": [],
+  "warnings": []
+}

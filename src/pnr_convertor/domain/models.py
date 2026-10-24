@@ -10,6 +10,7 @@ from enum import StrEnum
 class GdsFormat(StrEnum):
     AMADEUS = "amadeus"
     SABRE = "sabre"
+    GALILEO = "galileo"
 
 
 class SegmentStatusCategory(StrEnum):
@@ -27,6 +28,7 @@ _STATUS_CATEGORIES: dict[str, SegmentStatusCategory] = {
     "TK": SegmentStatusCategory.CONFIRMED,
     "RR": SegmentStatusCategory.CONFIRMED,
     "SS": SegmentStatusCategory.CONFIRMED,
+    "HS": SegmentStatusCategory.CONFIRMED,
     "DK": SegmentStatusCategory.CONFIRMED,
     "HL": SegmentStatusCategory.WAITLISTED,
     "LL": SegmentStatusCategory.WAITLISTED,
@@ -49,6 +51,7 @@ _STATUS_DESCRIPTIONS: dict[str, str] = {
     "TK": "Confirmed after schedule change",
     "RR": "Reconfirmed",
     "SS": "Sold",
+    "HS": "Holding sold",
     "GK": "Passive segment",
     "HL": "Holding waitlisted",
     "LL": "Waitlisted",

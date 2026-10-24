@@ -109,3 +109,13 @@ def test_convert_returns_passenger_types_and_infants(client: TestClient) -> None
         "first_name": "ILINCA",
         "date_of_birth": "2024-01-14",
     }
+
+
+def test_convert_auto_detects_galileo(client: TestClient) -> None:
+    response = client.post(
+        "/v1/convert", json={"pnr": read_fixture("galileo", "booking_file_connections")}
+    )
+
+    body = response.json()
+    assert (body["gds"], body["record_locator"]) == ("galileo", "K7PL2Q")
+    assert [j["segment_indexes"] for j in body["journeys"]] == [[1, 2], [3, 4]]

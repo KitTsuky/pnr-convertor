@@ -5,6 +5,7 @@ import pytest
 from pnr_convertor.domain.errors import UnsupportedFormatError
 from pnr_convertor.domain.models import GdsFormat
 from pnr_convertor.parsing.amadeus import AmadeusParser
+from pnr_convertor.parsing.galileo import GalileoParser
 from pnr_convertor.parsing.registry import ParserRegistry
 from pnr_convertor.parsing.sabre import SabreParser
 from tests.conftest import read_fixture
@@ -12,7 +13,7 @@ from tests.conftest import read_fixture
 
 @pytest.fixture
 def registry() -> ParserRegistry:
-    return ParserRegistry([AmadeusParser(), SabreParser()])
+    return ParserRegistry([AmadeusParser(), SabreParser(), GalileoParser()])
 
 
 def test_auto_detects_amadeus(registry: ParserRegistry) -> None:
@@ -23,6 +24,11 @@ def test_auto_detects_amadeus(registry: ParserRegistry) -> None:
 def test_auto_detects_sabre(registry: ParserRegistry) -> None:
     parser = registry.resolve(read_fixture("sabre", "round_trip_with_fare_quote"))
     assert parser.gds is GdsFormat.SABRE
+
+
+def test_auto_detects_galileo(registry: ParserRegistry) -> None:
+    parser = registry.resolve(read_fixture("galileo", "booking_file_connections"))
+    assert parser.gds is GdsFormat.GALILEO
 
 
 def test_explicit_format_skips_detection(registry: ParserRegistry) -> None:
