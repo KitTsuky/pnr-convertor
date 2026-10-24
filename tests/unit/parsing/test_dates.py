@@ -16,13 +16,13 @@ from pnr_convertor.parsing.dates import (
 
 @pytest.mark.parametrize(
     ("token", "expected"),
-    [("15MAR", (15, 3)), ("01JAN", (1, 1)), ("31DEC", (31, 12))],
+    [("15MAR", (15, 3)), ("01JAN", (1, 1)), ("31DEC", (31, 12)), ("5DEC", (5, 12))],
 )
 def test_parse_day_month(token: str, expected: tuple[int, int]) -> None:
     assert parse_day_month(token) == expected
 
 
-@pytest.mark.parametrize("token", ["15XYZ", "5MAR", "AAMAR", "15MARCH"])
+@pytest.mark.parametrize("token", ["15XYZ", "MAR", "AAMAR", "15MARCH", "00MAR", "123MAR"])
 def test_parse_day_month_rejects_malformed(token: str) -> None:
     with pytest.raises(ValueError, match="GDS date"):
         parse_day_month(token)
