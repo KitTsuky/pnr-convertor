@@ -13,7 +13,7 @@ from pnr_convertor.domain.models import (
 )
 from pnr_convertor.parsing.amadeus import patterns
 from pnr_convertor.parsing.base import ParseContext
-from pnr_convertor.parsing.dates import PAST_TOLERANCE, parse_day_month, parse_hhmm, resolve_date
+from pnr_convertor.parsing.dates import PAST_TOLERANCE, parse_day_month, parse_time, resolve_date
 
 
 class AmadeusParser:
@@ -66,9 +66,9 @@ def _build_segment(match: re.Match[str], *, not_before: date, is_first: bool) ->
         weekday=int(match["weekday"]) if match["weekday"] else None,
         allow_earlier=is_first,
     )
-    departure = datetime.combine(departure_date, parse_hhmm(match["departure_time"]))
+    departure = datetime.combine(departure_date, parse_time(match["departure_time"]))
     arrival = datetime.combine(
-        _arrival_date(match, departure_date), parse_hhmm(match["arrival_time"])
+        _arrival_date(match, departure_date), parse_time(match["arrival_time"])
     )
     return FlightSegment(
         index=int(match["index"]),
@@ -98,7 +98,7 @@ def _build_passengers(line: str) -> list[Passenger]:
             index=int(match["index"]),
             last_name=match["last_name"].strip(),
             first_name=match["first_name"].strip(),
-            title=match["title"],
+            title=match["title"] or match["spaced_title"],
         )
         for match in patterns.NAME.finditer(line)
     ]

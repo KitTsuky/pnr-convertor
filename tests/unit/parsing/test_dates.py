@@ -4,7 +4,13 @@ from datetime import date, time
 
 import pytest
 
-from pnr_convertor.parsing.dates import parse_12h, parse_day_month, parse_hhmm, resolve_date
+from pnr_convertor.parsing.dates import (
+    parse_12h,
+    parse_day_month,
+    parse_hhmm,
+    parse_time,
+    resolve_date,
+)
 
 
 @pytest.mark.parametrize(
@@ -89,3 +95,8 @@ def test_parse_12h(token: str, expected: time) -> None:
 def test_parse_12h_rejects_invalid(token: str) -> None:
     with pytest.raises(ValueError):  # noqa: PT011 - message differs per failure mode
         parse_12h(token)
+
+
+@pytest.mark.parametrize(("token", "expected"), [("1415", time(14, 15)), ("215P", time(14, 15))])
+def test_parse_time_accepts_both_clocks(token: str, expected: time) -> None:
+    assert parse_time(token) == expected

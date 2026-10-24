@@ -64,6 +64,14 @@ class TestSegments:
             "Y",
         )
 
+    def test_asterisk_after_weekday_and_12_hour_times(self, parser: AmadeusParser) -> None:
+        line = "  4  BA 179 T 20APR 7*JFKLHR HK2   745P  750A 21APR  E  BA/9XZABC"
+        (segment,) = parser.parse(line, CONTEXT).segments
+
+        assert (segment.origin, segment.destination) == ("JFK", "LHR")
+        assert segment.departure == datetime(2025, 4, 20, 19, 45)
+        assert segment.arrival == datetime(2025, 4, 21, 7, 50)
+
     def test_day_offset_moves_arrival_to_next_day(self, parser: AmadeusParser) -> None:
         pnr = parser.parse("  1  EK 202 J 30DEC 2 JFKDXB HK1  2300 1930+1", CONTEXT)
         (segment,) = pnr.segments
@@ -126,6 +134,21 @@ class TestPassengersAndHeader:
             Passenger(1, "POPESCU", "ANDREI", "MR"),
             Passenger(2, "POPESCU", "MARIA ELENA", "MRS"),
         )
+
+    @pytest.mark.parametrize(
+        ("line", "expected"),
+        [
+            ("  1.SMITH/JOHNMR   2.BROWN/ANNAMS", [("JOHN", "MR"), ("ANNA", "MS")]),
+            ("  1.DOE/JANEMRS", [("JANE", "MRS")]),
+            ("  1.IVANOV/ALEXANDR", [("ALEXANDR", None)]),
+            ("  1.WHO/JOHN DR", [("JOHN", "DR")]),
+        ],
+    )
+    def test_titles_glued_to_first_name(
+        self, parser: AmadeusParser, line: str, expected: list[tuple[str, str | None]]
+    ) -> None:
+        pnr = parser.parse(line, CONTEXT)
+        assert [(p.first_name, p.title) for p in pnr.passengers] == expected
 
     def test_title_is_optional(self, parser: AmadeusParser) -> None:
         pnr = parser.parse("  1.DOE/JANE", CONTEXT)

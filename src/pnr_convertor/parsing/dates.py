@@ -82,6 +82,11 @@ def parse_hhmm(token: str) -> time:
     return time(int(token[:2]), int(token[2:]))
 
 
+def parse_time(token: str) -> time:
+    """Parse either a 24-hour (`1415`) or a 12-hour (`215P`) GDS time."""
+    return parse_12h(token) if token[-1:].isalpha() else parse_hhmm(token)
+
+
 def parse_12h(token: str) -> time:
     """Parse `945A`, `1229P`, `1200N` (noon) or `1200M` (midnight)."""
     digits, suffix = token[:-1], token[-1]
