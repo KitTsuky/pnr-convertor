@@ -31,7 +31,8 @@ roughly one PR.
 ## Phase 3 — More GDS formats
 
 - [x] Sabre itinerary display (`*I` / `*IA`), letter weekdays, 12-hour times
-- [ ] Sabre `*A`: passengers, record locator, ticketing (needs anonymized samples)
+- [x] Sabre `*A`: passengers (multi-name items), record locator (signature line), phones, married segments
+- [ ] Sabre ticketing (`*T`), emails, infants (needs anonymized samples)
 - [ ] Sabre `VI*`: terminals, equipment, elapsed time, miles
 - [ ] Travelport Galileo / Apollo / Worldspan
 - [ ] Detection conflicts: score-based tie handling + tests with ambiguous inputs
