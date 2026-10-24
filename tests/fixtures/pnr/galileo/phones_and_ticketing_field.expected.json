@@ -1,0 +1,257 @@
+{
+  "gds": "galileo",
+  "record_locator": "K7Q2ZX",
+  "passengers": [
+    {
+      "index": 1,
+      "last_name": "POPESCU",
+      "first_name": "ANDREI",
+      "title": "MR",
+      "type": "ADT",
+      "date_of_birth": null,
+      "infant": null
+    }
+  ],
+  "segments": [
+    {
+      "index": 1,
+      "carrier": "RO",
+      "flight_number": "381",
+      "booking_class": "Y",
+      "origin": "OTP",
+      "destination": "AMS",
+      "departure_local": "2025-12-05T07:15:00",
+      "arrival_local": "2025-12-05T09:05:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed",
+        "description": "Holding confirmed"
+      },
+      "passenger_count": 1,
+      "airline": {
+        "iata": "RO",
+        "name": "Tarom"
+      },
+      "origin_airport": {
+        "iata": "OTP",
+        "name": "Henri Coanda International Airport",
+        "city": "Bucharest",
+        "country": "RO",
+        "timezone": "Europe/Bucharest",
+        "latitude": 44.5722,
+        "longitude": 26.1022
+      },
+      "destination_airport": {
+        "iata": "AMS",
+        "name": "Amsterdam Airport Schiphol",
+        "city": "Amsterdam",
+        "country": "NL",
+        "timezone": "Europe/Amsterdam",
+        "latitude": 52.3086,
+        "longitude": 4.76389
+      },
+      "departure_at": "2025-12-05T07:15:00+02:00",
+      "arrival_at": "2025-12-05T09:05:00+01:00",
+      "duration_minutes": 170,
+      "distance": {
+        "km": 1788,
+        "miles": 1111
+      },
+      "seats": []
+    },
+    {
+      "index": 2,
+      "carrier": "KL",
+      "flight_number": "643",
+      "booking_class": "Y",
+      "origin": "AMS",
+      "destination": "JFK",
+      "departure_local": "2025-12-05T10:15:00",
+      "arrival_local": "2025-12-05T12:25:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed",
+        "description": "Holding confirmed"
+      },
+      "passenger_count": 1,
+      "airline": {
+        "iata": "KL",
+        "name": "KLM Royal Dutch Airlines"
+      },
+      "origin_airport": {
+        "iata": "AMS",
+        "name": "Amsterdam Airport Schiphol",
+        "city": "Amsterdam",
+        "country": "NL",
+        "timezone": "Europe/Amsterdam",
+        "latitude": 52.3086,
+        "longitude": 4.76389
+      },
+      "destination_airport": {
+        "iata": "JFK",
+        "name": "John F Kennedy International Airport",
+        "city": "New York",
+        "country": "US",
+        "timezone": "America/New_York",
+        "latitude": 40.639928,
+        "longitude": -73.778692
+      },
+      "departure_at": "2025-12-05T10:15:00+01:00",
+      "arrival_at": "2025-12-05T12:25:00-05:00",
+      "duration_minutes": 490,
+      "distance": {
+        "km": 5863,
+        "miles": 3643
+      },
+      "seats": []
+    },
+    {
+      "index": 3,
+      "carrier": "KL",
+      "flight_number": "644",
+      "booking_class": "Y",
+      "origin": "JFK",
+      "destination": "AMS",
+      "departure_local": "2025-12-12T18:30:00",
+      "arrival_local": "2025-12-13T07:45:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed",
+        "description": "Holding confirmed"
+      },
+      "passenger_count": 1,
+      "airline": {
+        "iata": "KL",
+        "name": "KLM Royal Dutch Airlines"
+      },
+      "origin_airport": {
+        "iata": "JFK",
+        "name": "John F Kennedy International Airport",
+        "city": "New York",
+        "country": "US",
+        "timezone": "America/New_York",
+        "latitude": 40.639928,
+        "longitude": -73.778692
+      },
+      "destination_airport": {
+        "iata": "AMS",
+        "name": "Amsterdam Airport Schiphol",
+        "city": "Amsterdam",
+        "country": "NL",
+        "timezone": "Europe/Amsterdam",
+        "latitude": 52.3086,
+        "longitude": 4.76389
+      },
+      "departure_at": "2025-12-12T18:30:00-05:00",
+      "arrival_at": "2025-12-13T07:45:00+01:00",
+      "duration_minutes": 435,
+      "distance": {
+        "km": 5863,
+        "miles": 3643
+      },
+      "seats": []
+    },
+    {
+      "index": 4,
+      "carrier": "RO",
+      "flight_number": "382",
+      "booking_class": "Y",
+      "origin": "AMS",
+      "destination": "OTP",
+      "departure_local": "2025-12-13T10:00:00",
+      "arrival_local": "2025-12-13T14:05:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed",
+        "description": "Holding confirmed"
+      },
+      "passenger_count": 1,
+      "airline": {
+        "iata": "RO",
+        "name": "Tarom"
+      },
+      "origin_airport": {
+        "iata": "AMS",
+        "name": "Amsterdam Airport Schiphol",
+        "city": "Amsterdam",
+        "country": "NL",
+        "timezone": "Europe/Amsterdam",
+        "latitude": 52.3086,
+        "longitude": 4.76389
+      },
+      "destination_airport": {
+        "iata": "OTP",
+        "name": "Henri Coanda International Airport",
+        "city": "Bucharest",
+        "country": "RO",
+        "timezone": "Europe/Bucharest",
+        "latitude": 44.5722,
+        "longitude": 26.1022
+      },
+      "departure_at": "2025-12-13T10:00:00+01:00",
+      "arrival_at": "2025-12-13T14:05:00+02:00",
+      "duration_minutes": 185,
+      "distance": {
+        "km": 1788,
+        "miles": 1111
+      },
+      "seats": []
+    }
+  ],
+  "journeys": [
+    {
+      "segment_indexes": [
+        1,
+        2
+      ],
+      "origin": "OTP",
+      "destination": "JFK",
+      "departure_at": "2025-12-05T07:15:00+02:00",
+      "arrival_at": "2025-12-05T12:25:00-05:00",
+      "duration_minutes": 730,
+      "distance": {
+        "km": 7652,
+        "miles": 4755
+      },
+      "connections": [
+        {
+          "airport": "AMS",
+          "duration_minutes": 70
+        }
+      ]
+    },
+    {
+      "segment_indexes": [
+        3,
+        4
+      ],
+      "origin": "JFK",
+      "destination": "OTP",
+      "departure_at": "2025-12-12T18:30:00-05:00",
+      "arrival_at": "2025-12-13T14:05:00+02:00",
+      "duration_minutes": 755,
+      "distance": {
+        "km": 7652,
+        "miles": 4755
+      },
+      "connections": [
+        {
+          "airport": "AMS",
+          "duration_minutes": 135
+        }
+      ]
+    }
+  ],
+  "tickets": [],
+  "contacts": [
+    {
+      "kind": "phone",
+      "text": "BUHT*021 555 0100 TEST TRAVEL REF ANA"
+    },
+    {
+      "kind": "phone",
+      "text": "BUHH*0700 000 000"
+    }
+  ],
+  "warnings": []
+}
