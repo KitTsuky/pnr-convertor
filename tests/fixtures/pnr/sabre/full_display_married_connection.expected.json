@@ -1,0 +1,214 @@
+{
+  "gds": "sabre",
+  "record_locator": "KXLQPZ",
+  "passengers": [
+    {
+      "index": 1,
+      "last_name": "POPESCU",
+      "first_name": "ANDREI",
+      "title": "MR"
+    },
+    {
+      "index": 2,
+      "last_name": "POPESCU",
+      "first_name": "MARIA",
+      "title": "MRS"
+    },
+    {
+      "index": 3,
+      "last_name": "IONESCU",
+      "first_name": "ELENA",
+      "title": "MS"
+    }
+  ],
+  "segments": [
+    {
+      "index": 1,
+      "carrier": "RO",
+      "flight_number": "381",
+      "booking_class": "Y",
+      "origin": "OTP",
+      "destination": "AMS",
+      "departure_local": "2025-12-05T07:15:00",
+      "arrival_local": "2025-12-05T09:05:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed",
+        "description": "Holding confirmed"
+      },
+      "passenger_count": 3,
+      "airline": {
+        "iata": "RO",
+        "name": "Tarom"
+      },
+      "origin_airport": {
+        "iata": "OTP",
+        "name": "Henri Coanda International Airport",
+        "city": "Bucharest",
+        "country": "RO",
+        "timezone": "Europe/Bucharest",
+        "latitude": 44.5722,
+        "longitude": 26.1022
+      },
+      "destination_airport": {
+        "iata": "AMS",
+        "name": "Amsterdam Airport Schiphol",
+        "city": "Amsterdam",
+        "country": "NL",
+        "timezone": "Europe/Amsterdam",
+        "latitude": 52.3086,
+        "longitude": 4.76389
+      },
+      "departure_at": "2025-12-05T07:15:00+02:00",
+      "arrival_at": "2025-12-05T09:05:00+01:00",
+      "duration_minutes": 170,
+      "distance": {
+        "km": 1788,
+        "miles": 1111
+      },
+      "seats": []
+    },
+    {
+      "index": 2,
+      "carrier": "KL",
+      "flight_number": "1003",
+      "booking_class": "Y",
+      "origin": "AMS",
+      "destination": "LHR",
+      "departure_local": "2025-12-05T12:00:00",
+      "arrival_local": "2025-12-05T12:20:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed",
+        "description": "Holding confirmed"
+      },
+      "passenger_count": 3,
+      "airline": {
+        "iata": "KL",
+        "name": "KLM Royal Dutch Airlines"
+      },
+      "origin_airport": {
+        "iata": "AMS",
+        "name": "Amsterdam Airport Schiphol",
+        "city": "Amsterdam",
+        "country": "NL",
+        "timezone": "Europe/Amsterdam",
+        "latitude": 52.3086,
+        "longitude": 4.76389
+      },
+      "destination_airport": {
+        "iata": "LHR",
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "country": "GB",
+        "timezone": "Europe/London",
+        "latitude": 51.4706,
+        "longitude": -0.46194
+      },
+      "departure_at": "2025-12-05T12:00:00+01:00",
+      "arrival_at": "2025-12-05T12:20:00Z",
+      "duration_minutes": 80,
+      "distance": {
+        "km": 372,
+        "miles": 231
+      },
+      "seats": []
+    },
+    {
+      "index": 3,
+      "carrier": "BA",
+      "flight_number": "886",
+      "booking_class": "M",
+      "origin": "LHR",
+      "destination": "OTP",
+      "departure_local": "2025-12-12T12:55:00",
+      "arrival_local": "2025-12-12T18:10:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed",
+        "description": "Holding confirmed"
+      },
+      "passenger_count": 3,
+      "airline": {
+        "iata": "BA",
+        "name": "British Airways"
+      },
+      "origin_airport": {
+        "iata": "LHR",
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "country": "GB",
+        "timezone": "Europe/London",
+        "latitude": 51.4706,
+        "longitude": -0.46194
+      },
+      "destination_airport": {
+        "iata": "OTP",
+        "name": "Henri Coanda International Airport",
+        "city": "Bucharest",
+        "country": "RO",
+        "timezone": "Europe/Bucharest",
+        "latitude": 44.5722,
+        "longitude": 26.1022
+      },
+      "departure_at": "2025-12-12T12:55:00Z",
+      "arrival_at": "2025-12-12T18:10:00+02:00",
+      "duration_minutes": 195,
+      "distance": {
+        "km": 2110,
+        "miles": 1311
+      },
+      "seats": []
+    }
+  ],
+  "journeys": [
+    {
+      "segment_indexes": [
+        1,
+        2
+      ],
+      "origin": "OTP",
+      "destination": "LHR",
+      "departure_at": "2025-12-05T07:15:00+02:00",
+      "arrival_at": "2025-12-05T12:20:00Z",
+      "duration_minutes": 425,
+      "distance": {
+        "km": 2160,
+        "miles": 1342
+      },
+      "connections": [
+        {
+          "airport": "AMS",
+          "duration_minutes": 175
+        }
+      ]
+    },
+    {
+      "segment_indexes": [
+        3
+      ],
+      "origin": "LHR",
+      "destination": "OTP",
+      "departure_at": "2025-12-12T12:55:00Z",
+      "arrival_at": "2025-12-12T18:10:00+02:00",
+      "duration_minutes": 195,
+      "distance": {
+        "km": 2110,
+        "miles": 1311
+      },
+      "connections": []
+    }
+  ],
+  "tickets": [],
+  "contacts": [
+    {
+      "kind": "phone",
+      "text": "BUH021-555-0100-A"
+    },
+    {
+      "kind": "phone",
+      "text": "BUH0700-000-000-H"
+    }
+  ],
+  "warnings": []
+}
