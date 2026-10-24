@@ -54,9 +54,10 @@ roughly one PR.
 
 ## Phase 6 — Richer PNR content
 
-- [ ] Ticketing (`FA`, `FHE`), fare elements, ticket time limits
+- [x] Amadeus tickets (`FA`), seats (`SSR NSST` / `RQST` / `SEAT`), contacts (`AP` / `APE`)
+- [ ] Ticketing for Sabre and Travelport; `FHE`, fare elements, ticket time limits
 - [ ] SSR/OSI (meals, seats, special assistance), APIS documents (masked)
-- [ ] Contacts (masked by default), remarks
+- [ ] Remarks
 - [ ] Non-air segments: hotel, car, rail, `ARNK`
 
 ## Phase 7 — Optional
