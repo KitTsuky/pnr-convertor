@@ -1,19 +1,30 @@
 from __future__ import annotations
 
 import re
+from dataclasses import replace
 from datetime import date, datetime, timedelta
 
 from pnr_convertor.domain.models import (
+    Contact,
+    ContactKind,
     FlightSegment,
     GdsFormat,
     ParsedPnr,
     ParseWarning,
     Passenger,
+    SeatAssignment,
     SegmentStatus,
+    Ticket,
 )
 from pnr_convertor.parsing.amadeus import patterns
 from pnr_convertor.parsing.base import ParseContext
-from pnr_convertor.parsing.dates import PAST_TOLERANCE, parse_day_month, parse_time, resolve_date
+from pnr_convertor.parsing.dates import (
+    PAST_TOLERANCE,
+    parse_day_month,
+    parse_full_date,
+    parse_time,
+    resolve_date,
+)
 
 
 class AmadeusParser:
@@ -33,6 +44,9 @@ class AmadeusParser:
         passengers: list[Passenger] = []
         segments: list[FlightSegment] = []
         warnings: list[ParseWarning] = []
+        tickets: list[Ticket] = []
+        seats: list[SeatAssignment] = []
+        contacts: list[Contact] = []
         # Segments are chronological, so each one anchors the year of the next.
         not_before = context.reference_date - PAST_TOLERANCE
 
@@ -49,13 +63,31 @@ class AmadeusParser:
                 not_before = segment.departure.date()
             elif patterns.NAMES_LINE.match(line):
                 passengers.extend(_build_passengers(line))
+            elif ticket_match := patterns.TICKET.match(line):
+                try:
+                    tickets.append(_build_ticket(ticket_match))
+                except ValueError as exc:
+                    warnings.append(ParseWarning(line_number, f"Skipped ticket: {exc}"))
+            elif seat_match := patterns.SEAT_REQUEST.match(line):
+                seats.extend(_build_seats(seat_match))
+            elif contact_match := patterns.CONTACT.match(line):
+                contacts.append(_build_contact(contact_match))
 
+        # Elements without a passenger reference belong to the only passenger, if there is one.
+        sole_passenger = passengers[0].index if len(passengers) == 1 else None
         return ParsedPnr(
             gds=self.gds,
             record_locator=header.group("locator") if header else None,
             passengers=tuple(passengers),
             segments=tuple(segments),
             warnings=tuple(warnings),
+            tickets=tuple(
+                replace(t, passenger_index=t.passenger_index or sole_passenger) for t in tickets
+            ),
+            seats=tuple(
+                replace(s, passenger_index=s.passenger_index or sole_passenger) for s in seats
+            ),
+            contacts=tuple(contacts),
         )
 
 
@@ -102,3 +134,30 @@ def _build_passengers(line: str) -> list[Passenger]:
         )
         for match in patterns.NAME.finditer(line)
     ]
+
+
+def _build_ticket(match: re.Match[str]) -> Ticket:
+    return Ticket(
+        number=match["number"],
+        passenger_index=int(match["passenger"]) if match["passenger"] else None,
+        issuing_airline=match["airline"],
+        issue_date=parse_full_date(match["issue_date"]) if match["issue_date"] else None,
+        electronic=match["electronic"] is not None,
+    )
+
+
+def _build_seats(match: re.Match[str]) -> list[SeatAssignment]:
+    return [
+        SeatAssignment(
+            segment_index=int(match["segment"]),
+            passenger_index=int(seat["passenger"]) if seat["passenger"] else None,
+            seat=seat["seat"],
+        )
+        for seat in patterns.SEAT.finditer(match["seats"])
+    ]
+
+
+def _build_contact(match: re.Match[str]) -> Contact:
+    text = match["text"]
+    is_email = match["qualifier"] == "E" or "@" in text
+    return Contact(kind=ContactKind.EMAIL if is_email else ContactKind.PHONE, text=text)

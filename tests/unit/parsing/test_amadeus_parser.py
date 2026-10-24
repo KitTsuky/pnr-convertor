@@ -4,7 +4,14 @@ from datetime import date, datetime
 
 import pytest
 
-from pnr_convertor.domain.models import Passenger, SegmentStatusCategory
+from pnr_convertor.domain.models import (
+    Contact,
+    ContactKind,
+    Passenger,
+    SeatAssignment,
+    SegmentStatusCategory,
+    Ticket,
+)
 from pnr_convertor.parsing.amadeus import AmadeusParser
 from pnr_convertor.parsing.base import ParseContext
 from tests.conftest import REFERENCE_DATE, read_fixture
@@ -160,3 +167,51 @@ class TestPassengersAndHeader:
 
     def test_missing_header_gives_no_record_locator(self, parser: AmadeusParser) -> None:
         assert parser.parse("  1.DOE/JANE", CONTEXT).record_locator is None
+
+
+class TestTicketsSeatsAndContacts:
+    def test_tickets(self, parser: AmadeusParser) -> None:
+        pnr = parser.parse(read_fixture("amadeus", "ticketed_with_seats_and_contacts"), CONTEXT)
+        assert pnr.tickets == (
+            Ticket("125-9876543210", 1, "BA", date(2025, 3, 30), electronic=True),
+            Ticket("125-9876543211", 2, "BA", date(2025, 3, 30), electronic=True),
+        )
+
+    def test_seats_are_linked_to_segment_and_passenger(self, parser: AmadeusParser) -> None:
+        pnr = parser.parse(read_fixture("amadeus", "ticketed_with_seats_and_contacts"), CONTEXT)
+        assert [(s.segment_index, s.passenger_index, s.seat) for s in pnr.seats] == [
+            (3, 1, "12A"),
+            (3, 2, "12B"),
+            (4, 1, "14C"),
+            (4, 2, "14D"),
+        ]
+
+    def test_contacts_are_kept_verbatim(self, parser: AmadeusParser) -> None:
+        pnr = parser.parse(read_fixture("amadeus", "ticketed_with_seats_and_contacts"), CONTEXT)
+        assert pnr.contacts == (
+            Contact(ContactKind.PHONE, "LON020 7946 1234"),
+            Contact(ContactKind.EMAIL, "LONTRAVEL@EXAMPLE.COM"),
+            Contact(ContactKind.EMAIL, "J.SMITH@EXAMPLE.COM"),
+        )
+
+    def test_unreferenced_elements_belong_to_the_only_passenger(
+        self, parser: AmadeusParser
+    ) -> None:
+        text = (
+            "  1.DOE/JANE MS\n"
+            "  2  RO 391 Y 15MAR OTPCDG HK1  0710 0920\n"
+            "  3 SSR RQST RO HK1 OTPCDG/7C/S2\n"
+            "  4 FA PAX 281-1234567890/ETRO/10JAN26/BUHRO08AA/12345678"
+        )
+        pnr = parser.parse(text, CONTEXT)
+        assert pnr.seats == (SeatAssignment(segment_index=2, passenger_index=1, seat="7C"),)
+        assert pnr.tickets[0].passenger_index == 1
+
+    def test_paper_ticket_without_issue_date(self, parser: AmadeusParser) -> None:
+        pnr = parser.parse("  1.DOE/JANE\n  2 FA PAX 125-1234567890/BA", CONTEXT)
+        assert pnr.tickets == (Ticket("125-1234567890", 1, "BA", None, electronic=False),)
+
+    def test_invalid_ticket_date_becomes_warning(self, parser: AmadeusParser) -> None:
+        pnr = parser.parse("  1.DOE/JANE\n  2 FA PAX 125-1234567890/ETBA/31APR25/X", CONTEXT)
+        assert pnr.tickets == ()
+        assert pnr.warnings[0].line_number == 2
