@@ -35,14 +35,23 @@ NAME = re.compile(
     (?P<last_name>[A-Z][A-Z' -]*?)/
     (?P<first_name>[A-Z][A-Z' -]+?)
     (?:\s?(?P<title>MRS|MR|MS|MISS|MSTR)|\s(?P<spaced_title>DR))?
+    (?:\((?P<qualifier>[^)]*)\))?
     (?=\s{2,}\d{1,3}\.|\s*$)
     """,
     re.VERBOSE,
 )
 
+# Inside the parentheses after a name: `CHD/02JAN24`, `INS`, `INF/DANIELLA/14JAN24`,
+# or `INFSIMPSON/DANIELLA/14JAN24` when the infant has a different surname.
+TYPED_PASSENGER = re.compile(r"(?P<type_code>[A-Z]{3})(?:/(?P<date_of_birth>\d{2}[A-Z]{3}\d{2}))?")
+LAP_INFANT = re.compile(
+    r"INF(?P<last_name>[A-Z][A-Z' -]*)?/(?P<first_name>[A-Z][A-Z' -]*?)"
+    r"(?:/(?P<date_of_birth>\d{2}[A-Z]{3}\d{2}))?"
+)
+
 TICKET = re.compile(
     r"""
-    ^\s*\d{1,3}\s+FA\s+(?:PAX|INF)\s+
+    ^\s*\d{1,3}\s+FA\s+(?P<holder>PAX|INF)\s+
     (?P<number>\d{3}-\d{10}(?:-\d{2})?)
     (?:/(?P<electronic>ET)?(?P<airline>[A-Z0-9]{2}))?
     (?:/(?P<issue_date>\d{2}[A-Z]{3}\d{2}))?

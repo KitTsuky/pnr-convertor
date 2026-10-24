@@ -7,6 +7,7 @@ import pytest
 from pnr_convertor.domain.models import (
     Contact,
     ContactKind,
+    Infant,
     Passenger,
     SeatAssignment,
     SegmentStatusCategory,
@@ -215,3 +216,44 @@ class TestTicketsSeatsAndContacts:
         pnr = parser.parse("  1.DOE/JANE\n  2 FA PAX 125-1234567890/ETBA/31APR25/X", CONTEXT)
         assert pnr.tickets == ()
         assert pnr.warnings[0].line_number == 2
+
+
+class TestChildrenAndInfants:
+    def test_child_with_date_of_birth(self, parser: AmadeusParser) -> None:
+        (child,) = parser.parse("  1.POPESCU/IOANA MS(CHD/05APR19)", CONTEXT).passengers
+        assert (child.first_name, child.title) == ("IOANA", "MS")
+        assert (child.type_code, child.date_of_birth) == ("CHD", date(2019, 4, 5))
+
+    def test_infant_with_seat(self, parser: AmadeusParser) -> None:
+        (infant,) = parser.parse("  1.STAN/DARIA(INS)", CONTEXT).passengers
+        assert (infant.first_name, infant.type_code, infant.date_of_birth) == ("DARIA", "INS", None)
+
+    def test_lap_infant_shares_the_adult_surname(self, parser: AmadeusParser) -> None:
+        (adult,) = parser.parse("  1.POPESCU/ANDREI MR(INF/ILINCA/14JAN24)", CONTEXT).passengers
+        assert adult.type_code == "ADT"
+        assert adult.infant == Infant("POPESCU", "ILINCA", date(2024, 1, 14))
+
+    def test_lap_infant_with_another_surname(self, parser: AmadeusParser) -> None:
+        (adult,) = parser.parse("  1.IONESCU/ELENA(INFVASILE/MATEI/20FEB24)", CONTEXT).passengers
+        assert adult.infant == Infant("VASILE", "MATEI", date(2024, 2, 20))
+
+    def test_lap_infant_without_date_of_birth(self, parser: AmadeusParser) -> None:
+        (adult,) = parser.parse("  1.DOE/JANE(INF/KEVIN)", CONTEXT).passengers
+        assert adult.infant == Infant("DOE", "KEVIN", None)
+
+    def test_unknown_qualifier_is_ignored(self, parser: AmadeusParser) -> None:
+        (passenger,) = parser.parse("  1.DOE/JANE(XYZ123)", CONTEXT).passengers
+        assert passenger == Passenger(1, "DOE", "JANE")
+
+    def test_invalid_date_of_birth_is_dropped(self, parser: AmadeusParser) -> None:
+        (child,) = parser.parse("  1.DOE/ANA(CHD/31APR19)", CONTEXT).passengers
+        assert (child.type_code, child.date_of_birth) == ("CHD", None)
+
+    def test_infant_ticket(self, parser: AmadeusParser) -> None:
+        text = (
+            "  1.POPESCU/ANDREI MR(INF/ILINCA/14JAN24)\n"
+            "  2 FA PAX 281-1234567890/ETRO/14MAR25/BUHRO08AA/12345678/P1\n"
+            "  3 FA INF 281-1234567891/ETRO/14MAR25/BUHRO08AA/12345678/P1"
+        )
+        pnr = parser.parse(text, CONTEXT)
+        assert [(t.passenger_index, t.infant) for t in pnr.tickets] == [(1, False), (1, True)]
