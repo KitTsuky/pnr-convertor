@@ -59,6 +59,7 @@ roughly one PR.
 - [x] Amadeus tickets (`FA`), seats (`SSR NSST` / `RQST` / `SEAT`), contacts (`AP` / `APE`)
 - [ ] Ticketing for Sabre and Travelport; `FHE`, fare elements, ticket time limits
 - [ ] SSR/OSI (meals, seats, special assistance), APIS documents (masked)
+- [x] Amadeus passenger types (`CHD`, `INS`, ...), dates of birth, lap infants (`INF`), infant tickets
 - [ ] Remarks
 - [ ] Non-air segments: hotel, car, rail, `ARNK`
 
