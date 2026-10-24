@@ -5,7 +5,7 @@ Rules for anyone (human or AI agent) changing this repository. Read
 
 ## What this project is
 
-An HTTP API that converts raw GDS PNR text (Amadeus, Sabre, Galileo and Worldspan; Apollo later) into a
+An HTTP API that converts raw GDS PNR text (Amadeus, Sabre, Galileo, Worldspan and Apollo) into a
 structured, enriched itinerary. Stack: Python 3.12, FastAPI, Pydantic v2, uv, pytest, Ruff, mypy.
 
 ## Commands
