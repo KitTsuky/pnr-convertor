@@ -38,7 +38,8 @@ roughly one PR.
 - [x] Galileo phone field (`FONE-` with numbered continuation lines)
 - [ ] Galileo ticket numbers (needs a real ticketed booking file)
 - [x] Travelport Worldspan (`*R`): `1P-` locator, names with titles and type codes, segments with `#1` day offset, phones (`P-`), tickets (`T-`)
-- [ ] Apollo (needs real `*R` samples)
+- [x] Travelport Apollo (`*R`): header shared with Galileo, segments without a dot, 12-hour times with `+` day offset, names with spaced titles, child (`*C08`) and infant (`I/`) items, phones (`FONE-`)
+- [ ] Apollo ticket numbers (needs a real ticketed `*R` display)
 - [ ] Detection conflicts: score-based tie handling + tests with ambiguous inputs
 - [ ] Golden fixtures for each format (≥ 5 cases each)
 
