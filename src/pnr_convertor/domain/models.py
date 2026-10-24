@@ -9,6 +9,7 @@ from enum import StrEnum
 
 class GdsFormat(StrEnum):
     AMADEUS = "amadeus"
+    SABRE = "sabre"
 
 
 class SegmentStatusCategory(StrEnum):

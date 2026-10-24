@@ -56,3 +56,14 @@ def test_validation_errors_do_not_echo_input(client: TestClient) -> None:
 def test_unknown_fields_are_rejected(client: TestClient) -> None:
     response = client.post("/v1/convert", json={"pnr": "x", "unexpected": True})
     assert response.status_code == 422
+
+
+def test_convert_auto_detects_sabre(client: TestClient) -> None:
+    response = client.post(
+        "/v1/convert", json={"pnr": read_fixture("sabre", "round_trip_with_fare_quote")}
+    )
+
+    assert response.status_code == 200
+    body = response.json()
+    assert body["gds"] == "sabre"
+    assert [s["flight_number"] for s in body["segments"]] == ["142", "101"]

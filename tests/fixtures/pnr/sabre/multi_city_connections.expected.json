@@ -1,0 +1,229 @@
+{
+  "gds": "sabre",
+  "record_locator": null,
+  "passengers": [],
+  "segments": [
+    {
+      "index": 1,
+      "carrier": "AA",
+      "flight_number": "1111",
+      "booking_class": "D",
+      "origin": "YYZ",
+      "destination": "DFW",
+      "departure_local": "2025-07-13T17:15:00",
+      "arrival_local": "2025-07-13T19:30:00",
+      "status": {
+        "code": "SS",
+        "category": "confirmed"
+      },
+      "passenger_count": 2,
+      "airline": {
+        "iata": "AA",
+        "name": "American Airlines"
+      },
+      "origin_airport": {
+        "iata": "YYZ",
+        "name": "Toronto Pearson International Airport",
+        "city": "Mississauga",
+        "country": "CA",
+        "timezone": "America/Toronto"
+      },
+      "destination_airport": {
+        "iata": "DFW",
+        "name": "Dallas-Fort Worth International Airport",
+        "city": "Dallas-Fort Worth",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      "departure_at": "2025-07-13T17:15:00-04:00",
+      "arrival_at": "2025-07-13T19:30:00-05:00",
+      "duration_minutes": 195
+    },
+    {
+      "index": 2,
+      "carrier": "AA",
+      "flight_number": "7386",
+      "booking_class": "D",
+      "origin": "DFW",
+      "destination": "MEL",
+      "departure_local": "2025-07-13T20:25:00",
+      "arrival_local": "2025-07-15T05:00:00",
+      "status": {
+        "code": "SS",
+        "category": "confirmed"
+      },
+      "passenger_count": 2,
+      "airline": {
+        "iata": "AA",
+        "name": "American Airlines"
+      },
+      "origin_airport": {
+        "iata": "DFW",
+        "name": "Dallas-Fort Worth International Airport",
+        "city": "Dallas-Fort Worth",
+        "country": "US",
+        "timezone": "America/Chicago"
+      },
+      "destination_airport": {
+        "iata": "MEL",
+        "name": "Melbourne International Airport",
+        "city": "Melbourne",
+        "country": "AU",
+        "timezone": "Australia/Melbourne"
+      },
+      "departure_at": "2025-07-13T20:25:00-05:00",
+      "arrival_at": "2025-07-15T05:00:00+10:00",
+      "duration_minutes": 1055
+    },
+    {
+      "index": 3,
+      "carrier": "AA",
+      "flight_number": "7349",
+      "booking_class": "J",
+      "origin": "MEL",
+      "destination": "LAX",
+      "departure_local": "2025-10-25T11:55:00",
+      "arrival_local": "2025-10-25T08:10:00",
+      "status": {
+        "code": "SS",
+        "category": "confirmed"
+      },
+      "passenger_count": 2,
+      "airline": {
+        "iata": "AA",
+        "name": "American Airlines"
+      },
+      "origin_airport": {
+        "iata": "MEL",
+        "name": "Melbourne International Airport",
+        "city": "Melbourne",
+        "country": "AU",
+        "timezone": "Australia/Melbourne"
+      },
+      "destination_airport": {
+        "iata": "LAX",
+        "name": "Los Angeles International Airport",
+        "city": "Los Angeles",
+        "country": "US",
+        "timezone": "America/Los_Angeles"
+      },
+      "departure_at": "2025-10-25T11:55:00+11:00",
+      "arrival_at": "2025-10-25T08:10:00-07:00",
+      "duration_minutes": 855
+    },
+    {
+      "index": 4,
+      "carrier": "AA",
+      "flight_number": "1105",
+      "booking_class": "J",
+      "origin": "LAX",
+      "destination": "CLT",
+      "departure_local": "2025-10-25T12:03:00",
+      "arrival_local": "2025-10-25T19:44:00",
+      "status": {
+        "code": "SS",
+        "category": "confirmed"
+      },
+      "passenger_count": 2,
+      "airline": {
+        "iata": "AA",
+        "name": "American Airlines"
+      },
+      "origin_airport": {
+        "iata": "LAX",
+        "name": "Los Angeles International Airport",
+        "city": "Los Angeles",
+        "country": "US",
+        "timezone": "America/Los_Angeles"
+      },
+      "destination_airport": {
+        "iata": "CLT",
+        "name": "Charlotte/Douglas International Airport",
+        "city": "Charlotte",
+        "country": "US",
+        "timezone": "America/New_York"
+      },
+      "departure_at": "2025-10-25T12:03:00-07:00",
+      "arrival_at": "2025-10-25T19:44:00-04:00",
+      "duration_minutes": 281
+    },
+    {
+      "index": 5,
+      "carrier": "AA",
+      "flight_number": "5045",
+      "booking_class": "J",
+      "origin": "CLT",
+      "destination": "YYZ",
+      "departure_local": "2025-10-25T20:20:00",
+      "arrival_local": "2025-10-25T22:20:00",
+      "status": {
+        "code": "SS",
+        "category": "confirmed"
+      },
+      "passenger_count": 2,
+      "airline": {
+        "iata": "AA",
+        "name": "American Airlines"
+      },
+      "origin_airport": {
+        "iata": "CLT",
+        "name": "Charlotte/Douglas International Airport",
+        "city": "Charlotte",
+        "country": "US",
+        "timezone": "America/New_York"
+      },
+      "destination_airport": {
+        "iata": "YYZ",
+        "name": "Toronto Pearson International Airport",
+        "city": "Mississauga",
+        "country": "CA",
+        "timezone": "America/Toronto"
+      },
+      "departure_at": "2025-10-25T20:20:00-04:00",
+      "arrival_at": "2025-10-25T22:20:00-04:00",
+      "duration_minutes": 120
+    }
+  ],
+  "journeys": [
+    {
+      "segment_indexes": [
+        1,
+        2
+      ],
+      "origin": "YYZ",
+      "destination": "MEL",
+      "departure_at": "2025-07-13T17:15:00-04:00",
+      "arrival_at": "2025-07-15T05:00:00+10:00",
+      "duration_minutes": 1305,
+      "connections": [
+        {
+          "airport": "DFW",
+          "duration_minutes": 55
+        }
+      ]
+    },
+    {
+      "segment_indexes": [
+        3,
+        4,
+        5
+      ],
+      "origin": "MEL",
+      "destination": "YYZ",
+      "departure_at": "2025-10-25T11:55:00+11:00",
+      "arrival_at": "2025-10-25T22:20:00-04:00",
+      "duration_minutes": 1525,
+      "connections": [
+        {
+          "airport": "LAX",
+          "duration_minutes": 233
+        },
+        {
+          "airport": "CLT",
+          "duration_minutes": 36
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

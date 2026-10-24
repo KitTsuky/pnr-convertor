@@ -1,0 +1,104 @@
+{
+  "gds": "sabre",
+  "record_locator": null,
+  "passengers": [],
+  "segments": [
+    {
+      "index": 1,
+      "carrier": "IB",
+      "flight_number": "270",
+      "booking_class": "D",
+      "origin": "GIG",
+      "destination": "MAD",
+      "departure_local": "2025-06-11T19:15:00",
+      "arrival_local": "2025-06-12T10:25:00",
+      "status": {
+        "code": "SS",
+        "category": "confirmed"
+      },
+      "passenger_count": 2,
+      "airline": {
+        "iata": "IB",
+        "name": "Iberia Airlines"
+      },
+      "origin_airport": {
+        "iata": "GIG",
+        "name": "Galeao - Antonio Carlos Jobim International Airport",
+        "city": "Rio De Janeiro",
+        "country": "BR",
+        "timezone": "America/Sao_Paulo"
+      },
+      "destination_airport": {
+        "iata": "MAD",
+        "name": "Madrid Barajas International Airport",
+        "city": "Madrid",
+        "country": "ES",
+        "timezone": "Europe/Madrid"
+      },
+      "departure_at": "2025-06-11T19:15:00-03:00",
+      "arrival_at": "2025-06-12T10:25:00+02:00",
+      "duration_minutes": 610
+    },
+    {
+      "index": 2,
+      "carrier": "IB",
+      "flight_number": "269",
+      "booking_class": "R",
+      "origin": "MAD",
+      "destination": "GIG",
+      "departure_local": "2025-08-29T12:10:00",
+      "arrival_local": "2025-08-29T17:45:00",
+      "status": {
+        "code": "SS",
+        "category": "confirmed"
+      },
+      "passenger_count": 2,
+      "airline": {
+        "iata": "IB",
+        "name": "Iberia Airlines"
+      },
+      "origin_airport": {
+        "iata": "MAD",
+        "name": "Madrid Barajas International Airport",
+        "city": "Madrid",
+        "country": "ES",
+        "timezone": "Europe/Madrid"
+      },
+      "destination_airport": {
+        "iata": "GIG",
+        "name": "Galeao - Antonio Carlos Jobim International Airport",
+        "city": "Rio De Janeiro",
+        "country": "BR",
+        "timezone": "America/Sao_Paulo"
+      },
+      "departure_at": "2025-08-29T12:10:00+02:00",
+      "arrival_at": "2025-08-29T17:45:00-03:00",
+      "duration_minutes": 635
+    }
+  ],
+  "journeys": [
+    {
+      "segment_indexes": [
+        1
+      ],
+      "origin": "GIG",
+      "destination": "MAD",
+      "departure_at": "2025-06-11T19:15:00-03:00",
+      "arrival_at": "2025-06-12T10:25:00+02:00",
+      "duration_minutes": 610,
+      "connections": []
+    },
+    {
+      "segment_indexes": [
+        2
+      ],
+      "origin": "MAD",
+      "destination": "GIG",
+      "departure_at": "2025-08-29T12:10:00+02:00",
+      "arrival_at": "2025-08-29T17:45:00-03:00",
+      "duration_minutes": 635,
+      "connections": []
+    }
+  ],
+  "warnings": []
+}

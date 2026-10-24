@@ -1,0 +1,104 @@
+{
+  "gds": "sabre",
+  "record_locator": null,
+  "passengers": [],
+  "segments": [
+    {
+      "index": 1,
+      "carrier": "AI",
+      "flight_number": "174",
+      "booking_class": "J",
+      "origin": "SFO",
+      "destination": "DEL",
+      "departure_local": "2025-06-14T10:00:00",
+      "arrival_local": "2025-06-15T15:45:00",
+      "status": {
+        "code": "SS",
+        "category": "confirmed"
+      },
+      "passenger_count": 2,
+      "airline": {
+        "iata": "AI",
+        "name": "Air India Limited"
+      },
+      "origin_airport": {
+        "iata": "SFO",
+        "name": "San Francisco International Airport",
+        "city": "San Francisco",
+        "country": "US",
+        "timezone": "America/Los_Angeles"
+      },
+      "destination_airport": {
+        "iata": "DEL",
+        "name": "Indira Gandhi International Airport",
+        "city": "New Delhi",
+        "country": "IN",
+        "timezone": "Asia/Kolkata"
+      },
+      "departure_at": "2025-06-14T10:00:00-07:00",
+      "arrival_at": "2025-06-15T15:45:00+05:30",
+      "duration_minutes": 1035
+    },
+    {
+      "index": 2,
+      "carrier": "AI",
+      "flight_number": "105",
+      "booking_class": "J",
+      "origin": "DEL",
+      "destination": "EWR",
+      "departure_local": "2025-09-30T02:25:00",
+      "arrival_local": "2025-09-30T07:35:00",
+      "status": {
+        "code": "SS",
+        "category": "confirmed"
+      },
+      "passenger_count": 2,
+      "airline": {
+        "iata": "AI",
+        "name": "Air India Limited"
+      },
+      "origin_airport": {
+        "iata": "DEL",
+        "name": "Indira Gandhi International Airport",
+        "city": "New Delhi",
+        "country": "IN",
+        "timezone": "Asia/Kolkata"
+      },
+      "destination_airport": {
+        "iata": "EWR",
+        "name": "Newark Liberty International Airport",
+        "city": "Newark",
+        "country": "US",
+        "timezone": "America/New_York"
+      },
+      "departure_at": "2025-09-30T02:25:00+05:30",
+      "arrival_at": "2025-09-30T07:35:00-04:00",
+      "duration_minutes": 880
+    }
+  ],
+  "journeys": [
+    {
+      "segment_indexes": [
+        1
+      ],
+      "origin": "SFO",
+      "destination": "DEL",
+      "departure_at": "2025-06-14T10:00:00-07:00",
+      "arrival_at": "2025-06-15T15:45:00+05:30",
+      "duration_minutes": 1035,
+      "connections": []
+    },
+    {
+      "segment_indexes": [
+        2
+      ],
+      "origin": "DEL",
+      "destination": "EWR",
+      "departure_at": "2025-09-30T02:25:00+05:30",
+      "arrival_at": "2025-09-30T07:35:00-04:00",
+      "duration_minutes": 880,
+      "connections": []
+    }
+  ],
+  "warnings": []
+}
