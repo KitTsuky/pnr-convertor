@@ -21,7 +21,8 @@
       "arrival_local": "2026-04-10T10:50:00",
       "status": {
         "code": "HK",
-        "category": "confirmed"
+        "category": "confirmed",
+        "description": "Holding confirmed"
       },
       "passenger_count": 1,
       "airline": {
@@ -33,18 +34,26 @@
         "name": "Henri Coanda International Airport",
         "city": "Bucharest",
         "country": "RO",
-        "timezone": "Europe/Bucharest"
+        "timezone": "Europe/Bucharest",
+        "latitude": 44.5722,
+        "longitude": 26.1022
       },
       "destination_airport": {
         "iata": "IST",
         "name": "Istanbul Airport",
         "city": "Arnavutk\u00f6y, Istanbul",
         "country": "TR",
-        "timezone": "Europe/Istanbul"
+        "timezone": "Europe/Istanbul",
+        "latitude": 41.27533,
+        "longitude": 28.752
       },
       "departure_at": "2026-04-10T09:05:00+03:00",
       "arrival_at": "2026-04-10T10:50:00+03:00",
       "duration_minutes": 105,
+      "distance": {
+        "km": 425,
+        "miles": 264
+      },
       "seats": []
     },
     {
@@ -58,7 +67,8 @@
       "arrival_local": "2026-04-10T18:20:00",
       "status": {
         "code": "HK",
-        "category": "confirmed"
+        "category": "confirmed",
+        "description": "Holding confirmed"
       },
       "passenger_count": 1,
       "airline": {
@@ -70,18 +80,26 @@
         "name": "Istanbul Airport",
         "city": "Arnavutk\u00f6y, Istanbul",
         "country": "TR",
-        "timezone": "Europe/Istanbul"
+        "timezone": "Europe/Istanbul",
+        "latitude": 41.27533,
+        "longitude": 28.752
       },
       "destination_airport": {
         "iata": "DXB",
         "name": "Dubai International Airport",
         "city": "Dubai",
         "country": "AE",
-        "timezone": "Asia/Dubai"
+        "timezone": "Asia/Dubai",
+        "latitude": 25.2528,
+        "longitude": 55.3644
       },
       "departure_at": "2026-04-10T13:35:00+03:00",
       "arrival_at": "2026-04-10T18:20:00+04:00",
       "duration_minutes": 225,
+      "distance": {
+        "km": 3030,
+        "miles": 1883
+      },
       "seats": []
     },
     {
@@ -95,7 +113,8 @@
       "arrival_local": "2026-04-17T09:05:00",
       "status": {
         "code": "HK",
-        "category": "confirmed"
+        "category": "confirmed",
+        "description": "Holding confirmed"
       },
       "passenger_count": 1,
       "airline": {
@@ -107,18 +126,26 @@
         "name": "Dubai International Airport",
         "city": "Dubai",
         "country": "AE",
-        "timezone": "Asia/Dubai"
+        "timezone": "Asia/Dubai",
+        "latitude": 25.2528,
+        "longitude": 55.3644
       },
       "destination_airport": {
         "iata": "IST",
         "name": "Istanbul Airport",
         "city": "Arnavutk\u00f6y, Istanbul",
         "country": "TR",
-        "timezone": "Europe/Istanbul"
+        "timezone": "Europe/Istanbul",
+        "latitude": 41.27533,
+        "longitude": 28.752
       },
       "departure_at": "2026-04-17T05:10:00+04:00",
       "arrival_at": "2026-04-17T09:05:00+03:00",
       "duration_minutes": 295,
+      "distance": {
+        "km": 3030,
+        "miles": 1883
+      },
       "seats": []
     },
     {
@@ -132,7 +159,8 @@
       "arrival_local": "2026-04-17T13:25:00",
       "status": {
         "code": "HK",
-        "category": "confirmed"
+        "category": "confirmed",
+        "description": "Holding confirmed"
       },
       "passenger_count": 1,
       "airline": {
@@ -144,18 +172,26 @@
         "name": "Istanbul Airport",
         "city": "Arnavutk\u00f6y, Istanbul",
         "country": "TR",
-        "timezone": "Europe/Istanbul"
+        "timezone": "Europe/Istanbul",
+        "latitude": 41.27533,
+        "longitude": 28.752
       },
       "destination_airport": {
         "iata": "OTP",
         "name": "Henri Coanda International Airport",
         "city": "Bucharest",
         "country": "RO",
-        "timezone": "Europe/Bucharest"
+        "timezone": "Europe/Bucharest",
+        "latitude": 44.5722,
+        "longitude": 26.1022
       },
       "departure_at": "2026-04-17T11:50:00+03:00",
       "arrival_at": "2026-04-17T13:25:00+03:00",
       "duration_minutes": 95,
+      "distance": {
+        "km": 425,
+        "miles": 264
+      },
       "seats": []
     }
   ],
@@ -170,6 +206,10 @@
       "departure_at": "2026-04-10T09:05:00+03:00",
       "arrival_at": "2026-04-10T18:20:00+04:00",
       "duration_minutes": 495,
+      "distance": {
+        "km": 3455,
+        "miles": 2147
+      },
       "connections": [
         {
           "airport": "IST",
@@ -187,6 +227,10 @@
       "departure_at": "2026-04-17T05:10:00+04:00",
       "arrival_at": "2026-04-17T13:25:00+03:00",
       "duration_minutes": 555,
+      "distance": {
+        "km": 3455,
+        "miles": 2147
+      },
       "connections": [
         {
           "airport": "IST",

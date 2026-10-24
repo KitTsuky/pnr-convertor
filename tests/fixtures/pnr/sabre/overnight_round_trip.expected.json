@@ -14,7 +14,8 @@
       "arrival_local": "2025-06-12T10:25:00",
       "status": {
         "code": "SS",
-        "category": "confirmed"
+        "category": "confirmed",
+        "description": "Sold"
       },
       "passenger_count": 2,
       "airline": {
@@ -26,18 +27,26 @@
         "name": "Galeao - Antonio Carlos Jobim International Airport",
         "city": "Rio De Janeiro",
         "country": "BR",
-        "timezone": "America/Sao_Paulo"
+        "timezone": "America/Sao_Paulo",
+        "latitude": -22.81,
+        "longitude": -43.25056
       },
       "destination_airport": {
         "iata": "MAD",
         "name": "Madrid Barajas International Airport",
         "city": "Madrid",
         "country": "ES",
-        "timezone": "Europe/Madrid"
+        "timezone": "Europe/Madrid",
+        "latitude": 40.4936,
+        "longitude": -3.56676
       },
       "departure_at": "2025-06-11T19:15:00-03:00",
       "arrival_at": "2025-06-12T10:25:00+02:00",
       "duration_minutes": 610,
+      "distance": {
+        "km": 8124,
+        "miles": 5048
+      },
       "seats": []
     },
     {
@@ -51,7 +60,8 @@
       "arrival_local": "2025-08-29T17:45:00",
       "status": {
         "code": "SS",
-        "category": "confirmed"
+        "category": "confirmed",
+        "description": "Sold"
       },
       "passenger_count": 2,
       "airline": {
@@ -63,18 +73,26 @@
         "name": "Madrid Barajas International Airport",
         "city": "Madrid",
         "country": "ES",
-        "timezone": "Europe/Madrid"
+        "timezone": "Europe/Madrid",
+        "latitude": 40.4936,
+        "longitude": -3.56676
       },
       "destination_airport": {
         "iata": "GIG",
         "name": "Galeao - Antonio Carlos Jobim International Airport",
         "city": "Rio De Janeiro",
         "country": "BR",
-        "timezone": "America/Sao_Paulo"
+        "timezone": "America/Sao_Paulo",
+        "latitude": -22.81,
+        "longitude": -43.25056
       },
       "departure_at": "2025-08-29T12:10:00+02:00",
       "arrival_at": "2025-08-29T17:45:00-03:00",
       "duration_minutes": 635,
+      "distance": {
+        "km": 8124,
+        "miles": 5048
+      },
       "seats": []
     }
   ],
@@ -88,6 +106,10 @@
       "departure_at": "2025-06-11T19:15:00-03:00",
       "arrival_at": "2025-06-12T10:25:00+02:00",
       "duration_minutes": 610,
+      "distance": {
+        "km": 8124,
+        "miles": 5048
+      },
       "connections": []
     },
     {
@@ -99,6 +121,10 @@
       "departure_at": "2025-08-29T12:10:00+02:00",
       "arrival_at": "2025-08-29T17:45:00-03:00",
       "duration_minutes": 635,
+      "distance": {
+        "km": 8124,
+        "miles": 5048
+      },
       "connections": []
     }
   ],

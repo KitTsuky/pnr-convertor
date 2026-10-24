@@ -27,7 +27,8 @@
       "arrival_local": "2026-03-15T09:20:00",
       "status": {
         "code": "HK",
-        "category": "confirmed"
+        "category": "confirmed",
+        "description": "Holding confirmed"
       },
       "passenger_count": 2,
       "airline": {
@@ -39,18 +40,26 @@
         "name": "Henri Coanda International Airport",
         "city": "Bucharest",
         "country": "RO",
-        "timezone": "Europe/Bucharest"
+        "timezone": "Europe/Bucharest",
+        "latitude": 44.5722,
+        "longitude": 26.1022
       },
       "destination_airport": {
         "iata": "CDG",
         "name": "Charles de Gaulle International Airport",
         "city": "Paris",
         "country": "FR",
-        "timezone": "Europe/Paris"
+        "timezone": "Europe/Paris",
+        "latitude": 49.0128,
+        "longitude": 2.55
       },
       "departure_at": "2026-03-15T07:10:00+02:00",
       "arrival_at": "2026-03-15T09:20:00+01:00",
       "duration_minutes": 190,
+      "distance": {
+        "km": 1856,
+        "miles": 1153
+      },
       "seats": []
     },
     {
@@ -64,7 +73,8 @@
       "arrival_local": "2026-03-22T23:50:00",
       "status": {
         "code": "HK",
-        "category": "confirmed"
+        "category": "confirmed",
+        "description": "Holding confirmed"
       },
       "passenger_count": 2,
       "airline": {
@@ -76,18 +86,26 @@
         "name": "Charles de Gaulle International Airport",
         "city": "Paris",
         "country": "FR",
-        "timezone": "Europe/Paris"
+        "timezone": "Europe/Paris",
+        "latitude": 49.0128,
+        "longitude": 2.55
       },
       "destination_airport": {
         "iata": "OTP",
         "name": "Henri Coanda International Airport",
         "city": "Bucharest",
         "country": "RO",
-        "timezone": "Europe/Bucharest"
+        "timezone": "Europe/Bucharest",
+        "latitude": 44.5722,
+        "longitude": 26.1022
       },
       "departure_at": "2026-03-22T19:45:00+01:00",
       "arrival_at": "2026-03-22T23:50:00+02:00",
       "duration_minutes": 185,
+      "distance": {
+        "km": 1856,
+        "miles": 1153
+      },
       "seats": []
     }
   ],
@@ -101,6 +119,10 @@
       "departure_at": "2026-03-15T07:10:00+02:00",
       "arrival_at": "2026-03-15T09:20:00+01:00",
       "duration_minutes": 190,
+      "distance": {
+        "km": 1856,
+        "miles": 1153
+      },
       "connections": []
     },
     {
@@ -112,6 +134,10 @@
       "departure_at": "2026-03-22T19:45:00+01:00",
       "arrival_at": "2026-03-22T23:50:00+02:00",
       "duration_minutes": 185,
+      "distance": {
+        "km": 1856,
+        "miles": 1153
+      },
       "connections": []
     }
   ],

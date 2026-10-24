@@ -14,7 +14,8 @@
       "arrival_local": "2025-07-13T19:30:00",
       "status": {
         "code": "SS",
-        "category": "confirmed"
+        "category": "confirmed",
+        "description": "Sold"
       },
       "passenger_count": 2,
       "airline": {
@@ -26,18 +27,26 @@
         "name": "Toronto Pearson International Airport",
         "city": "Mississauga",
         "country": "CA",
-        "timezone": "America/Toronto"
+        "timezone": "America/Toronto",
+        "latitude": 43.6772,
+        "longitude": -79.6306
       },
       "destination_airport": {
         "iata": "DFW",
         "name": "Dallas-Fort Worth International Airport",
         "city": "Dallas-Fort Worth",
         "country": "US",
-        "timezone": "America/Chicago"
+        "timezone": "America/Chicago",
+        "latitude": 32.897233,
+        "longitude": -97.037695
       },
       "departure_at": "2025-07-13T17:15:00-04:00",
       "arrival_at": "2025-07-13T19:30:00-05:00",
       "duration_minutes": 195,
+      "distance": {
+        "km": 1930,
+        "miles": 1199
+      },
       "seats": []
     },
     {
@@ -51,7 +60,8 @@
       "arrival_local": "2025-07-15T05:00:00",
       "status": {
         "code": "SS",
-        "category": "confirmed"
+        "category": "confirmed",
+        "description": "Sold"
       },
       "passenger_count": 2,
       "airline": {
@@ -63,18 +73,26 @@
         "name": "Dallas-Fort Worth International Airport",
         "city": "Dallas-Fort Worth",
         "country": "US",
-        "timezone": "America/Chicago"
+        "timezone": "America/Chicago",
+        "latitude": 32.897233,
+        "longitude": -97.037695
       },
       "destination_airport": {
         "iata": "MEL",
         "name": "Melbourne International Airport",
         "city": "Melbourne",
         "country": "AU",
-        "timezone": "Australia/Melbourne"
+        "timezone": "Australia/Melbourne",
+        "latitude": -37.6733,
+        "longitude": 144.843
       },
       "departure_at": "2025-07-13T20:25:00-05:00",
       "arrival_at": "2025-07-15T05:00:00+10:00",
       "duration_minutes": 1055,
+      "distance": {
+        "km": 14472,
+        "miles": 8992
+      },
       "seats": []
     },
     {
@@ -88,7 +106,8 @@
       "arrival_local": "2025-10-25T08:10:00",
       "status": {
         "code": "SS",
-        "category": "confirmed"
+        "category": "confirmed",
+        "description": "Sold"
       },
       "passenger_count": 2,
       "airline": {
@@ -100,18 +119,26 @@
         "name": "Melbourne International Airport",
         "city": "Melbourne",
         "country": "AU",
-        "timezone": "Australia/Melbourne"
+        "timezone": "Australia/Melbourne",
+        "latitude": -37.6733,
+        "longitude": 144.843
       },
       "destination_airport": {
         "iata": "LAX",
         "name": "Los Angeles International Airport",
         "city": "Los Angeles",
         "country": "US",
-        "timezone": "America/Los_Angeles"
+        "timezone": "America/Los_Angeles",
+        "latitude": 33.942496,
+        "longitude": -118.408049
       },
       "departure_at": "2025-10-25T11:55:00+11:00",
       "arrival_at": "2025-10-25T08:10:00-07:00",
       "duration_minutes": 855,
+      "distance": {
+        "km": 12748,
+        "miles": 7921
+      },
       "seats": []
     },
     {
@@ -125,7 +152,8 @@
       "arrival_local": "2025-10-25T19:44:00",
       "status": {
         "code": "SS",
-        "category": "confirmed"
+        "category": "confirmed",
+        "description": "Sold"
       },
       "passenger_count": 2,
       "airline": {
@@ -137,18 +165,26 @@
         "name": "Los Angeles International Airport",
         "city": "Los Angeles",
         "country": "US",
-        "timezone": "America/Los_Angeles"
+        "timezone": "America/Los_Angeles",
+        "latitude": 33.942496,
+        "longitude": -118.408049
       },
       "destination_airport": {
         "iata": "CLT",
         "name": "Charlotte/Douglas International Airport",
         "city": "Charlotte",
         "country": "US",
-        "timezone": "America/New_York"
+        "timezone": "America/New_York",
+        "latitude": 35.213187,
+        "longitude": -80.951379
       },
       "departure_at": "2025-10-25T12:03:00-07:00",
       "arrival_at": "2025-10-25T19:44:00-04:00",
       "duration_minutes": 281,
+      "distance": {
+        "km": 3419,
+        "miles": 2125
+      },
       "seats": []
     },
     {
@@ -162,7 +198,8 @@
       "arrival_local": "2025-10-25T22:20:00",
       "status": {
         "code": "SS",
-        "category": "confirmed"
+        "category": "confirmed",
+        "description": "Sold"
       },
       "passenger_count": 2,
       "airline": {
@@ -174,18 +211,26 @@
         "name": "Charlotte/Douglas International Airport",
         "city": "Charlotte",
         "country": "US",
-        "timezone": "America/New_York"
+        "timezone": "America/New_York",
+        "latitude": 35.213187,
+        "longitude": -80.951379
       },
       "destination_airport": {
         "iata": "YYZ",
         "name": "Toronto Pearson International Airport",
         "city": "Mississauga",
         "country": "CA",
-        "timezone": "America/Toronto"
+        "timezone": "America/Toronto",
+        "latitude": 43.6772,
+        "longitude": -79.6306
       },
       "departure_at": "2025-10-25T20:20:00-04:00",
       "arrival_at": "2025-10-25T22:20:00-04:00",
       "duration_minutes": 120,
+      "distance": {
+        "km": 947,
+        "miles": 588
+      },
       "seats": []
     }
   ],
@@ -200,6 +245,10 @@
       "departure_at": "2025-07-13T17:15:00-04:00",
       "arrival_at": "2025-07-15T05:00:00+10:00",
       "duration_minutes": 1305,
+      "distance": {
+        "km": 16402,
+        "miles": 10191
+      },
       "connections": [
         {
           "airport": "DFW",
@@ -218,6 +267,10 @@
       "departure_at": "2025-10-25T11:55:00+11:00",
       "arrival_at": "2025-10-25T22:20:00-04:00",
       "duration_minutes": 1525,
+      "distance": {
+        "km": 17114,
+        "miles": 10634
+      },
       "connections": [
         {
           "airport": "LAX",

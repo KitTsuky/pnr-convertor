@@ -14,7 +14,8 @@
       "arrival_local": "2025-05-05T21:40:00",
       "status": {
         "code": "SS",
-        "category": "confirmed"
+        "category": "confirmed",
+        "description": "Sold"
       },
       "passenger_count": 2,
       "airline": {
@@ -26,18 +27,26 @@
         "name": "John F Kennedy International Airport",
         "city": "New York",
         "country": "US",
-        "timezone": "America/New_York"
+        "timezone": "America/New_York",
+        "latitude": 40.639928,
+        "longitude": -73.778692
       },
       "destination_airport": {
         "iata": "LHR",
         "name": "London Heathrow Airport",
         "city": "London",
         "country": "GB",
-        "timezone": "Europe/London"
+        "timezone": "Europe/London",
+        "latitude": 51.4706,
+        "longitude": -0.46194
       },
       "departure_at": "2025-05-05T09:45:00-04:00",
       "arrival_at": "2025-05-05T21:40:00+01:00",
       "duration_minutes": 415,
+      "distance": {
+        "km": 5555,
+        "miles": 3451
+      },
       "seats": []
     },
     {
@@ -51,7 +60,8 @@
       "arrival_local": "2025-06-05T12:29:00",
       "status": {
         "code": "SS",
-        "category": "confirmed"
+        "category": "confirmed",
+        "description": "Sold"
       },
       "passenger_count": 2,
       "airline": {
@@ -63,18 +73,26 @@
         "name": "London Heathrow Airport",
         "city": "London",
         "country": "GB",
-        "timezone": "Europe/London"
+        "timezone": "Europe/London",
+        "latitude": 51.4706,
+        "longitude": -0.46194
       },
       "destination_airport": {
         "iata": "JFK",
         "name": "John F Kennedy International Airport",
         "city": "New York",
         "country": "US",
-        "timezone": "America/New_York"
+        "timezone": "America/New_York",
+        "latitude": 40.639928,
+        "longitude": -73.778692
       },
       "departure_at": "2025-06-05T09:45:00+01:00",
       "arrival_at": "2025-06-05T12:29:00-04:00",
       "duration_minutes": 464,
+      "distance": {
+        "km": 5555,
+        "miles": 3451
+      },
       "seats": []
     }
   ],
@@ -88,6 +106,10 @@
       "departure_at": "2025-05-05T09:45:00-04:00",
       "arrival_at": "2025-05-05T21:40:00+01:00",
       "duration_minutes": 415,
+      "distance": {
+        "km": 5555,
+        "miles": 3451
+      },
       "connections": []
     },
     {
@@ -99,6 +121,10 @@
       "departure_at": "2025-06-05T09:45:00+01:00",
       "arrival_at": "2025-06-05T12:29:00-04:00",
       "duration_minutes": 464,
+      "distance": {
+        "km": 5555,
+        "miles": 3451
+      },
       "connections": []
     }
   ],

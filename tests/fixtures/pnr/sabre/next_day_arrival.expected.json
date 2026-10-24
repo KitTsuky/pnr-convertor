@@ -14,7 +14,8 @@
       "arrival_local": "2025-06-15T15:45:00",
       "status": {
         "code": "SS",
-        "category": "confirmed"
+        "category": "confirmed",
+        "description": "Sold"
       },
       "passenger_count": 2,
       "airline": {
@@ -26,18 +27,26 @@
         "name": "San Francisco International Airport",
         "city": "San Francisco",
         "country": "US",
-        "timezone": "America/Los_Angeles"
+        "timezone": "America/Los_Angeles",
+        "latitude": 37.618806,
+        "longitude": -122.375417
       },
       "destination_airport": {
         "iata": "DEL",
         "name": "Indira Gandhi International Airport",
         "city": "New Delhi",
         "country": "IN",
-        "timezone": "Asia/Kolkata"
+        "timezone": "Asia/Kolkata",
+        "latitude": 28.5665,
+        "longitude": 77.1031
       },
       "departure_at": "2025-06-14T10:00:00-07:00",
       "arrival_at": "2025-06-15T15:45:00+05:30",
       "duration_minutes": 1035,
+      "distance": {
+        "km": 12403,
+        "miles": 7707
+      },
       "seats": []
     },
     {
@@ -51,7 +60,8 @@
       "arrival_local": "2025-09-30T07:35:00",
       "status": {
         "code": "SS",
-        "category": "confirmed"
+        "category": "confirmed",
+        "description": "Sold"
       },
       "passenger_count": 2,
       "airline": {
@@ -63,18 +73,26 @@
         "name": "Indira Gandhi International Airport",
         "city": "New Delhi",
         "country": "IN",
-        "timezone": "Asia/Kolkata"
+        "timezone": "Asia/Kolkata",
+        "latitude": 28.5665,
+        "longitude": 77.1031
       },
       "destination_airport": {
         "iata": "EWR",
         "name": "Newark Liberty International Airport",
         "city": "Newark",
         "country": "US",
-        "timezone": "America/New_York"
+        "timezone": "America/New_York",
+        "latitude": 40.692481,
+        "longitude": -74.168688
       },
       "departure_at": "2025-09-30T02:25:00+05:30",
       "arrival_at": "2025-09-30T07:35:00-04:00",
       "duration_minutes": 880,
+      "distance": {
+        "km": 11786,
+        "miles": 7324
+      },
       "seats": []
     }
   ],
@@ -88,6 +106,10 @@
       "departure_at": "2025-06-14T10:00:00-07:00",
       "arrival_at": "2025-06-15T15:45:00+05:30",
       "duration_minutes": 1035,
+      "distance": {
+        "km": 12403,
+        "miles": 7707
+      },
       "connections": []
     },
     {
@@ -99,6 +121,10 @@
       "departure_at": "2025-09-30T02:25:00+05:30",
       "arrival_at": "2025-09-30T07:35:00-04:00",
       "duration_minutes": 880,
+      "distance": {
+        "km": 11786,
+        "miles": 7324
+      },
       "connections": []
     }
   ],
