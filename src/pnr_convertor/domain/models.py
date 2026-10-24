@@ -12,6 +12,7 @@ class GdsFormat(StrEnum):
     SABRE = "sabre"
     GALILEO = "galileo"
     WORLDSPAN = "worldspan"
+    APOLLO = "apollo"
 
 
 class SegmentStatusCategory(StrEnum):

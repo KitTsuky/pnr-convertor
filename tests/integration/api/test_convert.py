@@ -130,3 +130,14 @@ def test_convert_auto_detects_worldspan(client: TestClient) -> None:
     assert (body["gds"], body["record_locator"]) == ("worldspan", "7KQ2ZX")
     assert body["segments"][2]["arrival_local"] == "2025-12-13T07:45:00"
     assert body["tickets"][0]["number"] == "281-1234567890"
+
+
+def test_convert_auto_detects_apollo(client: TestClient) -> None:
+    response = client.post(
+        "/v1/convert", json={"pnr": read_fixture("apollo", "overnight_codeshare_connection")}
+    )
+
+    body = response.json()
+    assert (body["gds"], body["record_locator"]) == ("apollo", "K4WQ7D")
+    assert body["segments"][0]["arrival_local"] == "2026-02-13T06:45:00"
+    assert body["journeys"][0]["connections"] == [{"airport": "BRU", "duration_minutes": 270}]

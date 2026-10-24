@@ -14,6 +14,7 @@ from pnr_convertor.infrastructure.reference_data import (
     BundledAirportRepository,
 )
 from pnr_convertor.parsing.amadeus import AmadeusParser
+from pnr_convertor.parsing.apollo import ApolloParser
 from pnr_convertor.parsing.galileo import GalileoParser
 from pnr_convertor.parsing.registry import ParserRegistry
 from pnr_convertor.parsing.sabre import SabreParser
@@ -27,7 +28,9 @@ class Container:
 
 
 def build_parser_registry() -> ParserRegistry:
-    return ParserRegistry([AmadeusParser(), SabreParser(), GalileoParser(), WorldspanParser()])
+    return ParserRegistry(
+        [AmadeusParser(), SabreParser(), GalileoParser(), WorldspanParser(), ApolloParser()]
+    )
 
 
 def build_container(settings: Settings, *, clock: Clock | None = None) -> Container:

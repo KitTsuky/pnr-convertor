@@ -30,12 +30,12 @@ class GalileoParser:
         return GdsFormat.GALILEO
 
     def detect(self, text: str) -> float:
+        # The dot after the segment number sets Galileo apart from Amadeus, Sabre and Apollo,
+        # whose booking file header is identical.
+        has_segment = any(patterns.AIR_SEGMENT.match(line) for line in text.splitlines())
         if patterns.HEADER.search(text):
-            return 1.0
-        # The dot after the segment number sets Galileo apart from Amadeus and Sabre.
-        if any(patterns.AIR_SEGMENT.match(line) for line in text.splitlines()):
-            return 0.8
-        return 0.0
+            return 1.0 if has_segment else 0.6
+        return 0.8 if has_segment else 0.0
 
     def parse(self, text: str, context: ParseContext) -> ParsedPnr:
         header = patterns.HEADER.search(text)
