@@ -1,0 +1,18 @@
+  <article class="flight">
+    <div class="flight-head">
+      <span>{{ flight.flight }} · {{ flight.airline }}</span>
+      <span>Class {{ flight.booking_class }} · <span class="status{% if flight.status == "Cancelled" %} cancelled{% endif %}">{{ flight.status }}</span></span>
+    </div>
+{% if flight.operated_by %}
+    <div class="muted">Operated by {{ flight.operated_by }}</div>
+{% endif %}
+    <dl class="stops">
+      <dt>Depart</dt>
+      <dd><span class="time">{{ flight.departure.time }}</span> {{ flight.departure.place }}{% if flight.departure.airport %}<br><span class="muted">{{ flight.departure.airport }}</span>{% endif %}</dd>
+      <dt>Arrive</dt>
+      <dd><span class="time">{{ flight.arrival.time }}</span> {{ flight.arrival.place }}{% if flight.arrival.airport %}<br><span class="muted">{{ flight.arrival.airport }}</span>{% endif %}</dd>
+    </dl>
+{% if flight.duration or flight.distance or flight.seats %}
+    <div class="facts">{{ [flight.duration, flight.distance] | select | join(" · ") }}{% if flight.seats %}{% if flight.duration or flight.distance %} · {% endif %}Seats {{ flight.seats | join(", ") }}{% endif %}</div>
+{% endif %}
+  </article>

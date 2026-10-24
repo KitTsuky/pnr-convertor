@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flight itinerary{% if view.record_locator %} {{ view.record_locator }}{% endif %}</title>
+<style>
+  :root { --ink: #1c2430; --muted: #5d6878; --line: #d9dee5; --accent: #1f5fae; --soft: #f4f6f9; --bad: #a33a2b; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: #fff; color: var(--ink); font: 15px/1.5 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 48px; }
+  header { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; border-bottom: 2px solid var(--ink); padding-bottom: 12px; }
+  h1 { margin: 0; font-size: 24px; }
+  h2 { margin: 32px 0 8px; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+  .reference { font-size: 15px; color: var(--muted); }
+  .reference strong { color: var(--ink); font-size: 20px; letter-spacing: .06em; }
+  ul.plain { list-style: none; margin: 0; padding: 0; }
+  ul.plain li { padding: 6px 0; border-bottom: 1px solid var(--line); }
+  .muted { color: var(--muted); }
+  .trip-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+  .trip-head h3 { margin: 0; font-size: 18px; }
+  .flight { border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; margin-top: 12px; }
+  .flight-head { display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; font-weight: 600; }
+  .status { font-weight: 600; color: var(--accent); }
+  .status.cancelled { color: var(--bad); }
+  .stops { display: grid; grid-template-columns: 4.5em 1fr; gap: 4px 12px; margin: 10px 0 0; }
+  .stops dt { color: var(--muted); }
+  .stops dd { margin: 0; }
+  .time { font-weight: 600; }
+  .facts { margin-top: 8px; font-size: 14px; color: var(--muted); }
+  .connection { margin: 12px 0 0; padding: 8px 12px; background: var(--soft); border-radius: 6px; font-size: 14px; }
+  footer { margin-top: 32px; font-size: 13px; color: var(--muted); }
+  @media print { main { padding: 0; } .flight { break-inside: avoid; } }
+</style>
+</head>
+<body>
+<main>
+<header>
+  <h1>Flight itinerary</h1>
+{% if view.record_locator %}
+  <div class="reference">Booking reference <strong>{{ view.record_locator }}</strong></div>
+{% endif %}
+</header>
+{% if view.passengers %}
+<section>
+  <h2>Passengers</h2>
+  <ul class="plain">
+{% for p in view.passengers %}
+    <li>{{ p.number }}. {{ p.name }} <span class="muted">{{ p.type }}</span>{% if p.infant %}<br><span class="muted">with infant {{ p.infant }}</span>{% endif %}</li>
+{% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% for journey in view.journeys %}
+<section>
+  <h2>Trip {{ loop.index }}</h2>
+  <div class="trip-head">
+    <h3>{{ journey.title }}</h3>
+    <span class="muted">{{ [journey.date, journey.stops, journey.duration, journey.distance] | select | join(" · ") }}</span>
+  </div>
+{% for flight in journey.flights %}
+{% include "flight.html.j2" %}
+{% if not loop.last %}
+  <p class="connection">{{ journey.connections[loop.index0] }}</p>
+{% endif %}
+{% endfor %}
+</section>
+{% endfor %}
+{% if view.cancelled %}
+<section>
+  <h2>Cancelled flights</h2>
+{% for flight in view.cancelled %}
+{% include "flight.html.j2" %}
+{% endfor %}
+</section>
+{% endif %}
+{% if view.tickets %}
+<section>
+  <h2>Tickets</h2>
+  <ul class="plain">
+{% for t in view.tickets %}
+    <li><strong>{{ t.number }}</strong>{% if t.passenger %} {{ t.passenger }}{% endif %}{% if t.issued %} <span class="muted">issued {{ t.issued }}</span>{% endif %}</li>
+{% endfor %}
+  </ul>
+</section>
+{% endif %}
+{% if view.contacts %}
+<section>
+  <h2>Contacts</h2>
+  <ul class="plain">
+{% for contact in view.contacts %}
+    <li>{{ contact }}</li>
+{% endfor %}
+  </ul>
+</section>
+{% endif %}
+<footer>Times are local at each airport.</footer>
+</main>
+</body>
+</html>
