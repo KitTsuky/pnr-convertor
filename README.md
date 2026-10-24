@@ -50,3 +50,9 @@ Times are local at each airport.
 - [Roadmap](docs/ROADMAP.md)
 - [Data sources & licenses](docs/DATA_SOURCES.md)
 - [Agent / contributor guidelines](AGENTS.md)
+
+## License
+
+Proprietary. © 2026 KitTsuky. All rights reserved. No use, copying or distribution without written
+permission; see [LICENSE](LICENSE). Third-party data keeps its own licenses
+([data sources](docs/DATA_SOURCES.md)).

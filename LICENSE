@@ -1,0 +1,33 @@
+Copyright (c) 2026 KitTsuky (https://github.com/KitTsuky). All rights reserved.
+
+PROPRIETARY LICENSE
+
+This repository and everything in it (source code, tests, documentation, design and assets),
+except the third-party materials listed below, is the exclusive property of the copyright holder.
+
+1. No license is granted. Without prior written permission from the copyright holder, you may
+   not use, copy, modify, merge, publish, distribute, sublicense, sell, host, deploy, offer as a
+   service, or create derivative works of this software, in whole or in part, for any purpose,
+   commercial or not.
+
+2. Viewing on GitHub. Because this repository is public on GitHub, you may view it and fork it
+   within GitHub only to the extent required by the GitHub Terms of Service. This grants no other
+   right; a fork may not be used, run, or distributed outside GitHub.
+
+3. Permission. To request permission, contact the copyright holder through GitHub
+   (https://github.com/KitTsuky). Any permission is valid only if given in writing and only for
+   the use it describes.
+
+4. Third-party materials keep their own licenses and are not covered by this license:
+   - src/pnr_convertor/data/airlines.json: derived from OpenFlights, Open Database License 1.0.
+   - src/pnr_convertor/data/airline_logos/: Wikimedia Commons files under the license recorded
+     for each file in manifest.json. Airline names and logos are trademarks of their owners.
+   - Dependencies installed by uv or npm: their own licenses.
+   See docs/DATA_SOURCES.md.
+
+5. Enforcement. Any use outside this license infringes the copyright holder's rights and may
+   lead to legal action, including claims for damages and injunctive relief.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. IN NO EVENT
+SHALL THE COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE
+SOFTWARE OR ITS USE.

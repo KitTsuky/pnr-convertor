@@ -3,6 +3,10 @@ name = "pnr-convertor"
 version = "0.1.0"
 description = "API that converts raw GDS PNR text into structured, readable itineraries."
 readme = "README.md"
+license = "LicenseRef-Proprietary"
+license-files = ["LICENSE"]
+authors = [{ name = "KitTsuky" }]
+classifiers = ["License :: Other/Proprietary License", "Private :: Do Not Upload"]
 requires-python = ">=3.12"
 dependencies = [
   "airportsdata>=20260905",

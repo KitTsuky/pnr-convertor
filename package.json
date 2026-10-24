@@ -1,6 +1,7 @@
 {
   "name": "pnr-convertor-tooling",
   "private": true,
+  "license": "UNLICENSED",
   "description": "Prettier tooling for non-Python files (Markdown, JSON, YAML). Python is formatted by Ruff.",
   "scripts": {
     "format": "prettier --write .",
