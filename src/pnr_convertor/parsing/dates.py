@@ -80,3 +80,18 @@ def parse_hhmm(token: str) -> time:
     if len(token) != 4 or not token.isdigit():
         raise ValueError(f"Malformed GDS time {token!r}")
     return time(int(token[:2]), int(token[2:]))
+
+
+def parse_12h(token: str) -> time:
+    """Parse `945A`, `1229P`, `1200N` (noon) or `1200M` (midnight)."""
+    digits, suffix = token[:-1], token[-1]
+    if not 3 <= len(digits) <= 4 or not digits.isdigit() or suffix not in "APNM":
+        raise ValueError(f"Malformed GDS time {token!r}")
+    hour, minute = int(digits[:-2]), int(digits[-2:])
+    if not 1 <= hour <= 12:
+        raise ValueError(f"Malformed GDS time {token!r}")
+    if suffix in "NM":
+        if (hour, minute) != (12, 0):
+            raise ValueError(f"Malformed GDS time {token!r}")
+        return time(12 if suffix == "N" else 0)
+    return time(hour % 12 + (12 if suffix == "P" else 0), minute)

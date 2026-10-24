@@ -4,7 +4,7 @@ from datetime import date, time
 
 import pytest
 
-from pnr_convertor.parsing.dates import parse_day_month, parse_hhmm, resolve_date
+from pnr_convertor.parsing.dates import parse_12h, parse_day_month, parse_hhmm, resolve_date
 
 
 @pytest.mark.parametrize(
@@ -66,3 +66,26 @@ def test_resolve_date_uses_weekday(
         resolve_date(5, 6, not_before=not_before, weekday=weekday, allow_earlier=allow_earlier)
         == expected
     )
+
+
+@pytest.mark.parametrize(
+    ("token", "expected"),
+    [
+        ("945A", time(9, 45)),
+        ("1155A", time(11, 55)),
+        ("1229P", time(12, 29)),
+        ("1203P", time(12, 3)),
+        ("505P", time(17, 5)),
+        ("1200A", time(0, 0)),
+        ("1200N", time(12, 0)),
+        ("1200M", time(0, 0)),
+    ],
+)
+def test_parse_12h(token: str, expected: time) -> None:
+    assert parse_12h(token) == expected
+
+
+@pytest.mark.parametrize("token", ["945", "945X", "1345P", "045A", "960A", "1230N", "A945"])
+def test_parse_12h_rejects_invalid(token: str) -> None:
+    with pytest.raises(ValueError):  # noqa: PT011 - message differs per failure mode
+        parse_12h(token)
