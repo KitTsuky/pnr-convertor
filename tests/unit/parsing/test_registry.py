@@ -6,17 +6,23 @@ from pnr_convertor.domain.errors import UnsupportedFormatError
 from pnr_convertor.domain.models import GdsFormat
 from pnr_convertor.parsing.amadeus import AmadeusParser
 from pnr_convertor.parsing.registry import ParserRegistry
+from pnr_convertor.parsing.sabre import SabreParser
 from tests.conftest import read_fixture
 
 
 @pytest.fixture
 def registry() -> ParserRegistry:
-    return ParserRegistry([AmadeusParser()])
+    return ParserRegistry([AmadeusParser(), SabreParser()])
 
 
 def test_auto_detects_amadeus(registry: ParserRegistry) -> None:
     parser = registry.resolve(read_fixture("amadeus", "basic_return"))
     assert parser.gds is GdsFormat.AMADEUS
+
+
+def test_auto_detects_sabre(registry: ParserRegistry) -> None:
+    parser = registry.resolve(read_fixture("sabre", "round_trip_with_fare_quote"))
+    assert parser.gds is GdsFormat.SABRE
 
 
 def test_explicit_format_skips_detection(registry: ParserRegistry) -> None:

@@ -1,0 +1,104 @@
+{
+  "gds": "sabre",
+  "record_locator": null,
+  "passengers": [],
+  "segments": [
+    {
+      "index": 1,
+      "carrier": "AA",
+      "flight_number": "142",
+      "booking_class": "V",
+      "origin": "JFK",
+      "destination": "LHR",
+      "departure_local": "2025-06-05T09:45:00",
+      "arrival_local": "2025-06-05T21:40:00",
+      "status": {
+        "code": "SS",
+        "category": "confirmed"
+      },
+      "passenger_count": 1,
+      "airline": {
+        "iata": "AA",
+        "name": "American Airlines"
+      },
+      "origin_airport": {
+        "iata": "JFK",
+        "name": "John F Kennedy International Airport",
+        "city": "New York",
+        "country": "US",
+        "timezone": "America/New_York"
+      },
+      "destination_airport": {
+        "iata": "LHR",
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "country": "GB",
+        "timezone": "Europe/London"
+      },
+      "departure_at": "2025-06-05T09:45:00-04:00",
+      "arrival_at": "2025-06-05T21:40:00+01:00",
+      "duration_minutes": 415
+    },
+    {
+      "index": 2,
+      "carrier": "AA",
+      "flight_number": "105",
+      "booking_class": "V",
+      "origin": "LHR",
+      "destination": "JFK",
+      "departure_local": "2025-07-25T14:10:00",
+      "arrival_local": "2025-07-25T17:05:00",
+      "status": {
+        "code": "SS",
+        "category": "confirmed"
+      },
+      "passenger_count": 1,
+      "airline": {
+        "iata": "AA",
+        "name": "American Airlines"
+      },
+      "origin_airport": {
+        "iata": "LHR",
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "country": "GB",
+        "timezone": "Europe/London"
+      },
+      "destination_airport": {
+        "iata": "JFK",
+        "name": "John F Kennedy International Airport",
+        "city": "New York",
+        "country": "US",
+        "timezone": "America/New_York"
+      },
+      "departure_at": "2025-07-25T14:10:00+01:00",
+      "arrival_at": "2025-07-25T17:05:00-04:00",
+      "duration_minutes": 475
+    }
+  ],
+  "journeys": [
+    {
+      "segment_indexes": [
+        1
+      ],
+      "origin": "JFK",
+      "destination": "LHR",
+      "departure_at": "2025-06-05T09:45:00-04:00",
+      "arrival_at": "2025-06-05T21:40:00+01:00",
+      "duration_minutes": 415,
+      "connections": []
+    },
+    {
+      "segment_indexes": [
+        2
+      ],
+      "origin": "LHR",
+      "destination": "JFK",
+      "departure_at": "2025-07-25T14:10:00+01:00",
+      "arrival_at": "2025-07-25T17:05:00-04:00",
+      "duration_minutes": 475,
+      "connections": []
+    }
+  ],
+  "warnings": []
+}

@@ -15,6 +15,7 @@ from pnr_convertor.infrastructure.reference_data import (
 )
 from pnr_convertor.parsing.amadeus import AmadeusParser
 from pnr_convertor.parsing.registry import ParserRegistry
+from pnr_convertor.parsing.sabre import SabreParser
 
 
 @dataclass(frozen=True, slots=True)
@@ -24,7 +25,7 @@ class Container:
 
 
 def build_parser_registry() -> ParserRegistry:
-    return ParserRegistry([AmadeusParser()])
+    return ParserRegistry([AmadeusParser(), SabreParser()])
 
 
 def build_container(settings: Settings, *, clock: Clock | None = None) -> Container:
