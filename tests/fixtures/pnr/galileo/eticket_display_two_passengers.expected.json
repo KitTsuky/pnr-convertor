@@ -1,0 +1,175 @@
+{
+  "gds": "galileo",
+  "record_locator": "K7Q2ZX",
+  "passengers": [
+    {
+      "index": 1,
+      "last_name": "POPESCU",
+      "first_name": "ANDREI",
+      "title": "MR",
+      "type": "ADT",
+      "date_of_birth": null,
+      "infant": null
+    },
+    {
+      "index": 2,
+      "last_name": "POPESCU",
+      "first_name": "MARIA",
+      "title": "MRS",
+      "type": "ADT",
+      "date_of_birth": null,
+      "infant": null
+    }
+  ],
+  "segments": [
+    {
+      "index": 1,
+      "carrier": "RO",
+      "flight_number": "381",
+      "booking_class": "Y",
+      "origin": "OTP",
+      "destination": "AMS",
+      "departure_local": "2025-12-05T07:15:00",
+      "arrival_local": "2025-12-05T09:05:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed",
+        "description": "Holding confirmed"
+      },
+      "passenger_count": 2,
+      "airline": {
+        "iata": "RO",
+        "name": "Tarom"
+      },
+      "origin_airport": {
+        "iata": "OTP",
+        "name": "Henri Coanda International Airport",
+        "city": "Bucharest",
+        "country": "RO",
+        "timezone": "Europe/Bucharest",
+        "latitude": 44.5722,
+        "longitude": 26.1022
+      },
+      "destination_airport": {
+        "iata": "AMS",
+        "name": "Amsterdam Airport Schiphol",
+        "city": "Amsterdam",
+        "country": "NL",
+        "timezone": "Europe/Amsterdam",
+        "latitude": 52.3086,
+        "longitude": 4.76389
+      },
+      "departure_at": "2025-12-05T07:15:00+02:00",
+      "arrival_at": "2025-12-05T09:05:00+01:00",
+      "duration_minutes": 170,
+      "distance": {
+        "km": 1788,
+        "miles": 1111
+      },
+      "seats": []
+    },
+    {
+      "index": 2,
+      "carrier": "RO",
+      "flight_number": "382",
+      "booking_class": "Y",
+      "origin": "AMS",
+      "destination": "OTP",
+      "departure_local": "2025-12-13T10:00:00",
+      "arrival_local": "2025-12-13T14:05:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed",
+        "description": "Holding confirmed"
+      },
+      "passenger_count": 2,
+      "airline": {
+        "iata": "RO",
+        "name": "Tarom"
+      },
+      "origin_airport": {
+        "iata": "AMS",
+        "name": "Amsterdam Airport Schiphol",
+        "city": "Amsterdam",
+        "country": "NL",
+        "timezone": "Europe/Amsterdam",
+        "latitude": 52.3086,
+        "longitude": 4.76389
+      },
+      "destination_airport": {
+        "iata": "OTP",
+        "name": "Henri Coanda International Airport",
+        "city": "Bucharest",
+        "country": "RO",
+        "timezone": "Europe/Bucharest",
+        "latitude": 44.5722,
+        "longitude": 26.1022
+      },
+      "departure_at": "2025-12-13T10:00:00+01:00",
+      "arrival_at": "2025-12-13T14:05:00+02:00",
+      "duration_minutes": 185,
+      "distance": {
+        "km": 1788,
+        "miles": 1111
+      },
+      "seats": []
+    }
+  ],
+  "journeys": [
+    {
+      "segment_indexes": [
+        1
+      ],
+      "origin": "OTP",
+      "destination": "AMS",
+      "departure_at": "2025-12-05T07:15:00+02:00",
+      "arrival_at": "2025-12-05T09:05:00+01:00",
+      "duration_minutes": 170,
+      "distance": {
+        "km": 1788,
+        "miles": 1111
+      },
+      "connections": []
+    },
+    {
+      "segment_indexes": [
+        2
+      ],
+      "origin": "AMS",
+      "destination": "OTP",
+      "departure_at": "2025-12-13T10:00:00+01:00",
+      "arrival_at": "2025-12-13T14:05:00+02:00",
+      "duration_minutes": 185,
+      "distance": {
+        "km": 1788,
+        "miles": 1111
+      },
+      "connections": []
+    }
+  ],
+  "tickets": [
+    {
+      "number": "281-1234567890",
+      "passenger_index": 1,
+      "issuing_airline": "RO",
+      "issue_date": "2025-10-14",
+      "electronic": true,
+      "infant": false
+    },
+    {
+      "number": "281-1234567891",
+      "passenger_index": 2,
+      "issuing_airline": "RO",
+      "issue_date": "2025-10-14",
+      "electronic": true,
+      "infant": false
+    }
+  ],
+  "contacts": [
+    {
+      "kind": "phone",
+      "text": "BUHT*021 555 0100 TEST TRAVEL REF ANA"
+    }
+  ],
+  "warnings": []
+}

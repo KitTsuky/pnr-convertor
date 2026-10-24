@@ -22,6 +22,7 @@ from pnr_convertor.parsing.dates import (
     resolve_date,
 )
 from pnr_convertor.parsing.galileo import patterns
+from pnr_convertor.parsing.travelport import read_electronic_tickets
 
 
 class GalileoParser:
@@ -79,6 +80,7 @@ class GalileoParser:
             segments=tuple(segments),
             warnings=tuple(warnings),
             contacts=tuple(contacts),
+            tickets=read_electronic_tickets(text, passengers),
         )
 
 

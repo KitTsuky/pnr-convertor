@@ -22,6 +22,7 @@ from pnr_convertor.parsing.dates import (
     parse_full_date,
     resolve_date,
 )
+from pnr_convertor.parsing.travelport import read_electronic_tickets
 
 
 class ApolloParser:
@@ -76,6 +77,7 @@ class ApolloParser:
             segments=tuple(segments),
             warnings=tuple(warnings),
             contacts=tuple(contacts),
+            tickets=read_electronic_tickets(text, passengers),
         )
 
 
