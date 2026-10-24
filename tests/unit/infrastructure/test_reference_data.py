@@ -28,6 +28,8 @@ def test_known_airport(airports: BundledAirportRepository) -> None:
         city="Bucharest",
         country="RO",
         timezone="Europe/Bucharest",
+        latitude=44.5722,
+        longitude=26.1022,
     )
 
 

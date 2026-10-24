@@ -10,13 +10,21 @@ from pnr_convertor.domain.reference import Airline, Airport
 AIRPORTS = {
     airport.iata: airport
     for airport in [
-        Airport("OTP", "Henri Coanda International Airport", "Bucharest", "RO", "Europe/Bucharest"),
-        Airport("CDG", "Charles de Gaulle International Airport", "Paris", "FR", "Europe/Paris"),
-        Airport("LHR", "London Heathrow Airport", "London", "GB", "Europe/London"),
         Airport(
-            "JFK", "John F Kennedy International Airport", "New York", "US", "America/New_York"
+            "OTP", "Henri Coanda Intl", "Bucharest", "RO", "Europe/Bucharest", 44.5722, 26.1022
         ),
-        Airport("DXB", "Dubai International Airport", "Dubai", "AE", "Asia/Dubai"),
+        Airport("CDG", "Charles de Gaulle Intl", "Paris", "FR", "Europe/Paris", 49.0128, 2.55),
+        Airport("LHR", "London Heathrow", "London", "GB", "Europe/London", 51.4706, -0.46194),
+        Airport(
+            "JFK",
+            "John F Kennedy Intl",
+            "New York",
+            "US",
+            "America/New_York",
+            40.639928,
+            -73.778692,
+        ),
+        Airport("DXB", "Dubai Intl", "Dubai", "AE", "Asia/Dubai", 25.2528, 55.3644),
     ]
 }
 

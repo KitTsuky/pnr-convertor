@@ -10,6 +10,8 @@ class Airport:
     city: str | None
     country: str
     timezone: str
+    latitude: float
+    longitude: float
 
 
 @dataclass(frozen=True, slots=True)

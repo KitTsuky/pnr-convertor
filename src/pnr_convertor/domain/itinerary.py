@@ -6,6 +6,7 @@ from dataclasses import dataclass
 from datetime import datetime, timedelta
 from itertools import pairwise
 
+from pnr_convertor.domain.geo import distance_km
 from pnr_convertor.domain.models import FlightSegment, ParsedPnr
 from pnr_convertor.domain.reference import Airline, Airport
 
@@ -30,6 +31,12 @@ class EnrichedSegment:
     @property
     def duration(self) -> timedelta | None:
         return _elapsed(self.departure_at, self.arrival_at)
+
+    @property
+    def distance_km(self) -> float | None:
+        if self.origin is None or self.destination is None:
+            return None
+        return distance_km(self.origin, self.destination)
 
 
 @dataclass(frozen=True, slots=True)
@@ -63,6 +70,13 @@ class Journey:
     @property
     def duration(self) -> timedelta | None:
         return _elapsed(self.departure_at, self.arrival_at)
+
+    @property
+    def distance_km(self) -> float | None:
+        distances = [segment.distance_km for segment in self.segments]
+        if any(distance is None for distance in distances):
+            return None
+        return sum(distance for distance in distances if distance is not None)
 
     @property
     def connections(self) -> tuple[Connection, ...]:
