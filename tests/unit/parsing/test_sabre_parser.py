@@ -1,10 +1,16 @@
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import date, datetime
 
 import pytest
 
-from pnr_convertor.domain.models import Contact, ContactKind, Passenger, SegmentStatusCategory
+from pnr_convertor.domain.models import (
+    Contact,
+    ContactKind,
+    Passenger,
+    SegmentStatusCategory,
+    Ticket,
+)
 from pnr_convertor.parsing.base import ParseContext
 from pnr_convertor.parsing.sabre import SabreParser
 from tests.conftest import REFERENCE_DATE, read_fixture
@@ -148,3 +154,43 @@ class TestFullDisplay:
         pnr = parser.parse(text, CONTEXT)
         assert len(pnr.contacts) == 1
         assert pnr.passengers == (Passenger(1, "DOE", "JANE", "MS"),)
+
+
+class TestTickets:
+    def test_tickets_are_matched_to_passengers_by_abbreviated_name(
+        self, parser: SabreParser
+    ) -> None:
+        pnr = parser.parse(read_fixture("sabre", "ticketed_family_full_display"), CONTEXT)
+        assert [(t.number, t.passenger_index) for t in pnr.tickets] == [
+            ("281-1234567890", 1),
+            ("281-1234567891", 2),
+            ("281-1234567892", 3),
+        ]
+
+    def test_ticket_line_fields(self, parser: SabreParser) -> None:
+        text = (
+            "TKT/TIME LIMIT\n"
+            "  1.T-11FEB-G7RE*APP\n"
+            "  2.TE 0161234567890-AT DOEJA/J G7RE*APP 0445/11AUG*"
+        )
+        assert parser.parse(text, CONTEXT).tickets == (
+            Ticket("016-1234567890", None, None, date(2025, 8, 11), electronic=True),
+        )
+
+    def test_ticket_without_name_belongs_to_the_only_passenger(self, parser: SabreParser) -> None:
+        text = "1.1DOE/JANE MS\nTKT/TIME LIMIT\n  1.TE 0161234567890"
+        (ticket,) = parser.parse(text, CONTEXT).tickets
+        assert (ticket.passenger_index, ticket.issue_date) == (1, None)
+
+    def test_ambiguous_abbreviated_name_is_left_unassigned(self, parser: SabreParser) -> None:
+        text = (
+            "1.2DOE/JANE MS/JOHN MR\n"
+            "TKT/TIME LIMIT\n"
+            "  1.TE 0161234567890-AT DOE/J A1B2*AKT 1532/14OCT*"
+        )
+        (ticket,) = parser.parse(text, CONTEXT).tickets
+        assert ticket.passenger_index is None
+
+    def test_ticketing_time_limit_is_not_a_ticket(self, parser: SabreParser) -> None:
+        pnr = parser.parse(read_fixture("sabre", "full_display_married_connection"), CONTEXT)
+        assert pnr.tickets == ()

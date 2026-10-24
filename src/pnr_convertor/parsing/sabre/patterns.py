@@ -3,6 +3,9 @@
 1.2POPESCU/ANDREI MR/MARIA MRS  2.1IONESCU/ELENA MS
  1 RO 381Y 5DEC F*OTPAMS HK3 715A 905A/DCRO*QWE3RT
  2 AA7386D 13JUL S DFWMEL*SS2   825P  500A  15JUL T /DCAA /E
+TKT/TIME LIMIT
+  1.TAW01DEC/
+  2.TE 0161234567890-AT POPES/A A1B2*AKT 1532/14OCT*
 PHONES
   1.BUH021-555-0100-A
 A1B2.A1B2*AKT 1532/14OCT25   KXLQPZ H
@@ -44,6 +47,13 @@ SECTION_HEADER = re.compile(
 
 # Phones start with a city code; `1.1DOE/JANE` (a digit after the dot) is a name item.
 NUMBERED_ITEM = re.compile(r"^\s*\d{1,3}\.(?P<text>[^\d\s].*?)\s*$")
+
+# Electronic ticket item: number, abbreviated `SURNAME/INITIAL`, issuing agent, time/issue date.
+TICKET = re.compile(
+    r"^TE\s+(?P<number>\d{13})(?:-[A-Z]{2})?"
+    r"(?:\s+(?P<surname>[A-Z]+)/(?P<initial>[A-Z]))?"
+    r"(?:\s+\S+\s+\d{4}/(?P<issue_date>\d{1,2}[A-Z]{3}))?"
+)
 
 # The signature line closes a stored PNR: pseudo city, agent, time/date, then the locator.
 SIGNATURE = re.compile(

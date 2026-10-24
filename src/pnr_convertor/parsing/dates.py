@@ -79,6 +79,16 @@ def resolve_date(
     return next((c for c in candidates if c.isoweekday() == weekday), upcoming[0])
 
 
+def resolve_past_date(day: int, month: int, *, not_after: date) -> date:
+    """Latest date on or before `not_after`, e.g. a ticket issue date shown without a year."""
+    past = [
+        c for c in _occurrences(day, month, not_after.year - 4, not_after.year) if c <= not_after
+    ]
+    if not past:
+        raise ValueError(f"Day {day} does not exist in month {month}")
+    return past[-1]
+
+
 def _occurrences(day: int, month: int, first_year: int, last_year: int) -> list[date]:
     occurrences = []
     for year in range(first_year, last_year + 1):
