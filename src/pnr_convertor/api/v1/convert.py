@@ -12,7 +12,7 @@ router = APIRouter(tags=["convert"])
 @router.post("/convert")
 def convert(body: ConvertRequest, convert_pnr: ConvertPnrDep) -> ConvertResponse:
     """Convert raw GDS PNR text into a structured itinerary."""
-    pnr = convert_pnr.execute(
+    itinerary = convert_pnr.execute(
         ConvertPnrCommand(text=body.pnr, gds=body.gds, reference_date=body.reference_date)
     )
-    return ConvertResponse.from_domain(pnr)
+    return ConvertResponse.from_domain(itinerary)

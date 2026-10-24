@@ -29,7 +29,28 @@
         "code": "HK",
         "category": "confirmed"
       },
-      "passenger_count": 2
+      "passenger_count": 2,
+      "airline": {
+        "iata": "RO",
+        "name": "Tarom"
+      },
+      "origin_airport": {
+        "iata": "OTP",
+        "name": "Henri Coanda International Airport",
+        "city": "Bucharest",
+        "country": "RO",
+        "timezone": "Europe/Bucharest"
+      },
+      "destination_airport": {
+        "iata": "CDG",
+        "name": "Charles de Gaulle International Airport",
+        "city": "Paris",
+        "country": "FR",
+        "timezone": "Europe/Paris"
+      },
+      "departure_at": "2026-03-15T07:10:00+02:00",
+      "arrival_at": "2026-03-15T09:20:00+01:00",
+      "duration_minutes": 190
     },
     {
       "index": 4,
@@ -44,7 +65,52 @@
         "code": "HK",
         "category": "confirmed"
       },
-      "passenger_count": 2
+      "passenger_count": 2,
+      "airline": {
+        "iata": "AF",
+        "name": "Air France"
+      },
+      "origin_airport": {
+        "iata": "CDG",
+        "name": "Charles de Gaulle International Airport",
+        "city": "Paris",
+        "country": "FR",
+        "timezone": "Europe/Paris"
+      },
+      "destination_airport": {
+        "iata": "OTP",
+        "name": "Henri Coanda International Airport",
+        "city": "Bucharest",
+        "country": "RO",
+        "timezone": "Europe/Bucharest"
+      },
+      "departure_at": "2026-03-22T19:45:00+01:00",
+      "arrival_at": "2026-03-22T23:50:00+02:00",
+      "duration_minutes": 185
+    }
+  ],
+  "journeys": [
+    {
+      "segment_indexes": [
+        3
+      ],
+      "origin": "OTP",
+      "destination": "CDG",
+      "departure_at": "2026-03-15T07:10:00+02:00",
+      "arrival_at": "2026-03-15T09:20:00+01:00",
+      "duration_minutes": 190,
+      "connections": []
+    },
+    {
+      "segment_indexes": [
+        4
+      ],
+      "origin": "CDG",
+      "destination": "OTP",
+      "departure_at": "2026-03-22T19:45:00+01:00",
+      "arrival_at": "2026-03-22T23:50:00+02:00",
+      "duration_minutes": 185,
+      "connections": []
     }
   ],
   "warnings": []

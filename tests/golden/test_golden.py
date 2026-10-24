@@ -13,19 +13,18 @@ from pathlib import Path
 import pytest
 
 from pnr_convertor.api.v1.schemas import ConvertResponse
-from pnr_convertor.application.convert_pnr import ConvertPnr, ConvertPnrCommand
-from pnr_convertor.bootstrap import build_parser_registry
-from tests.conftest import FIXTURES_DIR, FixedClock
+from pnr_convertor.application.convert_pnr import ConvertPnrCommand
+from pnr_convertor.bootstrap import Container
+from tests.conftest import FIXTURES_DIR
 
 UPDATE = os.environ.get("UPDATE_GOLDEN") == "1"
 CASES = sorted(FIXTURES_DIR.glob("*/*.txt"))
 
 
 @pytest.mark.parametrize("fixture", CASES, ids=lambda p: f"{p.parent.name}/{p.stem}")
-def test_golden(fixture: Path) -> None:
-    use_case = ConvertPnr(build_parser_registry(), FixedClock())
-    pnr = use_case.execute(ConvertPnrCommand(text=fixture.read_text()))
-    actual = ConvertResponse.from_domain(pnr).model_dump(mode="json")
+def test_golden(fixture: Path, container: Container) -> None:
+    itinerary = container.convert_pnr.execute(ConvertPnrCommand(text=fixture.read_text()))
+    actual = ConvertResponse.from_domain(itinerary).model_dump(mode="json")
 
     expected_path = fixture.with_suffix(".expected.json")
     if UPDATE:
