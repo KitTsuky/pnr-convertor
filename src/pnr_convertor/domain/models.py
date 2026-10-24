@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import date, datetime
 from enum import StrEnum
 
 
@@ -76,6 +76,35 @@ class FlightSegment:
 
 
 @dataclass(frozen=True, slots=True)
+class Ticket:
+    number: str
+    passenger_index: int | None
+    issuing_airline: str | None
+    issue_date: date | None
+    electronic: bool
+
+
+@dataclass(frozen=True, slots=True)
+class SeatAssignment:
+    segment_index: int
+    passenger_index: int | None
+    seat: str
+
+
+class ContactKind(StrEnum):
+    PHONE = "phone"
+    EMAIL = "email"
+
+
+@dataclass(frozen=True, slots=True)
+class Contact:
+    """Free-text contact element, kept verbatim (GDS prefixes such as city codes included)."""
+
+    kind: ContactKind
+    text: str
+
+
+@dataclass(frozen=True, slots=True)
 class ParseWarning:
     """Non-fatal parsing problem. Must never contain raw PNR text."""
 
@@ -90,3 +119,6 @@ class ParsedPnr:
     passengers: tuple[Passenger, ...]
     segments: tuple[FlightSegment, ...]
     warnings: tuple[ParseWarning, ...] = ()
+    tickets: tuple[Ticket, ...] = ()
+    seats: tuple[SeatAssignment, ...] = ()
+    contacts: tuple[Contact, ...] = ()
