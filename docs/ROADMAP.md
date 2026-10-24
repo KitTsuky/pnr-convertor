@@ -36,7 +36,8 @@ roughly one PR.
 - [ ] Sabre `VI*`: terminals, equipment, elapsed time, miles
 - [x] Travelport Galileo booking file (`*R` / `*I`): header locator, names with type suffixes and infants, segments with `#` / `*` / `-` arrival markers
 - [ ] Galileo phones and ticketing (needs real samples)
-- [ ] Worldspan, Apollo (needs real `*R` samples)
+- [x] Travelport Worldspan (`*R`): `1P-` locator, names with titles and type codes, segments with `#1` day offset, phones (`P-`), tickets (`T-`)
+- [ ] Apollo (needs real `*R` samples)
 - [ ] Detection conflicts: score-based tie handling + tests with ambiguous inputs
 - [ ] Golden fixtures for each format (≥ 5 cases each)
 
