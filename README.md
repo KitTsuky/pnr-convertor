@@ -1,6 +1,6 @@
 # pnr-convertor
 
-API that converts raw GDS PNR text (Amadeus, and more to come) into structured, readable itineraries.
+API that converts raw GDS PNR text (Amadeus, Sabre, and more to come) into structured, readable itineraries.
 
 ## Quick start
 
