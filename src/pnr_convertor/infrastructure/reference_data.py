@@ -19,6 +19,8 @@ class BundledAirportRepository:
                 city=entry["city"] or None,
                 country=entry["country"],
                 timezone=entry["tz"],
+                latitude=entry["lat"],
+                longitude=entry["lon"],
             )
             for code, entry in airportsdata.load("IATA").items()
         }

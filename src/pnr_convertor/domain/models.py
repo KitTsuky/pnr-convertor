@@ -42,6 +42,29 @@ _STATUS_CATEGORIES: dict[str, SegmentStatusCategory] = {
 }
 
 
+_STATUS_DESCRIPTIONS: dict[str, str] = {
+    "HK": "Holding confirmed",
+    "KK": "Confirmed by airline",
+    "KL": "Confirmed from waitlist",
+    "TK": "Confirmed after schedule change",
+    "RR": "Reconfirmed",
+    "SS": "Sold",
+    "GK": "Passive segment",
+    "HL": "Holding waitlisted",
+    "LL": "Waitlisted",
+    "TL": "Waitlisted after schedule change",
+    "HN": "Holding need",
+    "NN": "Need",
+    "PN": "Pending confirmation",
+    "HX": "Holding cancelled",
+    "XX": "Cancelled",
+    "UN": "Unable, flight does not operate",
+    "UC": "Unable, waitlist closed",
+    "NO": "No action taken",
+    "WK": "Was confirmed, replaced by schedule change",
+}
+
+
 @dataclass(frozen=True, slots=True)
 class SegmentStatus:
     code: str
@@ -49,6 +72,10 @@ class SegmentStatus:
     @property
     def category(self) -> SegmentStatusCategory:
         return _STATUS_CATEGORIES.get(self.code, SegmentStatusCategory.UNKNOWN)
+
+    @property
+    def description(self) -> str | None:
+        return _STATUS_DESCRIPTIONS.get(self.code)
 
 
 @dataclass(frozen=True, slots=True)

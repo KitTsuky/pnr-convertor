@@ -2,8 +2,10 @@ from __future__ import annotations
 
 from datetime import UTC, datetime, timedelta
 
+import pytest
+
 from pnr_convertor.domain.itinerary import Connection, EnrichedSegment, Journey
-from tests.factories import make_segment
+from tests.factories import AIRPORTS, make_segment
 
 
 def _enriched(
@@ -46,3 +48,24 @@ def test_journey_spans_first_departure_to_last_arrival() -> None:
 
 def test_single_segment_journey_has_no_connections() -> None:
     assert Journey((_enriched("OTP", "CDG", _utc(5), _utc(8)),)).connections == ()
+
+
+def test_segment_distance_requires_both_airports() -> None:
+    segment = make_segment("OTP", "CDG", "2026-03-15T07:00", "2026-03-15T09:00")
+    known = EnrichedSegment(segment, None, AIRPORTS["OTP"], AIRPORTS["CDG"], None, None)
+    unknown = EnrichedSegment(segment, None, AIRPORTS["OTP"], None, None, None)
+
+    assert known.distance_km == pytest.approx(1856.3, abs=0.1)
+    assert unknown.distance_km is None
+
+
+def test_journey_distance_sums_segments_only_when_all_known() -> None:
+    first = make_segment("OTP", "CDG", "2026-03-15T07:00", "2026-03-15T09:00")
+    second = make_segment("CDG", "JFK", "2026-03-15T11:00", "2026-03-15T13:00")
+    leg_one = EnrichedSegment(first, None, AIRPORTS["OTP"], AIRPORTS["CDG"], None, None)
+    leg_two = EnrichedSegment(second, None, AIRPORTS["CDG"], AIRPORTS["JFK"], None, None)
+    unknown = EnrichedSegment(second, None, AIRPORTS["CDG"], None, None, None)
+
+    total = Journey((leg_one, leg_two)).distance_km
+    assert total == pytest.approx(leg_one.distance_km + leg_two.distance_km)  # type: ignore[operator]
+    assert Journey((leg_one, unknown)).distance_km is None
