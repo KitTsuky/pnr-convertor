@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import date, datetime
 
 import pytest
 
@@ -77,6 +77,14 @@ class TestSegments:
             "2025-12-30",
             "2026-01-03",
         ]
+
+    def test_weekday_identifies_year_of_an_old_pnr(self, parser: AmadeusParser) -> None:
+        text = (
+            "  1  RO 391 Y 05JUN 4 OTPCDG HK1  0710 0920\n"
+            "  2  RO 392 Y 25JUL 5 CDGOTP HK1  1945 2350"
+        )
+        pnr = parser.parse(text, ParseContext(reference_date=date(2026, 10, 24)))
+        assert [s.departure.date() for s in pnr.segments] == [date(2025, 6, 5), date(2025, 7, 25)]
 
     @pytest.mark.parametrize(
         ("code", "category"),

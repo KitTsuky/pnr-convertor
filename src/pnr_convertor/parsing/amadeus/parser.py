@@ -39,7 +39,9 @@ class AmadeusParser:
         for line_number, line in enumerate(text.splitlines(), start=1):
             if segment_match := patterns.AIR_SEGMENT.match(line):
                 try:
-                    segment = _build_segment(segment_match, not_before=not_before)
+                    segment = _build_segment(
+                        segment_match, not_before=not_before, is_first=not segments
+                    )
                 except ValueError as exc:
                     warnings.append(ParseWarning(line_number, f"Skipped air segment: {exc}"))
                     continue
@@ -57,8 +59,13 @@ class AmadeusParser:
         )
 
 
-def _build_segment(match: re.Match[str], *, not_before: date) -> FlightSegment:
-    departure_date = resolve_date(*parse_day_month(match["departure_date"]), not_before=not_before)
+def _build_segment(match: re.Match[str], *, not_before: date, is_first: bool) -> FlightSegment:
+    departure_date = resolve_date(
+        *parse_day_month(match["departure_date"]),
+        not_before=not_before,
+        weekday=int(match["weekday"]) if match["weekday"] else None,
+        allow_earlier=is_first,
+    )
     departure = datetime.combine(departure_date, parse_hhmm(match["departure_time"]))
     arrival = datetime.combine(
         _arrival_date(match, departure_date), parse_hhmm(match["arrival_time"])

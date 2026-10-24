@@ -47,3 +47,22 @@ def test_parse_hhmm() -> None:
 def test_parse_hhmm_rejects_invalid(token: str) -> None:
     with pytest.raises(ValueError):  # noqa: PT011 - message differs per failure mode
         parse_hhmm(token)
+
+
+@pytest.mark.parametrize(
+    ("not_before", "weekday", "allow_earlier", "expected"),
+    [
+        pytest.param(date(2025, 3, 8), 4, False, date(2025, 6, 5), id="matches-upcoming"),
+        pytest.param(date(2026, 1, 1), 6, False, date(2027, 6, 5), id="points-to-next-year"),
+        pytest.param(date(2026, 9, 15), 4, True, date(2025, 6, 5), id="old-pnr-previous-year"),
+        pytest.param(date(2026, 9, 15), 4, False, date(2027, 6, 5), id="no-lookback-when-chained"),
+        pytest.param(date(2026, 1, 1), 2, False, date(2026, 6, 5), id="mismatch-falls-back"),
+    ],
+)
+def test_resolve_date_uses_weekday(
+    not_before: date, weekday: int, allow_earlier: bool, expected: date
+) -> None:
+    assert (
+        resolve_date(5, 6, not_before=not_before, weekday=weekday, allow_earlier=allow_earlier)
+        == expected
+    )

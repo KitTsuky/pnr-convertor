@@ -15,7 +15,7 @@ AIR_SEGMENT = re.compile(
     (?P<carrier>[A-Z0-9]{2})\s*(?P<flight>\d{1,4})\s*
     (?P<booking_class>[A-Z])\s+
     (?P<departure_date>\d{2}[A-Z]{3})\s+
-    (?:[1-7]\s+)?
+    (?:(?P<weekday>[1-7])\s+)?
     (?P<origin>[A-Z]{3})(?P<destination>[A-Z]{3})\s+
     (?P<status>[A-Z]{2})(?P<passenger_count>\d{1,2})\s+
     (?P<departure_time>\d{4})\s+
