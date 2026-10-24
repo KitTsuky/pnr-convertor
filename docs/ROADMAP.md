@@ -26,6 +26,7 @@ roughly one PR.
 - [x] Flight duration, layover times, overnight/connection detection
 - [x] Group segments into journeys (outbound / return) by layover threshold
 - [x] Extend response schema (additive fields only)
+- [x] Distances on the WGS84 ellipsoid (matches IATA ticketed point mileage), status descriptions
 
 ## Phase 3 — More GDS formats
 

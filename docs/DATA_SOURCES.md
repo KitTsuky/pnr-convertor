@@ -1,10 +1,11 @@
 # Data sources
 
-| Data           | Source                                                     | License                                                    | Refresh                     |
-| -------------- | ---------------------------------------------------------- | ---------------------------------------------------------- | --------------------------- |
-| Airports + tz  | [airportsdata](https://github.com/mborsetti/airportsdata)  | MIT                                                        | Dependabot (Python package) |
-| Airline names  | [OpenFlights](https://openflights.org/data) `airlines.dat` | [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/) | `make airlines`             |
-| Timezone rules | [tzdata](https://pypi.org/project/tzdata/) (IANA)          | Apache 2.0                                                 | Dependabot (Python package) |
+| Data           | Source                                                                   | License                                                    | Refresh                     |
+| -------------- | ------------------------------------------------------------------------ | ---------------------------------------------------------- | --------------------------- |
+| Airports + tz  | [airportsdata](https://github.com/mborsetti/airportsdata)                | MIT                                                        | Dependabot (Python package) |
+| Airline names  | [OpenFlights](https://openflights.org/data) `airlines.dat`               | [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/) | `make airlines`             |
+| Distances      | [geographiclib](https://geographiclib.sourceforge.io/) (WGS84 geodesics) | MIT                                                        | Dependabot (Python package) |
+| Timezone rules | [tzdata](https://pypi.org/project/tzdata/) (IANA)                        | Apache 2.0                                                 | Dependabot (Python package) |
 
 ## Airline names
 
