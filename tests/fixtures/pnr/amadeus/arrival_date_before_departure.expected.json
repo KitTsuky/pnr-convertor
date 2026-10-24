@@ -27,7 +27,8 @@
       "arrival_local": "2026-09-16T10:05:00",
       "status": {
         "code": "SS",
-        "category": "confirmed"
+        "category": "confirmed",
+        "description": "Sold"
       },
       "passenger_count": 1,
       "airline": {
@@ -39,18 +40,26 @@
         "name": "Los Angeles International Airport",
         "city": "Los Angeles",
         "country": "US",
-        "timezone": "America/Los_Angeles"
+        "timezone": "America/Los_Angeles",
+        "latitude": 33.942496,
+        "longitude": -118.408049
       },
       "destination_airport": {
         "iata": "LHR",
         "name": "London Heathrow Airport",
         "city": "London",
         "country": "GB",
-        "timezone": "Europe/London"
+        "timezone": "Europe/London",
+        "latitude": 51.4706,
+        "longitude": -0.46194
       },
       "departure_at": "2026-09-16T15:40:00-07:00",
       "arrival_at": "2026-09-16T10:05:00+01:00",
       "duration_minutes": null,
+      "distance": {
+        "km": 8781,
+        "miles": 5456
+      },
       "seats": []
     },
     {
@@ -64,7 +73,8 @@
       "arrival_local": "2026-09-23T13:25:00",
       "status": {
         "code": "SS",
-        "category": "confirmed"
+        "category": "confirmed",
+        "description": "Sold"
       },
       "passenger_count": 1,
       "airline": {
@@ -76,18 +86,26 @@
         "name": "London Heathrow Airport",
         "city": "London",
         "country": "GB",
-        "timezone": "Europe/London"
+        "timezone": "Europe/London",
+        "latitude": 51.4706,
+        "longitude": -0.46194
       },
       "destination_airport": {
         "iata": "LAX",
         "name": "Los Angeles International Airport",
         "city": "Los Angeles",
         "country": "US",
-        "timezone": "America/Los_Angeles"
+        "timezone": "America/Los_Angeles",
+        "latitude": 33.942496,
+        "longitude": -118.408049
       },
       "departure_at": "2026-09-23T10:10:00+01:00",
       "arrival_at": "2026-09-23T13:25:00-07:00",
       "duration_minutes": 675,
+      "distance": {
+        "km": 8781,
+        "miles": 5456
+      },
       "seats": []
     }
   ],
@@ -101,6 +119,10 @@
       "departure_at": "2026-09-16T15:40:00-07:00",
       "arrival_at": "2026-09-16T10:05:00+01:00",
       "duration_minutes": null,
+      "distance": {
+        "km": 8781,
+        "miles": 5456
+      },
       "connections": []
     },
     {
@@ -112,6 +134,10 @@
       "departure_at": "2026-09-23T10:10:00+01:00",
       "arrival_at": "2026-09-23T13:25:00-07:00",
       "duration_minutes": 675,
+      "distance": {
+        "km": 8781,
+        "miles": 5456
+      },
       "connections": []
     }
   ],

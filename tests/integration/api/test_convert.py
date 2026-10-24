@@ -15,7 +15,11 @@ def test_convert_returns_structured_itinerary(client: TestClient) -> None:
     assert body["record_locator"] == "ZX7K2P"
     assert [p["last_name"] for p in body["passengers"]] == ["POPESCU", "POPESCU"]
     assert body["segments"][0]["departure_local"] == "2026-03-15T07:10:00"
-    assert body["segments"][0]["status"] == {"code": "HK", "category": "confirmed"}
+    assert body["segments"][0]["status"] == {
+        "code": "HK",
+        "category": "confirmed",
+        "description": "Holding confirmed",
+    }
 
 
 def test_convert_returns_enrichment(client: TestClient) -> None:
@@ -81,3 +85,13 @@ def test_convert_returns_tickets_seats_and_contacts(client: TestClient) -> None:
     ]
     assert [t["number"] for t in body["tickets"]] == ["125-9876543210", "125-9876543211"]
     assert {c["kind"] for c in body["contacts"]} == {"phone", "email"}
+
+
+def test_convert_returns_distances(client: TestClient) -> None:
+    response = client.post(
+        "/v1/convert", json={"pnr": read_fixture("sabre", "verify_itinerary_and_display")}
+    )
+
+    body = response.json()
+    assert body["segments"][0]["distance"] == {"km": 5555, "miles": 3451}
+    assert body["journeys"][0]["distance"] == {"km": 5555, "miles": 3451}

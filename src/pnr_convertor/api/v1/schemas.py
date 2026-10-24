@@ -6,6 +6,7 @@ from datetime import date, datetime, timedelta
 
 from pydantic import BaseModel, ConfigDict, Field
 
+from pnr_convertor.domain.geo import KM_PER_MILE
 from pnr_convertor.domain.itinerary import Connection, EnrichedSegment, Itinerary, Journey
 from pnr_convertor.domain.models import (
     Contact,
@@ -28,6 +29,15 @@ def _minutes(duration: timedelta | None) -> int | None:
 
 class _Schema(BaseModel):
     model_config = ConfigDict(frozen=True, extra="forbid")
+
+
+class DistanceOut(_Schema):
+    km: int
+    miles: int
+
+    @classmethod
+    def from_km(cls, km: float | None) -> DistanceOut | None:
+        return None if km is None else cls(km=round(km), miles=round(km / KM_PER_MILE))
 
 
 class ConvertRequest(_Schema):
@@ -68,6 +78,8 @@ class AirportOut(_Schema):
     city: str | None
     country: str = Field(description="ISO 3166-1 alpha-2 country code.")
     timezone: str = Field(description="IANA timezone, e.g. `Europe/Bucharest`.")
+    latitude: float
+    longitude: float
 
     @classmethod
     def from_domain(cls, airport: Airport | None) -> AirportOut | None:
@@ -79,6 +91,8 @@ class AirportOut(_Schema):
             city=airport.city,
             country=airport.country,
             timezone=airport.timezone,
+            latitude=airport.latitude,
+            longitude=airport.longitude,
         )
 
 
@@ -103,6 +117,7 @@ class SeatOut(_Schema):
 class SegmentStatusOut(_Schema):
     code: str
     category: SegmentStatusCategory
+    description: str | None
 
 
 class FlightSegmentOut(_Schema):
@@ -126,6 +141,9 @@ class FlightSegmentOut(_Schema):
         description="Arrival with UTC offset; null if the destination airport is unknown."
     )
     duration_minutes: int | None
+    distance: DistanceOut | None = Field(
+        description="Shortest distance between the airports (WGS84 ellipsoid)."
+    )
     seats: list[SeatOut]
 
     @classmethod
@@ -142,7 +160,11 @@ class FlightSegmentOut(_Schema):
             destination=segment.destination,
             departure_local=segment.departure,
             arrival_local=segment.arrival,
-            status=SegmentStatusOut(code=segment.status.code, category=segment.status.category),
+            status=SegmentStatusOut(
+                code=segment.status.code,
+                category=segment.status.category,
+                description=segment.status.description,
+            ),
             passenger_count=segment.passenger_count,
             airline=AirlineOut.from_domain(enriched.airline),
             origin_airport=AirportOut.from_domain(enriched.origin),
@@ -150,6 +172,7 @@ class FlightSegmentOut(_Schema):
             departure_at=enriched.departure_at,
             arrival_at=enriched.arrival_at,
             duration_minutes=_minutes(enriched.duration),
+            distance=DistanceOut.from_km(enriched.distance_km),
             seats=[SeatOut.from_domain(seat) for seat in seats],
         )
 
@@ -170,6 +193,7 @@ class JourneyOut(_Schema):
     departure_at: datetime | None
     arrival_at: datetime | None
     duration_minutes: int | None
+    distance: DistanceOut | None
     connections: list[ConnectionOut]
 
     @classmethod
@@ -181,6 +205,7 @@ class JourneyOut(_Schema):
             departure_at=journey.departure_at,
             arrival_at=journey.arrival_at,
             duration_minutes=_minutes(journey.duration),
+            distance=DistanceOut.from_km(journey.distance_km),
             connections=[ConnectionOut.from_domain(c) for c in journey.connections],
         )
 
