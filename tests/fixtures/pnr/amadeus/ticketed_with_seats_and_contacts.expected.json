@@ -1,0 +1,117 @@
+{
+  "gds": "amadeus",
+  "record_locator": "9XZABC",
+  "passengers": [
+    {
+      "index": 1,
+      "last_name": "SMITH",
+      "first_name": "JOHN",
+      "title": "MR"
+    },
+    {
+      "index": 2,
+      "last_name": "BROWN",
+      "first_name": "ANNA",
+      "title": "MS"
+    }
+  ],
+  "segments": [
+    {
+      "index": 3,
+      "carrier": "BA",
+      "flight_number": "284",
+      "booking_class": "H",
+      "origin": "LHR",
+      "destination": "JFK",
+      "departure_local": "2025-04-10T11:20:00",
+      "arrival_local": "2025-04-10T14:15:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed"
+      },
+      "passenger_count": 2,
+      "airline": {
+        "iata": "BA",
+        "name": "British Airways"
+      },
+      "origin_airport": {
+        "iata": "LHR",
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "country": "GB",
+        "timezone": "Europe/London"
+      },
+      "destination_airport": {
+        "iata": "JFK",
+        "name": "John F Kennedy International Airport",
+        "city": "New York",
+        "country": "US",
+        "timezone": "America/New_York"
+      },
+      "departure_at": "2025-04-10T11:20:00+01:00",
+      "arrival_at": "2025-04-10T14:15:00-04:00",
+      "duration_minutes": 475
+    },
+    {
+      "index": 4,
+      "carrier": "BA",
+      "flight_number": "179",
+      "booking_class": "T",
+      "origin": "JFK",
+      "destination": "LHR",
+      "departure_local": "2025-04-20T19:45:00",
+      "arrival_local": "2025-04-21T07:50:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed"
+      },
+      "passenger_count": 2,
+      "airline": {
+        "iata": "BA",
+        "name": "British Airways"
+      },
+      "origin_airport": {
+        "iata": "JFK",
+        "name": "John F Kennedy International Airport",
+        "city": "New York",
+        "country": "US",
+        "timezone": "America/New_York"
+      },
+      "destination_airport": {
+        "iata": "LHR",
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "country": "GB",
+        "timezone": "Europe/London"
+      },
+      "departure_at": "2025-04-20T19:45:00-04:00",
+      "arrival_at": "2025-04-21T07:50:00+01:00",
+      "duration_minutes": 425
+    }
+  ],
+  "journeys": [
+    {
+      "segment_indexes": [
+        3
+      ],
+      "origin": "LHR",
+      "destination": "JFK",
+      "departure_at": "2025-04-10T11:20:00+01:00",
+      "arrival_at": "2025-04-10T14:15:00-04:00",
+      "duration_minutes": 475,
+      "connections": []
+    },
+    {
+      "segment_indexes": [
+        4
+      ],
+      "origin": "JFK",
+      "destination": "LHR",
+      "departure_at": "2025-04-20T19:45:00-04:00",
+      "arrival_at": "2025-04-21T07:50:00+01:00",
+      "duration_minutes": 425,
+      "connections": []
+    }
+  ],
+  "warnings": []
+}
