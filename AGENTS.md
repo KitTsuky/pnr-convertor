@@ -37,6 +37,9 @@ bootstrap.py wires everything (composition root)
 - `parsing/` depends only on `domain/`. One sub-package per GDS.
 - `application/` orchestrates use cases and defines ports (`Protocol`s) for external needs.
 - `infrastructure/` implements ports (clock, reference data, caches, ...).
+- `rendering/` implements the `ItineraryRenderer` port: `view.py` turns an `Itinerary` into display
+  strings, Jinja2 templates lay them out. Output is English only; HTML templates (`*.html.j2`) are
+  always autoescaped because PNR text is untrusted.
 - `api/` is a thin adapter: validate → call use case → map to response schema. No logic.
 - Only `bootstrap.py` instantiates concrete classes. Everything else receives dependencies.
 - API schemas (`api/v1/schemas.py`) are separate from domain models and mapped explicitly.
@@ -86,4 +89,4 @@ bootstrap.py wires everything (composition root)
   `docs/…`, `refactor/…`, `test/…`.
 - Conventional Commits: `feat(parsing): parse Sabre air segments`.
 - One logical change per commit; one roadmap item (or smaller) per PR.
-- Ask the maintainer to review before committing and before pushing.
+- Every change lands through a pull request with green CI; no conflicting or stacked PRs.

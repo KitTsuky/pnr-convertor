@@ -20,6 +20,26 @@ curl -s localhost:8000/v1/convert -H 'content-type: application/json' -d '{
 }'
 ```
 
+Add `?format=text` or `?format=html` for a readable itinerary instead of JSON:
+
+```text
+FLIGHT ITINERARY
+Booking reference: ZX7K2P
+
+PASSENGERS
+  1. POPESCU/ANDREI MR - Adult
+
+TRIP 1: Bucharest (OTP) to Paris (CDG)
+Sun 15 Mar 2026 | Direct | 3h 10m | 1,856 km (1,153 mi)
+
+  RO 391  Tarom | Class Y | Confirmed
+  Depart  Sun 15 Mar 2026 07:10  Bucharest (OTP), Henri Coanda International Airport
+  Arrive  Sun 15 Mar 2026 09:20  Paris (CDG), Charles de Gaulle International Airport
+  Flight  3h 10m | 1,856 km (1,153 mi)
+
+Times are local at each airport.
+```
+
 ## Documentation
 
 - [Architecture](docs/ARCHITECTURE.md)
