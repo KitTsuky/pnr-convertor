@@ -17,6 +17,7 @@ from pnr_convertor.parsing.amadeus import AmadeusParser
 from pnr_convertor.parsing.galileo import GalileoParser
 from pnr_convertor.parsing.registry import ParserRegistry
 from pnr_convertor.parsing.sabre import SabreParser
+from pnr_convertor.parsing.worldspan import WorldspanParser
 
 
 @dataclass(frozen=True, slots=True)
@@ -26,7 +27,7 @@ class Container:
 
 
 def build_parser_registry() -> ParserRegistry:
-    return ParserRegistry([AmadeusParser(), SabreParser(), GalileoParser()])
+    return ParserRegistry([AmadeusParser(), SabreParser(), GalileoParser(), WorldspanParser()])
 
 
 def build_container(settings: Settings, *, clock: Clock | None = None) -> Container:

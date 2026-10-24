@@ -119,3 +119,14 @@ def test_convert_auto_detects_galileo(client: TestClient) -> None:
     body = response.json()
     assert (body["gds"], body["record_locator"]) == ("galileo", "K7PL2Q")
     assert [j["segment_indexes"] for j in body["journeys"]] == [[1, 2], [3, 4]]
+
+
+def test_convert_auto_detects_worldspan(client: TestClient) -> None:
+    response = client.post(
+        "/v1/convert", json={"pnr": read_fixture("worldspan", "ticketed_overnight_connections")}
+    )
+
+    body = response.json()
+    assert (body["gds"], body["record_locator"]) == ("worldspan", "7KQ2ZX")
+    assert body["segments"][2]["arrival_local"] == "2025-12-13T07:45:00"
+    assert body["tickets"][0]["number"] == "281-1234567890"

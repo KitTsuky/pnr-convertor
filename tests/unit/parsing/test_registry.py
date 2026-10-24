@@ -8,12 +8,13 @@ from pnr_convertor.parsing.amadeus import AmadeusParser
 from pnr_convertor.parsing.galileo import GalileoParser
 from pnr_convertor.parsing.registry import ParserRegistry
 from pnr_convertor.parsing.sabre import SabreParser
+from pnr_convertor.parsing.worldspan import WorldspanParser
 from tests.conftest import read_fixture
 
 
 @pytest.fixture
 def registry() -> ParserRegistry:
-    return ParserRegistry([AmadeusParser(), SabreParser(), GalileoParser()])
+    return ParserRegistry([AmadeusParser(), SabreParser(), GalileoParser(), WorldspanParser()])
 
 
 def test_auto_detects_amadeus(registry: ParserRegistry) -> None:
@@ -29,6 +30,11 @@ def test_auto_detects_sabre(registry: ParserRegistry) -> None:
 def test_auto_detects_galileo(registry: ParserRegistry) -> None:
     parser = registry.resolve(read_fixture("galileo", "booking_file_connections"))
     assert parser.gds is GdsFormat.GALILEO
+
+
+def test_auto_detects_worldspan(registry: ParserRegistry) -> None:
+    parser = registry.resolve(read_fixture("worldspan", "ticketed_overnight_connections"))
+    assert parser.gds is GdsFormat.WORLDSPAN
 
 
 def test_explicit_format_skips_detection(registry: ParserRegistry) -> None:
