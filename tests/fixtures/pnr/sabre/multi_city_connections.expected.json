@@ -37,7 +37,8 @@
       },
       "departure_at": "2025-07-13T17:15:00-04:00",
       "arrival_at": "2025-07-13T19:30:00-05:00",
-      "duration_minutes": 195
+      "duration_minutes": 195,
+      "seats": []
     },
     {
       "index": 2,
@@ -73,7 +74,8 @@
       },
       "departure_at": "2025-07-13T20:25:00-05:00",
       "arrival_at": "2025-07-15T05:00:00+10:00",
-      "duration_minutes": 1055
+      "duration_minutes": 1055,
+      "seats": []
     },
     {
       "index": 3,
@@ -109,7 +111,8 @@
       },
       "departure_at": "2025-10-25T11:55:00+11:00",
       "arrival_at": "2025-10-25T08:10:00-07:00",
-      "duration_minutes": 855
+      "duration_minutes": 855,
+      "seats": []
     },
     {
       "index": 4,
@@ -145,7 +148,8 @@
       },
       "departure_at": "2025-10-25T12:03:00-07:00",
       "arrival_at": "2025-10-25T19:44:00-04:00",
-      "duration_minutes": 281
+      "duration_minutes": 281,
+      "seats": []
     },
     {
       "index": 5,
@@ -181,7 +185,8 @@
       },
       "departure_at": "2025-10-25T20:20:00-04:00",
       "arrival_at": "2025-10-25T22:20:00-04:00",
-      "duration_minutes": 120
+      "duration_minutes": 120,
+      "seats": []
     }
   ],
   "journeys": [
@@ -225,5 +230,7 @@
       ]
     }
   ],
+  "tickets": [],
+  "contacts": [],
   "warnings": []
 }

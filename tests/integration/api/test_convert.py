@@ -67,3 +67,17 @@ def test_convert_auto_detects_sabre(client: TestClient) -> None:
     body = response.json()
     assert body["gds"] == "sabre"
     assert [s["flight_number"] for s in body["segments"]] == ["142", "101"]
+
+
+def test_convert_returns_tickets_seats_and_contacts(client: TestClient) -> None:
+    response = client.post(
+        "/v1/convert", json={"pnr": read_fixture("amadeus", "ticketed_with_seats_and_contacts")}
+    )
+
+    body = response.json()
+    assert body["segments"][0]["seats"] == [
+        {"passenger_index": 1, "seat": "12A"},
+        {"passenger_index": 2, "seat": "12B"},
+    ]
+    assert [t["number"] for t in body["tickets"]] == ["125-9876543210", "125-9876543211"]
+    assert {c["kind"] for c in body["contacts"]} == {"phone", "email"}

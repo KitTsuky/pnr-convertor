@@ -44,7 +44,8 @@
       },
       "departure_at": "2025-12-28T11:20:00Z",
       "arrival_at": "2025-12-28T14:30:00-05:00",
-      "duration_minutes": 490
+      "duration_minutes": 490,
+      "seats": []
     },
     {
       "index": 3,
@@ -80,7 +81,8 @@
       },
       "departure_at": "2025-12-30T23:00:00-05:00",
       "arrival_at": "2025-12-31T19:30:00+04:00",
-      "duration_minutes": 690
+      "duration_minutes": 690,
+      "seats": []
     },
     {
       "index": 4,
@@ -116,7 +118,8 @@
       },
       "departure_at": "2026-01-03T07:45:00+04:00",
       "arrival_at": "2026-01-03T12:10:00Z",
-      "duration_minutes": 505
+      "duration_minutes": 505,
+      "seats": []
     }
   ],
   "journeys": [
@@ -154,5 +157,7 @@
       "connections": []
     }
   ],
+  "tickets": [],
+  "contacts": [],
   "warnings": []
 }
