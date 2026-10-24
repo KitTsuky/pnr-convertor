@@ -9,6 +9,7 @@ from pnr_convertor.domain.models import (
     ContactKind,
     FlightSegment,
     GdsFormat,
+    Infant,
     ParsedPnr,
     ParseWarning,
     Passenger,
@@ -125,15 +126,46 @@ def _arrival_date(match: re.Match[str], departure_date: date) -> date:
 
 
 def _build_passengers(line: str) -> list[Passenger]:
-    return [
-        Passenger(
+    passengers = []
+    for match in patterns.NAME.finditer(line):
+        passenger = Passenger(
             index=int(match["index"]),
             last_name=match["last_name"].strip(),
             first_name=match["first_name"].strip(),
             title=match["title"] or match["spaced_title"],
         )
-        for match in patterns.NAME.finditer(line)
-    ]
+        passengers.append(_apply_qualifier(passenger, match["qualifier"]))
+    return passengers
+
+
+def _apply_qualifier(passenger: Passenger, qualifier: str | None) -> Passenger:
+    if not qualifier:
+        return passenger
+    if infant := patterns.LAP_INFANT.fullmatch(qualifier):
+        return replace(
+            passenger,
+            infant=Infant(
+                last_name=(infant["last_name"] or passenger.last_name).strip(),
+                first_name=infant["first_name"].strip(),
+                date_of_birth=_optional_date(infant["date_of_birth"]),
+            ),
+        )
+    if typed := patterns.TYPED_PASSENGER.fullmatch(qualifier):
+        return replace(
+            passenger,
+            type_code=typed["type_code"],
+            date_of_birth=_optional_date(typed["date_of_birth"]),
+        )
+    return passenger
+
+
+def _optional_date(token: str | None) -> date | None:
+    if token is None:
+        return None
+    try:
+        return parse_full_date(token)
+    except ValueError:
+        return None
 
 
 def _build_ticket(match: re.Match[str]) -> Ticket:
@@ -143,6 +175,7 @@ def _build_ticket(match: re.Match[str]) -> Ticket:
         issuing_airline=match["airline"],
         issue_date=parse_full_date(match["issue_date"]) if match["issue_date"] else None,
         electronic=match["electronic"] is not None,
+        infant=match["holder"] == "INF",
     )
 
 
