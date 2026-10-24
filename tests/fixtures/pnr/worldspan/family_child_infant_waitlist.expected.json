@@ -1,0 +1,167 @@
+{
+  "gds": "worldspan",
+  "record_locator": "R3VB8N",
+  "passengers": [
+    {
+      "index": 1,
+      "last_name": "IONESCU",
+      "first_name": "ELENA",
+      "title": "MRS",
+      "type": "ADT",
+      "date_of_birth": null,
+      "infant": null
+    },
+    {
+      "index": 2,
+      "last_name": "IONESCU",
+      "first_name": "LUCA",
+      "title": null,
+      "type": "CNN",
+      "date_of_birth": null,
+      "infant": null
+    },
+    {
+      "index": 3,
+      "last_name": "IONESCU",
+      "first_name": "SARA",
+      "title": null,
+      "type": "INF",
+      "date_of_birth": null,
+      "infant": null
+    }
+  ],
+  "segments": [
+    {
+      "index": 1,
+      "carrier": "RO",
+      "flight_number": "341",
+      "booking_class": "R",
+      "origin": "OTP",
+      "destination": "VIE",
+      "departure_local": "2026-09-20T08:00:00",
+      "arrival_local": "2026-09-20T08:35:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed",
+        "description": "Holding confirmed"
+      },
+      "passenger_count": 2,
+      "airline": {
+        "iata": "RO",
+        "name": "Tarom"
+      },
+      "origin_airport": {
+        "iata": "OTP",
+        "name": "Henri Coanda International Airport",
+        "city": "Bucharest",
+        "country": "RO",
+        "timezone": "Europe/Bucharest",
+        "latitude": 44.5722,
+        "longitude": 26.1022
+      },
+      "destination_airport": {
+        "iata": "VIE",
+        "name": "Vienna International Airport",
+        "city": "Vienna",
+        "country": "AT",
+        "timezone": "Europe/Vienna",
+        "latitude": 48.1103,
+        "longitude": 16.5697
+      },
+      "departure_at": "2026-09-20T08:00:00+03:00",
+      "arrival_at": "2026-09-20T08:35:00+02:00",
+      "duration_minutes": 95,
+      "distance": {
+        "km": 832,
+        "miles": 517
+      },
+      "seats": []
+    },
+    {
+      "index": 2,
+      "carrier": "OS",
+      "flight_number": "783",
+      "booking_class": "R",
+      "origin": "VIE",
+      "destination": "OTP",
+      "departure_local": "2026-09-27T20:10:00",
+      "arrival_local": "2026-09-27T23:25:00",
+      "status": {
+        "code": "HL",
+        "category": "waitlisted",
+        "description": "Holding waitlisted"
+      },
+      "passenger_count": 2,
+      "airline": {
+        "iata": "OS",
+        "name": "Austrian Airlines"
+      },
+      "origin_airport": {
+        "iata": "VIE",
+        "name": "Vienna International Airport",
+        "city": "Vienna",
+        "country": "AT",
+        "timezone": "Europe/Vienna",
+        "latitude": 48.1103,
+        "longitude": 16.5697
+      },
+      "destination_airport": {
+        "iata": "OTP",
+        "name": "Henri Coanda International Airport",
+        "city": "Bucharest",
+        "country": "RO",
+        "timezone": "Europe/Bucharest",
+        "latitude": 44.5722,
+        "longitude": 26.1022
+      },
+      "departure_at": "2026-09-27T20:10:00+02:00",
+      "arrival_at": "2026-09-27T23:25:00+03:00",
+      "duration_minutes": 135,
+      "distance": {
+        "km": 832,
+        "miles": 517
+      },
+      "seats": []
+    }
+  ],
+  "journeys": [
+    {
+      "segment_indexes": [
+        1
+      ],
+      "origin": "OTP",
+      "destination": "VIE",
+      "departure_at": "2026-09-20T08:00:00+03:00",
+      "arrival_at": "2026-09-20T08:35:00+02:00",
+      "duration_minutes": 95,
+      "distance": {
+        "km": 832,
+        "miles": 517
+      },
+      "connections": []
+    },
+    {
+      "segment_indexes": [
+        2
+      ],
+      "origin": "VIE",
+      "destination": "OTP",
+      "departure_at": "2026-09-27T20:10:00+02:00",
+      "arrival_at": "2026-09-27T23:25:00+03:00",
+      "duration_minutes": 135,
+      "distance": {
+        "km": 832,
+        "miles": 517
+      },
+      "connections": []
+    }
+  ],
+  "tickets": [],
+  "contacts": [
+    {
+      "kind": "phone",
+      "text": "BUH TEST TRAVEL TEL.0040215550100 ELENA"
+    }
+  ],
+  "warnings": []
+}
