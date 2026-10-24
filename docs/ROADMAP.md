@@ -20,8 +20,8 @@ roughly one PR.
 
 ## Phase 2 — Enrichment
 
-- [ ] Ports: `AirportRepository`, `AirlineRepository`
-- [ ] Adapters backed by bundled datasets (OurAirports / `airportsdata`, OpenFlights airlines)
+- [x] Ports: `AirportRepository`, `AirlineRepository`
+- [x] Adapters backed by bundled datasets (OurAirports / `airportsdata`, OpenFlights airlines)
 - [ ] Timezone-aware departure/arrival (UTC + local with offset)
 - [ ] Flight duration, layover times, overnight/connection detection
 - [ ] Group segments into journeys (outbound / return) by layover threshold
