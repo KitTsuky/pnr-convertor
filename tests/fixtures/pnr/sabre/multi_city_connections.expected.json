@@ -22,6 +22,7 @@
         "iata": "AA",
         "name": "American Airlines"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "YYZ",
         "name": "Toronto Pearson International Airport",
@@ -68,6 +69,7 @@
         "iata": "AA",
         "name": "American Airlines"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "DFW",
         "name": "Dallas-Fort Worth International Airport",
@@ -114,6 +116,7 @@
         "iata": "AA",
         "name": "American Airlines"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "MEL",
         "name": "Melbourne International Airport",
@@ -160,6 +163,7 @@
         "iata": "AA",
         "name": "American Airlines"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "LAX",
         "name": "Los Angeles International Airport",
@@ -206,6 +210,7 @@
         "iata": "AA",
         "name": "American Airlines"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "CLT",
         "name": "Charlotte/Douglas International Airport",

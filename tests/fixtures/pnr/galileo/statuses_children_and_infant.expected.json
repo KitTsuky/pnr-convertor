@@ -50,6 +50,7 @@
         "iata": "QF",
         "name": "Qantas"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "LHR",
         "name": "London Heathrow Airport",
@@ -96,6 +97,7 @@
         "iata": "QF",
         "name": "Qantas"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "SYD",
         "name": "Sydney Kingsford Smith International Airport",
@@ -142,6 +144,7 @@
         "iata": "BA",
         "name": "British Airways"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "LAX",
         "name": "Los Angeles International Airport",

@@ -26,6 +26,7 @@ from pnr_convertor.parsing.dates import (
     parse_time,
     resolve_date,
 )
+from pnr_convertor.parsing.text import operating_carrier
 
 
 class AmadeusParser:
@@ -52,6 +53,9 @@ class AmadeusParser:
         not_before = context.reference_date - PAST_TOLERANCE
 
         for line_number, line in enumerate(text.splitlines(), start=1):
+            if segments and (operator := operating_carrier(line)):
+                segments[-1] = replace(segments[-1], operated_by=operator)
+                continue
             if segment_match := patterns.AIR_SEGMENT.match(line):
                 try:
                     segment = _build_segment(

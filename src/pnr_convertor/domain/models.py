@@ -107,7 +107,10 @@ class Passenger:
 
 @dataclass(frozen=True, slots=True)
 class FlightSegment:
-    """`departure` and `arrival` are naive, in each airport's local time."""
+    """`departure` and `arrival` are naive, in each airport's local time.
+
+    `operated_by` is the operating airline of a codeshare, as the GDS prints it (may be cut short).
+    """
 
     index: int
     carrier: str
@@ -119,6 +122,7 @@ class FlightSegment:
     arrival: datetime
     status: SegmentStatus
     passenger_count: int
+    operated_by: str | None = None
 
 
 @dataclass(frozen=True, slots=True)

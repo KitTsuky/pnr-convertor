@@ -155,6 +155,9 @@ class FlightSegmentOut(_Schema):
     status: SegmentStatusOut
     passenger_count: int
     airline: AirlineOut | None
+    operated_by: str | None = Field(
+        description="Operating airline of a codeshare flight, as the GDS prints it."
+    )
     origin_airport: AirportOut | None
     destination_airport: AirportOut | None
     departure_at: datetime | None = Field(
@@ -190,6 +193,7 @@ class FlightSegmentOut(_Schema):
             ),
             passenger_count=segment.passenger_count,
             airline=AirlineOut.from_domain(enriched.airline),
+            operated_by=segment.operated_by,
             origin_airport=AirportOut.from_domain(enriched.origin),
             destination_airport=AirportOut.from_domain(enriched.destination),
             departure_at=enriched.departure_at,

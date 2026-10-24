@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+from dataclasses import replace
 from datetime import date, datetime, timedelta
 
 from pnr_convertor.domain.models import (
@@ -22,6 +23,7 @@ from pnr_convertor.parsing.dates import (
     resolve_date,
 )
 from pnr_convertor.parsing.galileo import patterns
+from pnr_convertor.parsing.text import operating_carrier
 from pnr_convertor.parsing.travelport import read_electronic_tickets
 
 
@@ -48,6 +50,9 @@ class GalileoParser:
         not_before = context.reference_date - PAST_TOLERANCE
 
         for line_number, line in enumerate(text.splitlines(), start=1):
+            if segments and (operator := operating_carrier(line)):
+                segments[-1] = replace(segments[-1], operated_by=operator)
+                continue
             if segment_match := patterns.AIR_SEGMENT.match(line):
                 try:
                     segment = _build_segment(

@@ -17,6 +17,7 @@ from pnr_convertor.domain.models import (
 )
 from pnr_convertor.parsing.base import ParseContext
 from pnr_convertor.parsing.dates import PAST_TOLERANCE, parse_day_month, parse_time, resolve_date
+from pnr_convertor.parsing.text import operating_carrier
 from pnr_convertor.parsing.worldspan import patterns
 
 
@@ -43,6 +44,9 @@ class WorldspanParser:
         field: str | None = None
 
         for line_number, line in enumerate(text.splitlines(), start=1):
+            if segments and (operator := operating_carrier(line)):
+                segments[-1] = replace(segments[-1], operated_by=operator)
+                continue
             if segment_match := patterns.AIR_SEGMENT.match(line):
                 try:
                     segment = _build_segment(

@@ -41,6 +41,7 @@
         "iata": "RO",
         "name": "Tarom"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "OTP",
         "name": "Henri Coanda International Airport",
@@ -87,6 +88,7 @@
         "iata": "AF",
         "name": "Air France"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "CDG",
         "name": "Charles de Gaulle International Airport",

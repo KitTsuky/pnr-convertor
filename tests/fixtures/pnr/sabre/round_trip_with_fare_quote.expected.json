@@ -22,6 +22,7 @@
         "iata": "AA",
         "name": "American Airlines"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "JFK",
         "name": "John F Kennedy International Airport",
@@ -68,6 +69,7 @@
         "iata": "AA",
         "name": "American Airlines"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "LHR",
         "name": "London Heathrow Airport",
