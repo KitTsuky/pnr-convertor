@@ -4,9 +4,11 @@ import logging
 from dataclasses import dataclass
 from datetime import date
 
+from pnr_convertor.application.enrich_itinerary import ItineraryEnricher
 from pnr_convertor.application.ports import Clock
 from pnr_convertor.domain.errors import PnrParseError
-from pnr_convertor.domain.models import GdsFormat, ParsedPnr
+from pnr_convertor.domain.itinerary import Itinerary
+from pnr_convertor.domain.models import GdsFormat
 from pnr_convertor.parsing.base import ParseContext
 from pnr_convertor.parsing.registry import ParserRegistry
 from pnr_convertor.parsing.text import normalize_pnr_text
@@ -22,11 +24,12 @@ class ConvertPnrCommand:
 
 
 class ConvertPnr:
-    def __init__(self, registry: ParserRegistry, clock: Clock) -> None:
+    def __init__(self, registry: ParserRegistry, enricher: ItineraryEnricher, clock: Clock) -> None:
         self._registry = registry
+        self._enricher = enricher
         self._clock = clock
 
-    def execute(self, command: ConvertPnrCommand) -> ParsedPnr:
+    def execute(self, command: ConvertPnrCommand) -> Itinerary:
         text = normalize_pnr_text(command.text)
         parser = self._registry.resolve(text, command.gds)
         context = ParseContext(reference_date=command.reference_date or self._clock.today())
@@ -34,6 +37,7 @@ class ConvertPnr:
         pnr = parser.parse(text, context)
         if not pnr.segments:
             raise PnrParseError("No flight segments were found in the PNR")
+        itinerary = self._enricher.enrich(pnr)
 
         # PNRs contain personal data: log shape and counts only, never content.
         logger.info(
@@ -42,7 +46,8 @@ class ConvertPnr:
                 "gds": pnr.gds,
                 "segments": len(pnr.segments),
                 "passengers": len(pnr.passengers),
+                "journeys": len(itinerary.journeys),
                 "warnings": len(pnr.warnings),
             },
         )
-        return pnr
+        return itinerary

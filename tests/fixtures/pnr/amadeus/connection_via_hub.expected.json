@@ -1,0 +1,195 @@
+{
+  "gds": "amadeus",
+  "record_locator": "M8RT5V",
+  "passengers": [
+    {
+      "index": 1,
+      "last_name": "IONESCU",
+      "first_name": "ELENA",
+      "title": "MS"
+    }
+  ],
+  "segments": [
+    {
+      "index": 2,
+      "carrier": "TK",
+      "flight_number": "1046",
+      "booking_class": "Y",
+      "origin": "OTP",
+      "destination": "IST",
+      "departure_local": "2026-04-10T09:05:00",
+      "arrival_local": "2026-04-10T10:50:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed"
+      },
+      "passenger_count": 1,
+      "airline": {
+        "iata": "TK",
+        "name": "Turkish Airlines"
+      },
+      "origin_airport": {
+        "iata": "OTP",
+        "name": "Henri Coanda International Airport",
+        "city": "Bucharest",
+        "country": "RO",
+        "timezone": "Europe/Bucharest"
+      },
+      "destination_airport": {
+        "iata": "IST",
+        "name": "Istanbul Airport",
+        "city": "Arnavutk\u00f6y, Istanbul",
+        "country": "TR",
+        "timezone": "Europe/Istanbul"
+      },
+      "departure_at": "2026-04-10T09:05:00+03:00",
+      "arrival_at": "2026-04-10T10:50:00+03:00",
+      "duration_minutes": 105
+    },
+    {
+      "index": 3,
+      "carrier": "TK",
+      "flight_number": "760",
+      "booking_class": "Y",
+      "origin": "IST",
+      "destination": "DXB",
+      "departure_local": "2026-04-10T13:35:00",
+      "arrival_local": "2026-04-10T18:20:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed"
+      },
+      "passenger_count": 1,
+      "airline": {
+        "iata": "TK",
+        "name": "Turkish Airlines"
+      },
+      "origin_airport": {
+        "iata": "IST",
+        "name": "Istanbul Airport",
+        "city": "Arnavutk\u00f6y, Istanbul",
+        "country": "TR",
+        "timezone": "Europe/Istanbul"
+      },
+      "destination_airport": {
+        "iata": "DXB",
+        "name": "Dubai International Airport",
+        "city": "Dubai",
+        "country": "AE",
+        "timezone": "Asia/Dubai"
+      },
+      "departure_at": "2026-04-10T13:35:00+03:00",
+      "arrival_at": "2026-04-10T18:20:00+04:00",
+      "duration_minutes": 225
+    },
+    {
+      "index": 4,
+      "carrier": "TK",
+      "flight_number": "761",
+      "booking_class": "Y",
+      "origin": "DXB",
+      "destination": "IST",
+      "departure_local": "2026-04-17T05:10:00",
+      "arrival_local": "2026-04-17T09:05:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed"
+      },
+      "passenger_count": 1,
+      "airline": {
+        "iata": "TK",
+        "name": "Turkish Airlines"
+      },
+      "origin_airport": {
+        "iata": "DXB",
+        "name": "Dubai International Airport",
+        "city": "Dubai",
+        "country": "AE",
+        "timezone": "Asia/Dubai"
+      },
+      "destination_airport": {
+        "iata": "IST",
+        "name": "Istanbul Airport",
+        "city": "Arnavutk\u00f6y, Istanbul",
+        "country": "TR",
+        "timezone": "Europe/Istanbul"
+      },
+      "departure_at": "2026-04-17T05:10:00+04:00",
+      "arrival_at": "2026-04-17T09:05:00+03:00",
+      "duration_minutes": 295
+    },
+    {
+      "index": 5,
+      "carrier": "TK",
+      "flight_number": "1045",
+      "booking_class": "Y",
+      "origin": "IST",
+      "destination": "OTP",
+      "departure_local": "2026-04-17T11:50:00",
+      "arrival_local": "2026-04-17T13:25:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed"
+      },
+      "passenger_count": 1,
+      "airline": {
+        "iata": "TK",
+        "name": "Turkish Airlines"
+      },
+      "origin_airport": {
+        "iata": "IST",
+        "name": "Istanbul Airport",
+        "city": "Arnavutk\u00f6y, Istanbul",
+        "country": "TR",
+        "timezone": "Europe/Istanbul"
+      },
+      "destination_airport": {
+        "iata": "OTP",
+        "name": "Henri Coanda International Airport",
+        "city": "Bucharest",
+        "country": "RO",
+        "timezone": "Europe/Bucharest"
+      },
+      "departure_at": "2026-04-17T11:50:00+03:00",
+      "arrival_at": "2026-04-17T13:25:00+03:00",
+      "duration_minutes": 95
+    }
+  ],
+  "journeys": [
+    {
+      "segment_indexes": [
+        2,
+        3
+      ],
+      "origin": "OTP",
+      "destination": "DXB",
+      "departure_at": "2026-04-10T09:05:00+03:00",
+      "arrival_at": "2026-04-10T18:20:00+04:00",
+      "duration_minutes": 495,
+      "connections": [
+        {
+          "airport": "IST",
+          "duration_minutes": 165
+        }
+      ]
+    },
+    {
+      "segment_indexes": [
+        4,
+        5
+      ],
+      "origin": "DXB",
+      "destination": "OTP",
+      "departure_at": "2026-04-17T05:10:00+04:00",
+      "arrival_at": "2026-04-17T13:25:00+03:00",
+      "duration_minutes": 555,
+      "connections": [
+        {
+          "airport": "IST",
+          "duration_minutes": 165
+        }
+      ]
+    }
+  ],
+  "warnings": []
+}

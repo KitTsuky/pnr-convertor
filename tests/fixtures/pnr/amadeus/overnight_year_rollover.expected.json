@@ -23,7 +23,28 @@
         "code": "HK",
         "category": "confirmed"
       },
-      "passenger_count": 1
+      "passenger_count": 1,
+      "airline": {
+        "iata": "BA",
+        "name": "British Airways"
+      },
+      "origin_airport": {
+        "iata": "LHR",
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "country": "GB",
+        "timezone": "Europe/London"
+      },
+      "destination_airport": {
+        "iata": "JFK",
+        "name": "John F Kennedy International Airport",
+        "city": "New York",
+        "country": "US",
+        "timezone": "America/New_York"
+      },
+      "departure_at": "2025-12-28T11:20:00Z",
+      "arrival_at": "2025-12-28T14:30:00-05:00",
+      "duration_minutes": 490
     },
     {
       "index": 3,
@@ -38,7 +59,28 @@
         "code": "HK",
         "category": "confirmed"
       },
-      "passenger_count": 1
+      "passenger_count": 1,
+      "airline": {
+        "iata": "EK",
+        "name": "Emirates"
+      },
+      "origin_airport": {
+        "iata": "JFK",
+        "name": "John F Kennedy International Airport",
+        "city": "New York",
+        "country": "US",
+        "timezone": "America/New_York"
+      },
+      "destination_airport": {
+        "iata": "DXB",
+        "name": "Dubai International Airport",
+        "city": "Dubai",
+        "country": "AE",
+        "timezone": "Asia/Dubai"
+      },
+      "departure_at": "2025-12-30T23:00:00-05:00",
+      "arrival_at": "2025-12-31T19:30:00+04:00",
+      "duration_minutes": 690
     },
     {
       "index": 4,
@@ -53,7 +95,63 @@
         "code": "HK",
         "category": "confirmed"
       },
-      "passenger_count": 1
+      "passenger_count": 1,
+      "airline": {
+        "iata": "EK",
+        "name": "Emirates"
+      },
+      "origin_airport": {
+        "iata": "DXB",
+        "name": "Dubai International Airport",
+        "city": "Dubai",
+        "country": "AE",
+        "timezone": "Asia/Dubai"
+      },
+      "destination_airport": {
+        "iata": "LHR",
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "country": "GB",
+        "timezone": "Europe/London"
+      },
+      "departure_at": "2026-01-03T07:45:00+04:00",
+      "arrival_at": "2026-01-03T12:10:00Z",
+      "duration_minutes": 505
+    }
+  ],
+  "journeys": [
+    {
+      "segment_indexes": [
+        2
+      ],
+      "origin": "LHR",
+      "destination": "JFK",
+      "departure_at": "2025-12-28T11:20:00Z",
+      "arrival_at": "2025-12-28T14:30:00-05:00",
+      "duration_minutes": 490,
+      "connections": []
+    },
+    {
+      "segment_indexes": [
+        3
+      ],
+      "origin": "JFK",
+      "destination": "DXB",
+      "departure_at": "2025-12-30T23:00:00-05:00",
+      "arrival_at": "2025-12-31T19:30:00+04:00",
+      "duration_minutes": 690,
+      "connections": []
+    },
+    {
+      "segment_indexes": [
+        4
+      ],
+      "origin": "DXB",
+      "destination": "LHR",
+      "departure_at": "2026-01-03T07:45:00+04:00",
+      "arrival_at": "2026-01-03T12:10:00Z",
+      "duration_minutes": 505,
+      "connections": []
     }
   ],
   "warnings": []
