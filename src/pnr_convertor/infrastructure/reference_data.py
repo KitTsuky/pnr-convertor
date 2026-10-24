@@ -9,6 +9,9 @@ import airportsdata
 
 from pnr_convertor.domain.reference import Airline, Airport
 
+# airportsdata names the district before the city for these airports.
+_CITY_OVERRIDES = {"IST": "Istanbul"}
+
 
 class BundledAirportRepository:
     def __init__(self) -> None:
@@ -16,7 +19,7 @@ class BundledAirportRepository:
             code: Airport(
                 iata=code,
                 name=entry["name"],
-                city=entry["city"] or None,
+                city=_CITY_OVERRIDES.get(code, entry["city"]) or None,
                 country=entry["country"],
                 timezone=entry["tz"],
                 latitude=entry["lat"],

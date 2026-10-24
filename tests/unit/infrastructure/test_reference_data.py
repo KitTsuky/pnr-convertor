@@ -39,6 +39,12 @@ def test_airport_timezone_is_valid_iana_zone(airports: BundledAirportRepository)
     assert ZoneInfo(airport.timezone).key == "America/New_York"
 
 
+def test_city_override_drops_the_district(airports: BundledAirportRepository) -> None:
+    airport = airports.get("IST")
+    assert airport is not None
+    assert airport.city == "Istanbul"
+
+
 def test_unknown_airport(airports: BundledAirportRepository) -> None:
     assert airports.get("ZZZ") is None
 
