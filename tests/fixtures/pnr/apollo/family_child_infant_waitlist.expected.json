@@ -1,0 +1,167 @@
+{
+  "gds": "apollo",
+  "record_locator": "M8RT2Q",
+  "passengers": [
+    {
+      "index": 1,
+      "last_name": "IONESCU",
+      "first_name": "ELENA",
+      "title": "MRS",
+      "type": "ADT",
+      "date_of_birth": null,
+      "infant": null
+    },
+    {
+      "index": 2,
+      "last_name": "IONESCU",
+      "first_name": "LUCA",
+      "title": "MSTR",
+      "type": "CHD",
+      "date_of_birth": null,
+      "infant": null
+    },
+    {
+      "index": 3,
+      "last_name": "IONESCU",
+      "first_name": "SARA",
+      "title": "MISS",
+      "type": "INF",
+      "date_of_birth": "2025-03-15",
+      "infant": null
+    }
+  ],
+  "segments": [
+    {
+      "index": 1,
+      "carrier": "DL",
+      "flight_number": "123",
+      "booking_class": "Y",
+      "origin": "ATL",
+      "destination": "LAX",
+      "departure_local": "2026-03-20T08:00:00",
+      "arrival_local": "2026-03-20T09:55:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed",
+        "description": "Holding confirmed"
+      },
+      "passenger_count": 2,
+      "airline": {
+        "iata": "DL",
+        "name": "Delta Air Lines"
+      },
+      "origin_airport": {
+        "iata": "ATL",
+        "name": "Hartsfield/Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "country": "US",
+        "timezone": "America/New_York",
+        "latitude": 33.6367,
+        "longitude": -84.427864
+      },
+      "destination_airport": {
+        "iata": "LAX",
+        "name": "Los Angeles International Airport",
+        "city": "Los Angeles",
+        "country": "US",
+        "timezone": "America/Los_Angeles",
+        "latitude": 33.942496,
+        "longitude": -118.408049
+      },
+      "departure_at": "2026-03-20T08:00:00-04:00",
+      "arrival_at": "2026-03-20T09:55:00-07:00",
+      "duration_minutes": 295,
+      "distance": {
+        "km": 3133,
+        "miles": 1946
+      },
+      "seats": []
+    },
+    {
+      "index": 2,
+      "carrier": "DL",
+      "flight_number": "456",
+      "booking_class": "Y",
+      "origin": "LAX",
+      "destination": "ATL",
+      "departure_local": "2026-03-27T22:30:00",
+      "arrival_local": "2026-03-28T05:55:00",
+      "status": {
+        "code": "HL",
+        "category": "waitlisted",
+        "description": "Holding waitlisted"
+      },
+      "passenger_count": 2,
+      "airline": {
+        "iata": "DL",
+        "name": "Delta Air Lines"
+      },
+      "origin_airport": {
+        "iata": "LAX",
+        "name": "Los Angeles International Airport",
+        "city": "Los Angeles",
+        "country": "US",
+        "timezone": "America/Los_Angeles",
+        "latitude": 33.942496,
+        "longitude": -118.408049
+      },
+      "destination_airport": {
+        "iata": "ATL",
+        "name": "Hartsfield/Jackson Atlanta International Airport",
+        "city": "Atlanta",
+        "country": "US",
+        "timezone": "America/New_York",
+        "latitude": 33.6367,
+        "longitude": -84.427864
+      },
+      "departure_at": "2026-03-27T22:30:00-07:00",
+      "arrival_at": "2026-03-28T05:55:00-04:00",
+      "duration_minutes": 265,
+      "distance": {
+        "km": 3133,
+        "miles": 1946
+      },
+      "seats": []
+    }
+  ],
+  "journeys": [
+    {
+      "segment_indexes": [
+        1
+      ],
+      "origin": "ATL",
+      "destination": "LAX",
+      "departure_at": "2026-03-20T08:00:00-04:00",
+      "arrival_at": "2026-03-20T09:55:00-07:00",
+      "duration_minutes": 295,
+      "distance": {
+        "km": 3133,
+        "miles": 1946
+      },
+      "connections": []
+    },
+    {
+      "segment_indexes": [
+        2
+      ],
+      "origin": "LAX",
+      "destination": "ATL",
+      "departure_at": "2026-03-27T22:30:00-07:00",
+      "arrival_at": "2026-03-28T05:55:00-04:00",
+      "duration_minutes": 265,
+      "distance": {
+        "km": 3133,
+        "miles": 1946
+      },
+      "connections": []
+    }
+  ],
+  "tickets": [],
+  "contacts": [
+    {
+      "kind": "phone",
+      "text": "ATLAS/404 555-0100 TEST TRAVEL REF ANA"
+    }
+  ],
+  "warnings": []
+}

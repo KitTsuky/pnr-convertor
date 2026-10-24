@@ -25,6 +25,11 @@ class TestDetect:
         line = " 1 . CX  640 N  20JUN KTMHKG HS1  2300  #0600  O         E SA/SU 1"
         assert parser.detect(line) == 0.8
 
+    def test_header_without_galileo_segments_gives_way_to_apollo(
+        self, parser: GalileoParser
+    ) -> None:
+        assert parser.detect(read_fixture("apollo", "overnight_codeshare_connection")) == 0.6
+
     @pytest.mark.parametrize(
         ("gds", "name"), [("amadeus", "basic_return"), ("sabre", "next_day_arrival")]
     )
