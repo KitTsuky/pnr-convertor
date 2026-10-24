@@ -21,6 +21,13 @@ updates:
     groups:
       web:
         patterns: ["*"]
+    ignore:
+      # TypeScript 7 (native compiler) is not yet supported by typescript-eslint 8.
+      - dependency-name: typescript
+        update-types: ["version-update:semver-major"]
+      # @hookform/resolvers 6.0.0 ships conflicting optional peer dependencies.
+      - dependency-name: "@hookform/resolvers"
+        update-types: ["version-update:semver-major"]
   - package-ecosystem: github-actions
     directory: /
     schedule:
