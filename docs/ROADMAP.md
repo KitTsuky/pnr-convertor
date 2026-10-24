@@ -63,6 +63,7 @@ roughly one PR.
 - [x] Amadeus tickets (`FA`), seats (`SSR NSST` / `RQST` / `SEAT`), contacts (`AP` / `APE`)
 - [x] Ticket numbers for Sabre (`TE`) and Travelport (`*HTE`)
 - [x] Codeshare operator (`OPERATED BY` lines) as `operated_by` on every format
+- [x] Airline logos: `airline.logo_url` and `GET /v1/airlines/{iata}/logo` (469 bundled, from Wikimedia Commons)
 - [ ] `FHE`, fare elements, ticket time limits
 - [ ] SSR/OSI (meals, seats, special assistance), APIS documents (masked)
 - [x] Amadeus passenger types (`CHD`, `INS`, ...), dates of birth, lap infants (`INF`), infant tickets
