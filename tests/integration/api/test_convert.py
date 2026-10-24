@@ -95,3 +95,17 @@ def test_convert_returns_distances(client: TestClient) -> None:
     body = response.json()
     assert body["segments"][0]["distance"] == {"km": 5555, "miles": 3451}
     assert body["journeys"][0]["distance"] == {"km": 5555, "miles": 3451}
+
+
+def test_convert_returns_passenger_types_and_infants(client: TestClient) -> None:
+    response = client.post(
+        "/v1/convert", json={"pnr": read_fixture("amadeus", "children_and_infants")}
+    )
+
+    passengers = response.json()["passengers"]
+    assert [p["type"] for p in passengers] == ["ADT", "CHD", "ADT", "INS"]
+    assert passengers[0]["infant"] == {
+        "last_name": "POPESCU",
+        "first_name": "ILINCA",
+        "date_of_birth": "2024-01-14",
+    }

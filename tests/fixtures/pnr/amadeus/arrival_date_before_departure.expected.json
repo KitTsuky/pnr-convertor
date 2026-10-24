@@ -6,13 +6,19 @@
       "index": 1,
       "last_name": "SMITH",
       "first_name": "JOHN",
-      "title": "MR"
+      "title": "MR",
+      "type": "ADT",
+      "date_of_birth": null,
+      "infant": null
     },
     {
       "index": 2,
       "last_name": "BROWN",
       "first_name": "ANNA",
-      "title": "MS"
+      "title": "MS",
+      "type": "ADT",
+      "date_of_birth": null,
+      "infant": null
     }
   ],
   "segments": [

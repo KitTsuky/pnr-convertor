@@ -6,13 +6,19 @@
       "index": 1,
       "last_name": "SMITH",
       "first_name": "JOHN",
-      "title": "MR"
+      "title": "MR",
+      "type": "ADT",
+      "date_of_birth": null,
+      "infant": null
     },
     {
       "index": 2,
       "last_name": "BROWN",
       "first_name": "ANNA",
-      "title": "MS"
+      "title": "MS",
+      "type": "ADT",
+      "date_of_birth": null,
+      "infant": null
     }
   ],
   "segments": [
@@ -165,14 +171,16 @@
       "passenger_index": 1,
       "issuing_airline": "BA",
       "issue_date": "2025-03-30",
-      "electronic": true
+      "electronic": true,
+      "infant": false
     },
     {
       "number": "125-9876543211",
       "passenger_index": 2,
       "issuing_airline": "BA",
       "issue_date": "2025-03-30",
-      "electronic": true
+      "electronic": true,
+      "infant": false
     }
   ],
   "contacts": [
