@@ -4,6 +4,9 @@ BCF2ZS/AA HKGOU  TV8AA AG 13305213 10DEC
 1.1SMITH/JOHNMR
  1 . KL  888 M  10MAY HKGAMS HK1  1220   1835  O*    E SU
  3 . SK  965 M  20MAY CPHHKG HK1  2100  #1345  O*    E WE/TH
+FONE-LONT*0207 890 3472 TEST TRAVEL REF ANA
+  2. LONH*0207 555 0100
+TKTG-T*
 """
 
 import re
@@ -56,3 +59,8 @@ GIVEN_NAME = re.compile(
 PASSENGER_TYPE = re.compile(r"[A-Z]{3}")
 CHILD_AGE = re.compile(r"C\d{2}")
 DATE_OF_BIRTH = re.compile(r"\d{2}[A-Z]{3}\d{2}")
+
+# Field lines such as `FONE-…`, `TKTG-…`, `FOP-…`; numbered continuation lines belong to them.
+FIELD = re.compile(r"^\s*(?P<tag>[A-Z]{2,5})-(?P<rest>.*)$")
+# A digit after the dot would make it a name item (`1.1DOE/JANE`).
+NUMBERED_ITEM = re.compile(r"^\s*\d{1,2}\.\s*(?P<text>[^\d\s].*?)\s*$")

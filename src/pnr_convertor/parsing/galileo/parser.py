@@ -4,6 +4,8 @@ import re
 from datetime import date, datetime, timedelta
 
 from pnr_convertor.domain.models import (
+    Contact,
+    ContactKind,
     FlightSegment,
     GdsFormat,
     ParsedPnr,
@@ -39,7 +41,9 @@ class GalileoParser:
         header = patterns.HEADER.search(text)
         passengers: list[Passenger] = []
         segments: list[FlightSegment] = []
+        contacts: list[Contact] = []
         warnings: list[ParseWarning] = []
+        field: str | None = None
         not_before = context.reference_date - PAST_TOLERANCE
 
         for line_number, line in enumerate(text.splitlines(), start=1):
@@ -53,8 +57,20 @@ class GalileoParser:
                     continue
                 segments.append(segment)
                 not_before = segment.departure.date()
+                continue
+
+            if field_match := patterns.FIELD.match(line):
+                field = field_match["tag"]
+                text_value = field_match["rest"].strip()
+            elif field is not None and (item := patterns.NUMBERED_ITEM.match(line)):
+                text_value = item["text"]
             else:
+                field = None
                 passengers.extend(_build_passengers(line))
+                continue
+
+            if field == "FONE" and text_value:
+                contacts.append(Contact(kind=ContactKind.PHONE, text=text_value))
 
         return ParsedPnr(
             gds=self.gds,
@@ -62,6 +78,7 @@ class GalileoParser:
             passengers=tuple(passengers),
             segments=tuple(segments),
             warnings=tuple(warnings),
+            contacts=tuple(contacts),
         )
 
 

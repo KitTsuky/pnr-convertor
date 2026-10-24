@@ -4,7 +4,7 @@ from datetime import date, datetime
 
 import pytest
 
-from pnr_convertor.domain.models import Passenger, SegmentStatusCategory
+from pnr_convertor.domain.models import Contact, ContactKind, Passenger, SegmentStatusCategory
 from pnr_convertor.parsing.base import ParseContext
 from pnr_convertor.parsing.galileo import GalileoParser
 from tests.conftest import REFERENCE_DATE, read_fixture
@@ -129,3 +129,21 @@ class TestBookingFile:
         pnr = parser.parse(read_fixture("galileo", "booking_file_connections"), CONTEXT)
         assert pnr.warnings == ()
         assert len(pnr.segments) == 4
+
+
+class TestFields:
+    def test_phone_field_with_continuation(self, parser: GalileoParser) -> None:
+        pnr = parser.parse(read_fixture("galileo", "phones_and_ticketing_field"), CONTEXT)
+        assert pnr.contacts == (
+            Contact(ContactKind.PHONE, "BUHT*021 555 0100 TEST TRAVEL REF ANA"),
+            Contact(ContactKind.PHONE, "BUHH*0700 000 000"),
+        )
+
+    def test_other_fields_are_not_contacts(self, parser: GalileoParser) -> None:
+        pnr = parser.parse("FOP-CK\nTKTG-T*\n  2. BUHH*0700 000 000", CONTEXT)
+        assert pnr.contacts == ()
+
+    def test_name_line_after_a_field_is_a_name(self, parser: GalileoParser) -> None:
+        pnr = parser.parse("FONE-BUHT*021 555 0100\n 1.1DOE/JANEMRS", CONTEXT)
+        assert [c.text for c in pnr.contacts] == ["BUHT*021 555 0100"]
+        assert pnr.passengers == (Passenger(1, "DOE", "JANE", "MRS"),)
