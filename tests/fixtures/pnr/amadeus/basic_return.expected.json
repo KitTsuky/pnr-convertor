@@ -1,0 +1,51 @@
+{
+  "gds": "amadeus",
+  "record_locator": "ZX7K2P",
+  "passengers": [
+    {
+      "index": 1,
+      "last_name": "POPESCU",
+      "first_name": "ANDREI",
+      "title": "MR"
+    },
+    {
+      "index": 2,
+      "last_name": "POPESCU",
+      "first_name": "MARIA",
+      "title": "MRS"
+    }
+  ],
+  "segments": [
+    {
+      "index": 3,
+      "carrier": "RO",
+      "flight_number": "391",
+      "booking_class": "Y",
+      "origin": "OTP",
+      "destination": "CDG",
+      "departure_local": "2026-03-15T07:10:00",
+      "arrival_local": "2026-03-15T09:20:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed"
+      },
+      "passenger_count": 2
+    },
+    {
+      "index": 4,
+      "carrier": "AF",
+      "flight_number": "1088",
+      "booking_class": "Y",
+      "origin": "CDG",
+      "destination": "OTP",
+      "departure_local": "2026-03-22T19:45:00",
+      "arrival_local": "2026-03-22T23:50:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed"
+      },
+      "passenger_count": 2
+    }
+  ],
+  "warnings": []
+}
