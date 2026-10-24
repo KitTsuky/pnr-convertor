@@ -1,0 +1,15 @@
+
+  {{ flight.flight }}  {{ flight.airline }} | Class {{ flight.booking_class }} | {{ flight.status }}
+{% if flight.operated_by %}
+  Operated by {{ flight.operated_by }}
+{% endif %}
+  Depart  {{ flight.departure.time }}  {{ flight.departure.place }}{% if flight.departure.airport %}, {{ flight.departure.airport }}{% endif %}
+
+  Arrive  {{ flight.arrival.time }}  {{ flight.arrival.place }}{% if flight.arrival.airport %}, {{ flight.arrival.airport }}{% endif %}
+
+{% if flight.duration or flight.distance %}
+  Flight  {{ [flight.duration, flight.distance] | select | join(" | ") }}
+{% endif %}
+{% if flight.seats %}
+  Seats   {{ flight.seats | join(", ") }}
+{% endif %}

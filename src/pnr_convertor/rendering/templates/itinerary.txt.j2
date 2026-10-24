@@ -1,0 +1,51 @@
+FLIGHT ITINERARY
+{% if view.record_locator %}
+Booking reference: {{ view.record_locator }}
+{% endif %}
+{% if view.passengers %}
+
+PASSENGERS
+{% for p in view.passengers %}
+  {{ p.number }}. {{ p.name }} - {{ p.type }}
+{% if p.infant %}
+     with infant {{ p.infant }}
+{% endif %}
+{% endfor %}
+{% endif %}
+{% for journey in view.journeys %}
+
+TRIP {{ loop.index }}: {{ journey.title }}
+{{ journey.date }} | {{ journey.stops }}{% if journey.duration %} | {{ journey.duration }}{% endif %}{% if journey.distance %} | {{ journey.distance }}{% endif %}
+
+{% for flight in journey.flights %}
+{% include "flight.txt.j2" %}
+{% if not loop.last %}
+
+  {{ journey.connections[loop.index0] }}
+{% endif %}
+{% endfor %}
+{% endfor %}
+{% if view.cancelled %}
+
+CANCELLED FLIGHTS
+{% for flight in view.cancelled %}
+{% include "flight.txt.j2" %}
+{% endfor %}
+{% endif %}
+{% if view.tickets %}
+
+TICKETS
+{% for t in view.tickets %}
+  {{ t.number }}{% if t.passenger %}  {{ t.passenger }}{% endif %}{% if t.issued %}  issued {{ t.issued }}{% endif %}
+
+{% endfor %}
+{% endif %}
+{% if view.contacts %}
+
+CONTACTS
+{% for contact in view.contacts %}
+  {{ contact }}
+{% endfor %}
+{% endif %}
+
+Times are local at each airport.
