@@ -1,4 +1,4 @@
-.PHONY: install run test lint format typecheck check golden airlines
+.PHONY: install run test lint format typecheck check golden airlines web-install web-dev web-check
 
 install: ## Install Python + Node tooling
 	uv sync
@@ -30,4 +30,14 @@ format: ## Auto-fix lint issues and format everything
 typecheck: ## Strict static type checking
 	uv run mypy
 
-check: lint typecheck test ## Everything CI runs
+check: lint typecheck test ## Everything CI runs for the API
+
+web-install: ## Install the web app dependencies
+	npm --prefix web ci
+
+web-dev: ## Run the web app (proxies /v1 to the API from `make run`)
+	npm --prefix web run dev
+
+web-check: ## Everything CI runs for the web app
+	npm --prefix web run check
+	npm --prefix web run build
