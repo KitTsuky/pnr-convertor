@@ -32,7 +32,8 @@ roughly one PR.
 
 - [x] Sabre itinerary display (`*I` / `*IA`), letter weekdays, 12-hour times
 - [x] Sabre `*A`: passengers (multi-name items), record locator (signature line), phones, married segments
-- [ ] Sabre ticketing (`*T`), emails, infants (needs anonymized samples)
+- [x] Sabre electronic tickets (`TE` items in `TKT/TIME LIMIT`), matched to passengers by abbreviated name, with issue date
+- [ ] Sabre emails, infants (needs anonymized samples)
 - [ ] Sabre `VI*`: terminals, equipment, elapsed time, miles
 - [x] Travelport Galileo booking file (`*R` / `*I`): header locator, names with type suffixes and infants, segments with `#` / `*` / `-` arrival markers
 - [x] Galileo phone field (`FONE-` with numbered continuation lines)
