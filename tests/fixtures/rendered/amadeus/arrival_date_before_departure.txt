@@ -1,0 +1,24 @@
+FLIGHT ITINERARY
+Booking reference: 9XZABC
+
+PASSENGERS
+  1. SMITH/JOHN MR - Adult
+  2. BROWN/ANNA MS - Adult
+
+TRIP 1: Los Angeles (LAX) to London (LHR)
+Wed 16 Sep 2026 | Direct | 8,781 km (5,456 mi)
+
+  BA 282  British Airways | Class J | Confirmed
+  Depart  Wed 16 Sep 2026 15:40  Los Angeles (LAX), Los Angeles International Airport
+  Arrive  Wed 16 Sep 2026 10:05  London (LHR), London Heathrow Airport
+  Flight  8,781 km (5,456 mi)
+
+TRIP 2: London (LHR) to Los Angeles (LAX)
+Wed 23 Sep 2026 | Direct | 11h 15m | 8,781 km (5,456 mi)
+
+  BA 283  British Airways | Class J | Confirmed
+  Depart  Wed 23 Sep 2026 10:10  London (LHR), London Heathrow Airport
+  Arrive  Wed 23 Sep 2026 13:25  Los Angeles (LAX), Los Angeles International Airport
+  Flight  11h 15m | 8,781 km (5,456 mi)
+
+Times are local at each airport.

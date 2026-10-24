@@ -1,0 +1,37 @@
+FLIGHT ITINERARY
+Booking reference: M8RT5V
+
+PASSENGERS
+  1. IONESCU/ELENA MS - Adult
+
+TRIP 1: Bucharest (OTP) to Dubai (DXB)
+Fri 10 Apr 2026 | 1 connection (IST) | 8h 15m | 3,455 km (2,147 mi)
+
+  TK 1046  Turkish Airlines | Class Y | Confirmed
+  Depart  Fri 10 Apr 2026 09:05  Bucharest (OTP), Henri Coanda International Airport
+  Arrive  Fri 10 Apr 2026 10:50  Istanbul (IST), Istanbul Airport
+  Flight  1h 45m | 425 km (264 mi)
+
+  Connection in Istanbul (IST): 2h 45m
+
+  TK 760  Turkish Airlines | Class Y | Confirmed
+  Depart  Fri 10 Apr 2026 13:35  Istanbul (IST), Istanbul Airport
+  Arrive  Fri 10 Apr 2026 18:20  Dubai (DXB), Dubai International Airport
+  Flight  3h 45m | 3,030 km (1,883 mi)
+
+TRIP 2: Dubai (DXB) to Bucharest (OTP)
+Fri 17 Apr 2026 | 1 connection (IST) | 9h 15m | 3,455 km (2,147 mi)
+
+  TK 761  Turkish Airlines | Class Y | Confirmed
+  Depart  Fri 17 Apr 2026 05:10  Dubai (DXB), Dubai International Airport
+  Arrive  Fri 17 Apr 2026 09:05  Istanbul (IST), Istanbul Airport
+  Flight  4h 55m | 3,030 km (1,883 mi)
+
+  Connection in Istanbul (IST): 2h 45m
+
+  TK 1045  Turkish Airlines | Class Y | Confirmed
+  Depart  Fri 17 Apr 2026 11:50  Istanbul (IST), Istanbul Airport
+  Arrive  Fri 17 Apr 2026 13:25  Bucharest (OTP), Henri Coanda International Airport
+  Flight  1h 35m | 425 km (264 mi)
+
+Times are local at each airport.

@@ -1,0 +1,28 @@
+FLIGHT ITINERARY
+Booking reference: M8RT2Q
+
+PASSENGERS
+  1. IONESCU/ELENA MRS - Adult
+  2. IONESCU/LUCA MSTR - Child
+  3. IONESCU/SARA MISS - Infant
+
+TRIP 1: Atlanta (ATL) to Los Angeles (LAX)
+Fri 20 Mar 2026 | Direct | 4h 55m | 3,133 km (1,946 mi)
+
+  DL 123  Delta Air Lines | Class Y | Confirmed
+  Depart  Fri 20 Mar 2026 08:00  Atlanta (ATL), Hartsfield/Jackson Atlanta International Airport
+  Arrive  Fri 20 Mar 2026 09:55  Los Angeles (LAX), Los Angeles International Airport
+  Flight  4h 55m | 3,133 km (1,946 mi)
+
+TRIP 2: Los Angeles (LAX) to Atlanta (ATL)
+Fri 27 Mar 2026 | Direct | 4h 25m | 3,133 km (1,946 mi)
+
+  DL 456  Delta Air Lines | Class Y | Waitlisted
+  Depart  Fri 27 Mar 2026 22:30  Los Angeles (LAX), Los Angeles International Airport
+  Arrive  Sat 28 Mar 2026 05:55  Atlanta (ATL), Hartsfield/Jackson Atlanta International Airport
+  Flight  4h 25m | 3,133 km (1,946 mi)
+
+CONTACTS
+  Phone: ATLAS/404 555-0100 TEST TRAVEL REF ANA
+
+Times are local at each airport.

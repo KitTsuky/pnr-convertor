@@ -141,3 +141,54 @@ def test_convert_auto_detects_apollo(client: TestClient) -> None:
     assert (body["gds"], body["record_locator"]) == ("apollo", "K4WQ7D")
     assert body["segments"][0]["arrival_local"] == "2026-02-13T06:45:00"
     assert body["journeys"][0]["connections"] == [{"airport": "BRU", "duration_minutes": 270}]
+
+
+def test_convert_renders_a_text_itinerary(client: TestClient) -> None:
+    response = client.post(
+        "/v1/convert",
+        params={"format": "text"},
+        json={"pnr": read_fixture("amadeus", "connection_via_hub")},
+    )
+
+    assert response.status_code == 200
+    assert response.headers["content-type"] == "text/plain; charset=utf-8"
+    assert response.text.startswith("FLIGHT ITINERARY\nBooking reference: M8RT5V\n")
+    assert "Connection in Istanbul (IST): 2h 45m" in response.text
+
+
+def test_convert_renders_an_html_itinerary(client: TestClient) -> None:
+    response = client.post(
+        "/v1/convert",
+        params={"format": "html"},
+        json={"pnr": read_fixture("amadeus", "connection_via_hub")},
+    )
+
+    assert response.status_code == 200
+    assert response.headers["content-type"] == "text/html; charset=utf-8"
+    assert response.text.startswith("<!doctype html>")
+    assert "<strong>M8RT5V</strong>" in response.text
+
+
+def test_explicit_json_format_matches_the_default(client: TestClient) -> None:
+    pnr = {"pnr": read_fixture("amadeus", "basic_return")}
+    default = client.post("/v1/convert", json=pnr)
+    explicit = client.post("/v1/convert", params={"format": "json"}, json=pnr)
+    assert explicit.json() == default.json()
+
+
+def test_unknown_format_is_rejected(client: TestClient) -> None:
+    response = client.post(
+        "/v1/convert",
+        params={"format": "pdf"},
+        json={"pnr": read_fixture("amadeus", "basic_return")},
+    )
+
+    assert response.status_code == 422
+    assert response.json()["errors"][0]["loc"] == ["query", "format"]
+
+
+def test_errors_stay_problem_details_for_rendered_formats(client: TestClient) -> None:
+    response = client.post("/v1/convert", params={"format": "html"}, json={"pnr": "not a pnr"})
+
+    assert response.status_code == 422
+    assert response.headers["content-type"] == "application/problem+json"

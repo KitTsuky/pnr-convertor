@@ -1,0 +1,28 @@
+FLIGHT ITINERARY
+Booking reference: R3VB8N
+
+PASSENGERS
+  1. IONESCU/ELENA MRS - Adult
+  2. IONESCU/LUCA - Child
+  3. IONESCU/SARA - Infant
+
+TRIP 1: Bucharest (OTP) to Vienna (VIE)
+Sun 20 Sep 2026 | Direct | 1h 35m | 832 km (517 mi)
+
+  RO 341  Tarom | Class R | Confirmed
+  Depart  Sun 20 Sep 2026 08:00  Bucharest (OTP), Henri Coanda International Airport
+  Arrive  Sun 20 Sep 2026 08:35  Vienna (VIE), Vienna International Airport
+  Flight  1h 35m | 832 km (517 mi)
+
+TRIP 2: Vienna (VIE) to Bucharest (OTP)
+Sun 27 Sep 2026 | Direct | 2h 15m | 832 km (517 mi)
+
+  OS 783  Austrian Airlines | Class R | Waitlisted
+  Depart  Sun 27 Sep 2026 20:10  Vienna (VIE), Vienna International Airport
+  Arrive  Sun 27 Sep 2026 23:25  Bucharest (OTP), Henri Coanda International Airport
+  Flight  2h 15m | 832 km (517 mi)
+
+CONTACTS
+  Phone: BUH TEST TRAVEL TEL.0040215550100 ELENA
+
+Times are local at each airport.

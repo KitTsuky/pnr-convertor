@@ -1,10 +1,12 @@
 from __future__ import annotations
 
+from collections.abc import Mapping
 from typing import Annotated
 
 from fastapi import Depends, Request
 
 from pnr_convertor.application.convert_pnr import ConvertPnr
+from pnr_convertor.application.ports import ItineraryRenderer, RenderFormat
 from pnr_convertor.bootstrap import Container
 
 
@@ -18,3 +20,12 @@ def get_convert_pnr(container: Annotated[Container, Depends(get_container)]) -> 
 
 
 ConvertPnrDep = Annotated[ConvertPnr, Depends(get_convert_pnr)]
+
+
+def get_renderers(
+    container: Annotated[Container, Depends(get_container)],
+) -> Mapping[RenderFormat, ItineraryRenderer]:
+    return container.renderers
+
+
+RenderersDep = Annotated[Mapping[RenderFormat, ItineraryRenderer], Depends(get_renderers)]

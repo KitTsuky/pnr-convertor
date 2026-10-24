@@ -1,0 +1,31 @@
+FLIGHT ITINERARY
+Booking reference: Q4LM9T
+
+PASSENGERS
+  1. DOE/JANE MS - Adult
+
+TRIP 1: London (LHR) to New York (JFK)
+Sun 28 Dec 2025 | Direct | 8h 10m | 5,555 km (3,451 mi)
+
+  BA 117  British Airways | Class J | Confirmed
+  Depart  Sun 28 Dec 2025 11:20  London (LHR), London Heathrow Airport
+  Arrive  Sun 28 Dec 2025 14:30  New York (JFK), John F Kennedy International Airport
+  Flight  8h 10m | 5,555 km (3,451 mi)
+
+TRIP 2: New York (JFK) to Dubai (DXB)
+Tue 30 Dec 2025 | Direct | 11h 30m | 11,022 km (6,849 mi)
+
+  EK 202  Emirates | Class J | Confirmed
+  Depart  Tue 30 Dec 2025 23:00  New York (JFK), John F Kennedy International Airport
+  Arrive  Wed 31 Dec 2025 19:30  Dubai (DXB), Dubai International Airport
+  Flight  11h 30m | 11,022 km (6,849 mi)
+
+TRIP 3: Dubai (DXB) to London (LHR)
+Sat 03 Jan 2026 | Direct | 8h 25m | 5,505 km (3,420 mi)
+
+  EK 029  Emirates | Class J | Confirmed
+  Depart  Sat 03 Jan 2026 07:45  Dubai (DXB), Dubai International Airport
+  Arrive  Sat 03 Jan 2026 12:10  London (LHR), London Heathrow Airport
+  Flight  8h 25m | 5,505 km (3,420 mi)
+
+Times are local at each airport.

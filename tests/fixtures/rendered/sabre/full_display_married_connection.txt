@@ -1,0 +1,36 @@
+FLIGHT ITINERARY
+Booking reference: KXLQPZ
+
+PASSENGERS
+  1. POPESCU/ANDREI MR - Adult
+  2. POPESCU/MARIA MRS - Adult
+  3. IONESCU/ELENA MS - Adult
+
+TRIP 1: Bucharest (OTP) to London (LHR)
+Fri 05 Dec 2025 | 1 connection (AMS) | 7h 05m | 2,160 km (1,342 mi)
+
+  RO 381  Tarom | Class Y | Confirmed
+  Depart  Fri 05 Dec 2025 07:15  Bucharest (OTP), Henri Coanda International Airport
+  Arrive  Fri 05 Dec 2025 09:05  Amsterdam (AMS), Amsterdam Airport Schiphol
+  Flight  2h 50m | 1,788 km (1,111 mi)
+
+  Connection in Amsterdam (AMS): 2h 55m
+
+  KL 1003  KLM Royal Dutch Airlines | Class Y | Confirmed
+  Depart  Fri 05 Dec 2025 12:00  Amsterdam (AMS), Amsterdam Airport Schiphol
+  Arrive  Fri 05 Dec 2025 12:20  London (LHR), London Heathrow Airport
+  Flight  1h 20m | 372 km (231 mi)
+
+TRIP 2: London (LHR) to Bucharest (OTP)
+Fri 12 Dec 2025 | Direct | 3h 15m | 2,110 km (1,311 mi)
+
+  BA 886  British Airways | Class M | Confirmed
+  Depart  Fri 12 Dec 2025 12:55  London (LHR), London Heathrow Airport
+  Arrive  Fri 12 Dec 2025 18:10  Bucharest (OTP), Henri Coanda International Airport
+  Flight  3h 15m | 2,110 km (1,311 mi)
+
+CONTACTS
+  Phone: BUH021-555-0100-A
+  Phone: BUH0700-000-000-H
+
+Times are local at each airport.

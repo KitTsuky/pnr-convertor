@@ -1,0 +1,29 @@
+FLIGHT ITINERARY
+Booking reference: R7HN2W
+
+PASSENGERS
+  1. POPESCU/ANDREI MIHAI - Adult
+
+TRIP 1: Nairobi (NBO) to Newark (EWR)
+Thu 12 Feb 2026 | 1 connection (BRU) | 21h 50m | 12,455 km (7,739 mi)
+
+  UA 9993  United Airlines | Class S | Confirmed
+  Operated by BRUSSELS AIRLINES
+  Depart  Thu 12 Feb 2026 23:40  Nairobi (NBO), Jomo Kenyatta International Airport
+  Arrive  Fri 13 Feb 2026 06:45  Brussels (BRU), Brussels Airport
+  Flight  9h 05m | 6,529 km (4,057 mi)
+
+  Connection in Brussels (BRU): 4h 30m
+
+  UA 995  United Airlines | Class S | Confirmed
+  Depart  Fri 13 Feb 2026 11:15  Brussels (BRU), Brussels Airport
+  Arrive  Fri 13 Feb 2026 13:30  Newark (EWR), Newark Liberty International Airport
+  Flight  8h 15m | 5,925 km (3,682 mi)
+
+TICKETS
+  016-1234567890  POPESCU/ANDREI MIHAI  issued 19 Nov 2025
+
+CONTACTS
+  Phone: SFOAS/800-555-0100 TEST TRAVEL
+
+Times are local at each airport.
