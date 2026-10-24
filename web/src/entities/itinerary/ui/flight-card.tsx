@@ -10,6 +10,7 @@ import {
   placeName,
 } from "../lib/format";
 import type { Passenger, Segment } from "../model/schema";
+import { AirlineLogo } from "./airline-logo";
 import { StatusBadge } from "./status-badge";
 
 interface FlightCardProps {
@@ -33,7 +34,12 @@ export function FlightCard({ segment, passengers }: FlightCardProps) {
       aria-label={`Flight ${segment.carrier} ${segment.flight_number}`}
     >
       <header className="flex flex-wrap items-center justify-between gap-2">
-        <div className="flex items-baseline gap-2">
+        <div className="flex items-center gap-3">
+          <AirlineLogo
+            code={segment.carrier}
+            name={segment.airline?.name ?? segment.carrier}
+            logoUrl={segment.airline?.logo_url ?? null}
+          />
           <span className="font-mono text-sm font-semibold">
             {segment.carrier} {segment.flight_number}
           </span>
