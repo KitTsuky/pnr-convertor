@@ -37,6 +37,14 @@ def parse_day_month(token: str) -> tuple[int, int]:
     return int(token[:2]), month
 
 
+def parse_full_date(token: str) -> date:
+    """Parse a date with a two-digit year, e.g. `30MAR25`."""
+    if len(token) != 7 or not token[5:].isdigit():
+        raise ValueError(f"Malformed GDS date {token!r}")
+    day, month = parse_day_month(token[:5])
+    return date(2000 + int(token[5:]), month, day)
+
+
 def resolve_date(
     day: int,
     month: int,

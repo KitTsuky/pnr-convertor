@@ -39,3 +39,23 @@ NAME = re.compile(
     """,
     re.VERBOSE,
 )
+
+TICKET = re.compile(
+    r"""
+    ^\s*\d{1,3}\s+FA\s+(?:PAX|INF)\s+
+    (?P<number>\d{3}-\d{10}(?:-\d{2})?)
+    (?:/(?P<electronic>ET)?(?P<airline>[A-Z0-9]{2}))?
+    (?:/(?P<issue_date>\d{2}[A-Z]{3}\d{2}))?
+    .*?(?:/P(?P<passenger>\d{1,3}))?\s*$
+    """,
+    re.VERBOSE,
+)
+
+SEAT_REQUEST = re.compile(
+    r"^\s*\d{1,3}\s+SSR\s+(?:NSST|RQST|SEAT)\s+[A-Z0-9]{2}\s+[A-Z]{2}\d{1,2}\s+[A-Z]{6}/"
+    r"(?P<seats>.*?)/S(?P<segment>\d{1,3})\b"
+)
+
+SEAT = re.compile(r"(?<![A-Z0-9])(?P<seat>\d{1,3}[A-Z])(?:,P(?P<passenger>\d{1,3}))?(?=/|$)")
+
+CONTACT = re.compile(r"^\s*\d{1,3}\s+AP(?P<qualifier>[A-Z]?)\s+(?P<text>.+?)\s*$")

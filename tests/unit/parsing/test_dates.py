@@ -7,6 +7,7 @@ import pytest
 from pnr_convertor.parsing.dates import (
     parse_12h,
     parse_day_month,
+    parse_full_date,
     parse_hhmm,
     parse_time,
     resolve_date,
@@ -100,3 +101,13 @@ def test_parse_12h_rejects_invalid(token: str) -> None:
 @pytest.mark.parametrize(("token", "expected"), [("1415", time(14, 15)), ("215P", time(14, 15))])
 def test_parse_time_accepts_both_clocks(token: str, expected: time) -> None:
     assert parse_time(token) == expected
+
+
+def test_parse_full_date() -> None:
+    assert parse_full_date("30MAR25") == date(2025, 3, 30)
+
+
+@pytest.mark.parametrize("token", ["30MAR", "30MAR2025", "30MARXX"])
+def test_parse_full_date_rejects_malformed(token: str) -> None:
+    with pytest.raises(ValueError, match="Malformed"):
+        parse_full_date(token)
