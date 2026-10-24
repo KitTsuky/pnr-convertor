@@ -1,0 +1,19 @@
+FLIGHT ITINERARY
+
+TRIP 1: San Francisco (SFO) to New Delhi (DEL)
+Sat 14 Jun 2025 | Direct | 17h 15m | 12,403 km (7,707 mi)
+
+  AI 174  Air India Limited | Class J | Confirmed
+  Depart  Sat 14 Jun 2025 10:00  San Francisco (SFO), San Francisco International Airport
+  Arrive  Sun 15 Jun 2025 15:45  New Delhi (DEL), Indira Gandhi International Airport
+  Flight  17h 15m | 12,403 km (7,707 mi)
+
+TRIP 2: New Delhi (DEL) to Newark (EWR)
+Tue 30 Sep 2025 | Direct | 14h 40m | 11,786 km (7,324 mi)
+
+  AI 105  Air India Limited | Class J | Confirmed
+  Depart  Tue 30 Sep 2025 02:25  New Delhi (DEL), Indira Gandhi International Airport
+  Arrive  Tue 30 Sep 2025 07:35  Newark (EWR), Newark Liberty International Airport
+  Flight  14h 40m | 11,786 km (7,324 mi)
+
+Times are local at each airport.

@@ -1,0 +1,35 @@
+FLIGHT ITINERARY
+Booking reference: 9XZABC
+
+PASSENGERS
+  1. SMITH/JOHN MR - Adult
+  2. BROWN/ANNA MS - Adult
+
+TRIP 1: London (LHR) to New York (JFK)
+Thu 10 Apr 2025 | Direct | 7h 55m | 5,555 km (3,451 mi)
+
+  BA 284  British Airways | Class H | Confirmed
+  Depart  Thu 10 Apr 2025 11:20  London (LHR), London Heathrow Airport
+  Arrive  Thu 10 Apr 2025 14:15  New York (JFK), John F Kennedy International Airport
+  Flight  7h 55m | 5,555 km (3,451 mi)
+  Seats   12A SMITH/JOHN MR, 12B BROWN/ANNA MS
+
+TRIP 2: New York (JFK) to London (LHR)
+Sun 20 Apr 2025 | Direct | 7h 05m | 5,555 km (3,451 mi)
+
+  BA 179  British Airways | Class T | Confirmed
+  Depart  Sun 20 Apr 2025 19:45  New York (JFK), John F Kennedy International Airport
+  Arrive  Mon 21 Apr 2025 07:50  London (LHR), London Heathrow Airport
+  Flight  7h 05m | 5,555 km (3,451 mi)
+  Seats   14C SMITH/JOHN MR, 14D BROWN/ANNA MS
+
+TICKETS
+  125-9876543210  SMITH/JOHN MR  issued 30 Mar 2025
+  125-9876543211  BROWN/ANNA MS  issued 30 Mar 2025
+
+CONTACTS
+  Phone: LON020 7946 1234
+  Email: LONTRAVEL@EXAMPLE.COM
+  Email: J.SMITH@EXAMPLE.COM
+
+Times are local at each airport.

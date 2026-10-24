@@ -1,0 +1,40 @@
+FLIGHT ITINERARY
+
+TRIP 1: Mississauga (YYZ) to Melbourne (MEL)
+Sun 13 Jul 2025 | 1 connection (DFW) | 21h 45m | 16,402 km (10,191 mi)
+
+  AA 1111  American Airlines | Class D | Confirmed
+  Depart  Sun 13 Jul 2025 17:15  Mississauga (YYZ), Toronto Pearson International Airport
+  Arrive  Sun 13 Jul 2025 19:30  Dallas-Fort Worth (DFW), Dallas-Fort Worth International Airport
+  Flight  3h 15m | 1,930 km (1,199 mi)
+
+  Connection in Dallas-Fort Worth (DFW): 55m
+
+  AA 7386  American Airlines | Class D | Confirmed
+  Depart  Sun 13 Jul 2025 20:25  Dallas-Fort Worth (DFW), Dallas-Fort Worth International Airport
+  Arrive  Tue 15 Jul 2025 05:00  Melbourne (MEL), Melbourne International Airport
+  Flight  17h 35m | 14,472 km (8,992 mi)
+
+TRIP 2: Melbourne (MEL) to Mississauga (YYZ)
+Sat 25 Oct 2025 | 2 connections (LAX, CLT) | 25h 25m | 17,114 km (10,634 mi)
+
+  AA 7349  American Airlines | Class J | Confirmed
+  Depart  Sat 25 Oct 2025 11:55  Melbourne (MEL), Melbourne International Airport
+  Arrive  Sat 25 Oct 2025 08:10  Los Angeles (LAX), Los Angeles International Airport
+  Flight  14h 15m | 12,748 km (7,921 mi)
+
+  Connection in Los Angeles (LAX): 3h 53m
+
+  AA 1105  American Airlines | Class J | Confirmed
+  Depart  Sat 25 Oct 2025 12:03  Los Angeles (LAX), Los Angeles International Airport
+  Arrive  Sat 25 Oct 2025 19:44  Charlotte (CLT), Charlotte/Douglas International Airport
+  Flight  4h 41m | 3,419 km (2,125 mi)
+
+  Connection in Charlotte (CLT): 36m
+
+  AA 5045  American Airlines | Class J | Confirmed
+  Depart  Sat 25 Oct 2025 20:20  Charlotte (CLT), Charlotte/Douglas International Airport
+  Arrive  Sat 25 Oct 2025 22:20  Mississauga (YYZ), Toronto Pearson International Airport
+  Flight  2h 00m | 947 km (588 mi)
+
+Times are local at each airport.

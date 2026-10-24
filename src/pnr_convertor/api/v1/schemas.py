@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from datetime import date, datetime, timedelta
+from enum import StrEnum
 
 from pydantic import BaseModel, ConfigDict, Field
 
@@ -22,6 +23,12 @@ from pnr_convertor.domain.models import (
 from pnr_convertor.domain.reference import Airline, Airport
 
 MAX_PNR_LENGTH = 20_000
+
+
+class OutputFormat(StrEnum):
+    JSON = "json"
+    TEXT = "text"
+    HTML = "html"
 
 
 def _minutes(duration: timedelta | None) -> int | None:

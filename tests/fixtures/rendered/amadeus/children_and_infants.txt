@@ -1,0 +1,27 @@
+FLIGHT ITINERARY
+Booking reference: R7TQ2M
+
+PASSENGERS
+  1. POPESCU/ANDREI MR - Adult
+     with infant POPESCU/ILINCA, born 14 Jan 2024
+  2. POPESCU/IOANA MS - Child
+  3. IONESCU/ELENA MRS - Adult
+     with infant VASILE/MATEI, born 20 Feb 2024
+  4. STAN/DARIA - Infant with seat
+
+TRIP 1: Bucharest (OTP) to Amsterdam (AMS)
+Tue 20 May 2025 | Direct | 2h 50m | 1,788 km (1,111 mi)
+
+  RO 381  Tarom | Class Y | Confirmed
+  Depart  Tue 20 May 2025 07:15  Bucharest (OTP), Henri Coanda International Airport
+  Arrive  Tue 20 May 2025 09:05  Amsterdam (AMS), Amsterdam Airport Schiphol
+  Flight  2h 50m | 1,788 km (1,111 mi)
+
+TICKETS
+  281-1234567890  POPESCU/ANDREI MR  issued 14 Mar 2025
+  281-1234567891  infant of POPESCU/ANDREI MR  issued 14 Mar 2025
+
+CONTACTS
+  Phone: BUH 021 555 0100
+
+Times are local at each airport.

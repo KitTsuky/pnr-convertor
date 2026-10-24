@@ -1,0 +1,19 @@
+FLIGHT ITINERARY
+
+TRIP 1: New York (JFK) to London (LHR)
+Mon 05 May 2025 | Direct | 6h 55m | 5,555 km (3,451 mi)
+
+  AA 142  American Airlines | Class J | Confirmed
+  Depart  Mon 05 May 2025 09:45  New York (JFK), John F Kennedy International Airport
+  Arrive  Mon 05 May 2025 21:40  London (LHR), London Heathrow Airport
+  Flight  6h 55m | 5,555 km (3,451 mi)
+
+TRIP 2: London (LHR) to New York (JFK)
+Thu 05 Jun 2025 | Direct | 7h 44m | 5,555 km (3,451 mi)
+
+  AA 101  American Airlines | Class O | Confirmed
+  Depart  Thu 05 Jun 2025 09:45  London (LHR), London Heathrow Airport
+  Arrive  Thu 05 Jun 2025 12:29  New York (JFK), John F Kennedy International Airport
+  Flight  7h 44m | 5,555 km (3,451 mi)
+
+Times are local at each airport.

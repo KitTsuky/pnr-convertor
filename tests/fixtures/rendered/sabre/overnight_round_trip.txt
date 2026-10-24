@@ -1,0 +1,19 @@
+FLIGHT ITINERARY
+
+TRIP 1: Rio De Janeiro (GIG) to Madrid (MAD)
+Wed 11 Jun 2025 | Direct | 10h 10m | 8,124 km (5,048 mi)
+
+  IB 270  Iberia Airlines | Class D | Confirmed
+  Depart  Wed 11 Jun 2025 19:15  Rio De Janeiro (GIG), Galeao - Antonio Carlos Jobim International Airport
+  Arrive  Thu 12 Jun 2025 10:25  Madrid (MAD), Madrid Barajas International Airport
+  Flight  10h 10m | 8,124 km (5,048 mi)
+
+TRIP 2: Madrid (MAD) to Rio De Janeiro (GIG)
+Fri 29 Aug 2025 | Direct | 10h 35m | 8,124 km (5,048 mi)
+
+  IB 269  Iberia Airlines | Class R | Confirmed
+  Depart  Fri 29 Aug 2025 12:10  Madrid (MAD), Madrid Barajas International Airport
+  Arrive  Fri 29 Aug 2025 17:45  Rio De Janeiro (GIG), Galeao - Antonio Carlos Jobim International Airport
+  Flight  10h 35m | 8,124 km (5,048 mi)
+
+Times are local at each airport.

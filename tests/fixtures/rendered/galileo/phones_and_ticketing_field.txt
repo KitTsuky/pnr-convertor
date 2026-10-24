@@ -1,0 +1,41 @@
+FLIGHT ITINERARY
+Booking reference: K7Q2ZX
+
+PASSENGERS
+  1. POPESCU/ANDREI MR - Adult
+
+TRIP 1: Bucharest (OTP) to New York (JFK)
+Fri 05 Dec 2025 | 1 connection (AMS) | 12h 10m | 7,652 km (4,755 mi)
+
+  RO 381  Tarom | Class Y | Confirmed
+  Depart  Fri 05 Dec 2025 07:15  Bucharest (OTP), Henri Coanda International Airport
+  Arrive  Fri 05 Dec 2025 09:05  Amsterdam (AMS), Amsterdam Airport Schiphol
+  Flight  2h 50m | 1,788 km (1,111 mi)
+
+  Connection in Amsterdam (AMS): 1h 10m
+
+  KL 643  KLM Royal Dutch Airlines | Class Y | Confirmed
+  Depart  Fri 05 Dec 2025 10:15  Amsterdam (AMS), Amsterdam Airport Schiphol
+  Arrive  Fri 05 Dec 2025 12:25  New York (JFK), John F Kennedy International Airport
+  Flight  8h 10m | 5,863 km (3,643 mi)
+
+TRIP 2: New York (JFK) to Bucharest (OTP)
+Fri 12 Dec 2025 | 1 connection (AMS) | 12h 35m | 7,652 km (4,755 mi)
+
+  KL 644  KLM Royal Dutch Airlines | Class Y | Confirmed
+  Depart  Fri 12 Dec 2025 18:30  New York (JFK), John F Kennedy International Airport
+  Arrive  Sat 13 Dec 2025 07:45  Amsterdam (AMS), Amsterdam Airport Schiphol
+  Flight  7h 15m | 5,863 km (3,643 mi)
+
+  Connection in Amsterdam (AMS): 2h 15m
+
+  RO 382  Tarom | Class Y | Confirmed
+  Depart  Sat 13 Dec 2025 10:00  Amsterdam (AMS), Amsterdam Airport Schiphol
+  Arrive  Sat 13 Dec 2025 14:05  Bucharest (OTP), Henri Coanda International Airport
+  Flight  3h 05m | 1,788 km (1,111 mi)
+
+CONTACTS
+  Phone: BUHT*021 555 0100 TEST TRAVEL REF ANA
+  Phone: BUHH*0700 000 000
+
+Times are local at each airport.
