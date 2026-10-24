@@ -24,4 +24,5 @@ curl -s localhost:8000/v1/convert -H 'content-type: application/json' -d '{
 
 - [Architecture](docs/ARCHITECTURE.md)
 - [Roadmap](docs/ROADMAP.md)
+- [Data sources & licenses](docs/DATA_SOURCES.md)
 - [Agent / contributor guidelines](AGENTS.md)
