@@ -11,6 +11,7 @@ from pnr_convertor.parsing.dates import (
     parse_hhmm,
     parse_time,
     resolve_date,
+    resolve_past_date,
 )
 
 
@@ -111,3 +112,21 @@ def test_parse_full_date() -> None:
 def test_parse_full_date_rejects_malformed(token: str) -> None:
     with pytest.raises(ValueError, match="Malformed"):
         parse_full_date(token)
+
+
+@pytest.mark.parametrize(
+    ("day", "month", "not_after", "expected"),
+    [
+        (14, 10, date(2026, 1, 15), date(2025, 10, 14)),
+        (15, 1, date(2026, 1, 15), date(2026, 1, 15)),
+        (10, 1, date(2026, 1, 15), date(2026, 1, 10)),
+        (29, 2, date(2026, 1, 15), date(2024, 2, 29)),
+    ],
+)
+def test_resolve_past_date(day: int, month: int, not_after: date, expected: date) -> None:
+    assert resolve_past_date(day, month, not_after=not_after) == expected
+
+
+def test_resolve_past_date_rejects_impossible_day() -> None:
+    with pytest.raises(ValueError, match="does not exist"):
+        resolve_past_date(31, 4, not_after=date(2026, 1, 15))

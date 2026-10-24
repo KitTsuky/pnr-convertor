@@ -12,9 +12,16 @@ from pnr_convertor.domain.models import (
     ParseWarning,
     Passenger,
     SegmentStatus,
+    Ticket,
 )
 from pnr_convertor.parsing.base import ParseContext
-from pnr_convertor.parsing.dates import PAST_TOLERANCE, parse_12h, parse_day_month, resolve_date
+from pnr_convertor.parsing.dates import (
+    PAST_TOLERANCE,
+    parse_12h,
+    parse_day_month,
+    resolve_date,
+    resolve_past_date,
+)
 from pnr_convertor.parsing.sabre import patterns
 
 
@@ -36,6 +43,7 @@ class SabreParser:
         passengers: list[Passenger] = []
         segments: list[FlightSegment] = []
         contacts: list[Contact] = []
+        ticket_items: list[re.Match[str]] = []
         warnings: list[ParseWarning] = []
         not_before = context.reference_date - PAST_TOLERANCE
         section: str | None = None
@@ -49,6 +57,10 @@ class SabreParser:
                     contacts.append(Contact(kind=ContactKind.PHONE, text=item["text"]))
                     continue
                 section = None
+            if section == "TKT/TIME LIMIT" and (item := patterns.NUMBERED_ITEM.match(line)):
+                if ticket := patterns.TICKET.match(item["text"]):
+                    ticket_items.append(ticket)
+                continue
 
             if segment_match := patterns.AIR_SEGMENT.match(line):
                 try:
@@ -70,6 +82,9 @@ class SabreParser:
             segments=tuple(segments),
             warnings=tuple(warnings),
             contacts=tuple(contacts),
+            tickets=tuple(
+                _build_ticket(item, passengers, context.reference_date) for item in ticket_items
+            ),
         )
 
 
@@ -106,6 +121,39 @@ def _arrival_date(match: re.Match[str], departure_date: date) -> date:
         not_before=departure_date,
         weekday=patterns.WEEKDAYS[match["arrival_weekday"]],
     )
+
+
+def _build_ticket(match: re.Match[str], passengers: list[Passenger], displayed_on: date) -> Ticket:
+    number = match["number"]
+    return Ticket(
+        number=f"{number[:3]}-{number[3:]}",
+        passenger_index=_ticket_holder(match, passengers),
+        issuing_airline=None,
+        issue_date=_issue_date(match["issue_date"], displayed_on),
+        electronic=True,
+    )
+
+
+def _ticket_holder(match: re.Match[str], passengers: list[Passenger]) -> int | None:
+    if match["surname"]:
+        holders = [
+            p.index
+            for p in passengers
+            if p.last_name.replace(" ", "").startswith(match["surname"])
+            and p.first_name.startswith(match["initial"])
+        ]
+        if len(holders) == 1:
+            return holders[0]
+    return passengers[0].index if len(passengers) == 1 else None
+
+
+def _issue_date(token: str | None, displayed_on: date) -> date | None:
+    if token is None:
+        return None
+    try:
+        return resolve_past_date(*parse_day_month(token), not_after=displayed_on)
+    except ValueError:
+        return None
 
 
 def _build_passengers(line: str, *, first_index: int) -> list[Passenger]:
