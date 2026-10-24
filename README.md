@@ -12,6 +12,14 @@ make run       # http://localhost:8000/docs
 make check     # lint, typecheck, tests — what CI runs
 ```
 
+## Example
+
+```bash
+curl -s localhost:8000/v1/convert -H 'content-type: application/json' -d '{
+  "pnr": "RP/BUHRO08AA/BUHRO08AA  AA/SU  10JAN26/0915Z   ZX7K2P\n  1.POPESCU/ANDREI MR\n  2  RO 391 Y 15MAR 7 OTPCDG HK1  0710 0920"
+}'
+```
+
 ## Documentation
 
 - [Architecture](docs/ARCHITECTURE.md)

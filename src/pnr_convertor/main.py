@@ -7,7 +7,7 @@ import logging
 from fastapi import FastAPI
 
 from pnr_convertor import __version__
-from pnr_convertor.api import health
+from pnr_convertor.api import health, v1
 from pnr_convertor.api.errors import register_exception_handlers
 from pnr_convertor.bootstrap import Container, build_container
 from pnr_convertor.config import Settings
@@ -27,4 +27,5 @@ def create_app(settings: Settings | None = None, *, container: Container | None 
     app.state.container = container or build_container(settings)
     register_exception_handlers(app)
     app.include_router(health.router)
+    app.include_router(v1.router)
     return app

@@ -1,0 +1,60 @@
+{
+  "gds": "amadeus",
+  "record_locator": "Q4LM9T",
+  "passengers": [
+    {
+      "index": 1,
+      "last_name": "DOE",
+      "first_name": "JANE",
+      "title": "MS"
+    }
+  ],
+  "segments": [
+    {
+      "index": 2,
+      "carrier": "BA",
+      "flight_number": "117",
+      "booking_class": "J",
+      "origin": "LHR",
+      "destination": "JFK",
+      "departure_local": "2025-12-28T11:20:00",
+      "arrival_local": "2025-12-28T14:30:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed"
+      },
+      "passenger_count": 1
+    },
+    {
+      "index": 3,
+      "carrier": "EK",
+      "flight_number": "202",
+      "booking_class": "J",
+      "origin": "JFK",
+      "destination": "DXB",
+      "departure_local": "2025-12-30T23:00:00",
+      "arrival_local": "2025-12-31T19:30:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed"
+      },
+      "passenger_count": 1
+    },
+    {
+      "index": 4,
+      "carrier": "EK",
+      "flight_number": "029",
+      "booking_class": "J",
+      "origin": "DXB",
+      "destination": "LHR",
+      "departure_local": "2026-01-03T07:45:00",
+      "arrival_local": "2026-01-03T12:10:00",
+      "status": {
+        "code": "HK",
+        "category": "confirmed"
+      },
+      "passenger_count": 1
+    }
+  ],
+  "warnings": []
+}
