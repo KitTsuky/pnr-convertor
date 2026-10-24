@@ -18,14 +18,14 @@ roughly one PR.
 - [x] `POST /v1/convert`
 - [x] Unit, integration and golden tests
 
-## Phase 2 — Enrichment
+## Phase 2 — Enrichment ✅
 
 - [x] Ports: `AirportRepository`, `AirlineRepository`
 - [x] Adapters backed by bundled datasets (OurAirports / `airportsdata`, OpenFlights airlines)
-- [ ] Timezone-aware departure/arrival (UTC + local with offset)
-- [ ] Flight duration, layover times, overnight/connection detection
-- [ ] Group segments into journeys (outbound / return) by layover threshold
-- [ ] Extend response schema (additive fields only)
+- [x] Timezone-aware departure/arrival (UTC + local with offset)
+- [x] Flight duration, layover times, overnight/connection detection
+- [x] Group segments into journeys (outbound / return) by layover threshold
+- [x] Extend response schema (additive fields only)
 
 ## Phase 3 — More GDS formats
 

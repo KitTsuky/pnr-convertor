@@ -45,7 +45,8 @@ on `app.state.container`. Tests build their own container (e.g. with `FixedClock
 3. `ParserRegistry.resolve` picks the parser: explicit `gds`, or the highest `detect()` score
    above `MIN_DETECTION_CONFIDENCE`.
 4. The parser walks the text line by line, producing domain objects and `ParseWarning`s.
-5. _(Phase 2)_ The enricher adds airport/airline names, timezones, durations and layovers.
+5. `ItineraryEnricher` resolves airports and airlines through ports, converts local times to
+   timezone-aware datetimes, and groups segments into journeys (a break over 24h is a stopover).
 6. `ConvertResponse.from_domain` maps the domain model to the public schema.
 
 ## Key decisions
