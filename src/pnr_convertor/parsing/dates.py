@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from datetime import date, time, timedelta
 
 MONTHS: dict[str, int] = {
@@ -17,6 +18,8 @@ MONTHS: dict[str, int] = {
     "DEC": 12,
 }
 
+_DAY_MONTH = re.compile(r"(?P<day>\d{1,2})(?P<month>[A-Z]{3})")
+
 # A PNR may be displayed after its first flight departed; don't jump those dates a year ahead.
 PAST_TOLERANCE = timedelta(days=30)
 
@@ -29,12 +32,14 @@ _MAX_LOOKBACK = timedelta(days=2 * 366)
 
 
 def parse_day_month(token: str) -> tuple[int, int]:
-    if len(token) != 5 or not token[:2].isdigit():
+    """Parse `15MAR` or `5DEC` into `(day, month)`."""
+    match = _DAY_MONTH.fullmatch(token)
+    if match is None or not 1 <= int(match["day"]) <= 31:
         raise ValueError(f"Malformed GDS date {token!r}")
-    month = MONTHS.get(token[2:])
+    month = MONTHS.get(match["month"])
     if month is None:
         raise ValueError(f"Unknown month in GDS date {token!r}")
-    return int(token[:2]), month
+    return int(match["day"]), month
 
 
 def parse_full_date(token: str) -> date:
