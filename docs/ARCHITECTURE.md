@@ -39,6 +39,12 @@
 `bootstrap.py` is the composition root: it builds the object graph once at startup and stores it
 on `app.state.container`. Tests build their own container (e.g. with `FixedClock`).
 
+## Web app
+
+`web/` is a React + TypeScript client of the public API, with its own layers (Feature-Sliced
+Design), runtime validation of every response and a contract test against the backend golden
+outputs. See [ADR 0003](adr/0003-web-frontend.md) and [web/README.md](../web/README.md).
+
 ## Request flow: `POST /v1/convert`
 
 1. `ConvertRequest` validates size and shape; unknown fields are rejected.

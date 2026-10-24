@@ -12,6 +12,9 @@ make run       # http://localhost:8000/docs
 make check     # lint, typecheck, tests — what CI runs
 ```
 
+Web app: `make web-install`, then `make web-dev` next to `make run` and open
+http://localhost:5173. See [web/README.md](web/README.md).
+
 ## Example
 
 ```bash
@@ -43,6 +46,7 @@ Times are local at each airport.
 ## Documentation
 
 - [Architecture](docs/ARCHITECTURE.md)
+- [Web app](web/README.md)
 - [Roadmap](docs/ROADMAP.md)
 - [Data sources & licenses](docs/DATA_SOURCES.md)
 - [Agent / contributor guidelines](AGENTS.md)

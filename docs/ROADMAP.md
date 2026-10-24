@@ -71,6 +71,6 @@ roughly one PR.
 
 ## Phase 7 — Optional
 
-- [ ] Web UI (paste → itinerary)
+- [x] Web UI (paste → itinerary): React + TypeScript in `web/`
 - [ ] Batch endpoint
 - [ ] LLM fallback for unparseable lines, behind a feature flag, with PII redaction

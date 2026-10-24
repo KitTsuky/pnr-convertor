@@ -45,6 +45,16 @@ bootstrap.py wires everything (composition root)
 - API schemas (`api/v1/schemas.py`) are separate from domain models and mapped explicitly.
   Changing them is a breaking change; add a new field instead of renaming, or create `/v2`.
 
+## Web app (`web/`)
+
+- React + TypeScript (strict), Vite, Tailwind, TanStack Query, axios, zod, react-hook-form.
+  Decisions: [ADR 0003](docs/adr/0003-web-frontend.md); layout: [web/README.md](web/README.md).
+- Feature-Sliced layers `app → pages → features → entities → shared`; import only downwards and
+  other slices only through their `index.ts` (ESLint enforces it).
+- Every API response is parsed with its zod schema; when the API contract changes, update
+  `entities/itinerary/model/schema.ts` until `schema.contract.test.ts` passes.
+- `make web-check` must pass. Tests use MSW for the network, never real API calls.
+
 ## Code standards
 
 - Fully typed; `mypy --strict` must pass. No `Any` unless at a true boundary.
