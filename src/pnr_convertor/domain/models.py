@@ -79,11 +79,25 @@ class SegmentStatus:
 
 
 @dataclass(frozen=True, slots=True)
+class Infant:
+    """An infant travelling on an adult's lap, without a seat or a passenger number."""
+
+    last_name: str
+    first_name: str
+    date_of_birth: date | None
+
+
+@dataclass(frozen=True, slots=True)
 class Passenger:
+    """`type_code` is the GDS passenger type: ADT, CHD, INS (infant with a seat), ..."""
+
     index: int
     last_name: str
     first_name: str
     title: str | None = None
+    type_code: str = "ADT"
+    date_of_birth: date | None = None
+    infant: Infant | None = None
 
 
 @dataclass(frozen=True, slots=True)
@@ -109,6 +123,7 @@ class Ticket:
     issuing_airline: str | None
     issue_date: date | None
     electronic: bool
+    infant: bool = False
 
 
 @dataclass(frozen=True, slots=True)
