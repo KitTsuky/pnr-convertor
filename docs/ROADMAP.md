@@ -10,13 +10,13 @@ roughly one PR.
 - [x] `GET /health`, RFC 9457 error responses, PII-safe validation errors
 - [x] CI workflow, Dockerfile, agent guidelines
 
-## Phase 1 — Amadeus core parsing
+## Phase 1 — Amadeus core parsing ✅
 
-- [ ] Domain model: `ParsedPnr`, `FlightSegment`, `Passenger`, `SegmentStatus`
-- [ ] Parser registry with auto-detection
-- [ ] Amadeus: record locator, passenger names, air segments, `+1` arrivals, year inference
-- [ ] `POST /v1/convert`
-- [ ] Unit, integration and golden tests
+- [x] Domain model: `ParsedPnr`, `FlightSegment`, `Passenger`, `SegmentStatus`
+- [x] Parser registry with auto-detection
+- [x] Amadeus: record locator, passenger names, air segments, `+1` arrivals, year inference
+- [x] `POST /v1/convert`
+- [x] Unit, integration and golden tests
 
 ## Phase 2 — Enrichment
 
