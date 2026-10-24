@@ -55,7 +55,9 @@ const segmentSchema = z.object({
     description: z.string().nullable(),
   }),
   passenger_count: z.number().int(),
-  airline: z.object({ iata: z.string(), name: z.string() }).nullable(),
+  airline: z
+    .object({ iata: z.string(), name: z.string(), logo_url: z.string().nullable() })
+    .nullable(),
   operated_by: z.string().nullable(),
   origin_airport: airportSchema.nullable(),
   destination_airport: airportSchema.nullable(),
