@@ -6,7 +6,10 @@
       "index": 1,
       "last_name": "DOE",
       "first_name": "JANE",
-      "title": "MS"
+      "title": "MS",
+      "type": "ADT",
+      "date_of_birth": null,
+      "infant": null
     }
   ],
   "segments": [

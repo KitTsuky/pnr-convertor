@@ -6,19 +6,28 @@
       "index": 1,
       "last_name": "POPESCU",
       "first_name": "ANDREI",
-      "title": "MR"
+      "title": "MR",
+      "type": "ADT",
+      "date_of_birth": null,
+      "infant": null
     },
     {
       "index": 2,
       "last_name": "POPESCU",
       "first_name": "MARIA",
-      "title": "MRS"
+      "title": "MRS",
+      "type": "ADT",
+      "date_of_birth": null,
+      "infant": null
     },
     {
       "index": 3,
       "last_name": "IONESCU",
       "first_name": "ELENA",
-      "title": "MS"
+      "title": "MS",
+      "type": "ADT",
+      "date_of_birth": null,
+      "infant": null
     }
   ],
   "segments": [

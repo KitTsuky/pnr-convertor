@@ -12,6 +12,7 @@ from pnr_convertor.domain.models import (
     Contact,
     ContactKind,
     GdsFormat,
+    Infant,
     ParseWarning,
     Passenger,
     SeatAssignment,
@@ -56,11 +57,30 @@ class ConvertRequest(_Schema):
     )
 
 
+class InfantOut(_Schema):
+    last_name: str
+    first_name: str
+    date_of_birth: date | None
+
+    @classmethod
+    def from_domain(cls, infant: Infant | None) -> InfantOut | None:
+        if infant is None:
+            return None
+        return cls(
+            last_name=infant.last_name,
+            first_name=infant.first_name,
+            date_of_birth=infant.date_of_birth,
+        )
+
+
 class PassengerOut(_Schema):
     index: int
     last_name: str
     first_name: str
     title: str | None
+    type: str = Field(description="GDS passenger type: ADT, CHD, INS (infant with a seat), ...")
+    date_of_birth: date | None
+    infant: InfantOut | None = Field(description="Infant travelling on this passenger's lap.")
 
     @classmethod
     def from_domain(cls, passenger: Passenger) -> PassengerOut:
@@ -69,6 +89,9 @@ class PassengerOut(_Schema):
             last_name=passenger.last_name,
             first_name=passenger.first_name,
             title=passenger.title,
+            type=passenger.type_code,
+            date_of_birth=passenger.date_of_birth,
+            infant=InfantOut.from_domain(passenger.infant),
         )
 
 
@@ -216,6 +239,7 @@ class TicketOut(_Schema):
     issuing_airline: str | None
     issue_date: date | None
     electronic: bool
+    infant: bool = Field(description="Ticket issued for the lap infant of `passenger_index`.")
 
     @classmethod
     def from_domain(cls, ticket: Ticket) -> TicketOut:
@@ -225,6 +249,7 @@ class TicketOut(_Schema):
             issuing_airline=ticket.issuing_airline,
             issue_date=ticket.issue_date,
             electronic=ticket.electronic,
+            infant=ticket.infant,
         )
 
 
