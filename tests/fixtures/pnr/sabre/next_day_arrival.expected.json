@@ -20,7 +20,8 @@
       "passenger_count": 2,
       "airline": {
         "iata": "AI",
-        "name": "Air India Limited"
+        "name": "Air India Limited",
+        "logo_url": "/v1/airlines/AI/logo"
       },
       "operated_by": null,
       "origin_airport": {
@@ -67,7 +68,8 @@
       "passenger_count": 2,
       "airline": {
         "iata": "AI",
-        "name": "Air India Limited"
+        "name": "Air India Limited",
+        "logo_url": "/v1/airlines/AI/logo"
       },
       "operated_by": null,
       "origin_airport": {

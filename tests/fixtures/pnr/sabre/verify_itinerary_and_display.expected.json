@@ -20,7 +20,8 @@
       "passenger_count": 1,
       "airline": {
         "iata": "AA",
-        "name": "American Airlines"
+        "name": "American Airlines",
+        "logo_url": "/v1/airlines/AA/logo"
       },
       "operated_by": null,
       "origin_airport": {
@@ -67,7 +68,8 @@
       "passenger_count": 1,
       "airline": {
         "iata": "AA",
-        "name": "American Airlines"
+        "name": "American Airlines",
+        "logo_url": "/v1/airlines/AA/logo"
       },
       "operated_by": null,
       "origin_airport": {

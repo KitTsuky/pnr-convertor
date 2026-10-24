@@ -39,7 +39,8 @@
       "passenger_count": 2,
       "airline": {
         "iata": "BA",
-        "name": "British Airways"
+        "name": "British Airways",
+        "logo_url": "/v1/airlines/BA/logo"
       },
       "operated_by": null,
       "origin_airport": {
@@ -95,7 +96,8 @@
       "passenger_count": 2,
       "airline": {
         "iata": "BA",
-        "name": "British Airways"
+        "name": "British Airways",
+        "logo_url": "/v1/airlines/BA/logo"
       },
       "operated_by": null,
       "origin_airport": {

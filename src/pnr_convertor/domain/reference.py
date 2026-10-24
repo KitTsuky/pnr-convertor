@@ -18,3 +18,4 @@ class Airport:
 class Airline:
     iata: str
     name: str
+    has_logo: bool = False

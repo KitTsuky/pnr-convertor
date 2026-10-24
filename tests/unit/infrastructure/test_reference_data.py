@@ -6,6 +6,7 @@ import pytest
 
 from pnr_convertor.domain.reference import Airline, Airport
 from pnr_convertor.infrastructure.reference_data import (
+    BundledAirlineLogoRepository,
     BundledAirlineRepository,
     BundledAirportRepository,
 )
@@ -59,3 +60,19 @@ def test_known_airline(airlines: BundledAirlineRepository, code: str, name: str)
 
 def test_unknown_airline(airlines: BundledAirlineRepository) -> None:
     assert airlines.get("??") is None
+
+
+def test_logos_are_read_only_for_listed_codes() -> None:
+    logos = BundledAirlineLogoRepository()
+
+    assert "TK" in logos.codes
+    assert (logos.get("TK") or b"").startswith(b"\x89PNG")
+    assert logos.get("ZZ") is None
+    assert logos.get("../airlines") is None
+
+
+def test_airlines_know_whether_they_have_a_logo() -> None:
+    airlines = BundledAirlineRepository(logo_codes={"RO"})
+
+    assert airlines.get("RO") == Airline(iata="RO", name="Tarom", has_logo=True)
+    assert airlines.get("BA") == Airline(iata="BA", name="British Airways")

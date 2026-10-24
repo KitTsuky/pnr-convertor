@@ -129,10 +129,14 @@ class AirportOut(_Schema):
 class AirlineOut(_Schema):
     iata: str
     name: str
+    logo_url: str | None = Field(description="Path of the airline's PNG logo; null if none.")
 
     @classmethod
     def from_domain(cls, airline: Airline | None) -> AirlineOut | None:
-        return None if airline is None else cls(iata=airline.iata, name=airline.name)
+        if airline is None:
+            return None
+        logo_url = f"/v1/airlines/{airline.iata}/logo" if airline.has_logo else None
+        return cls(iata=airline.iata, name=airline.name, logo_url=logo_url)
 
 
 class SeatOut(_Schema):

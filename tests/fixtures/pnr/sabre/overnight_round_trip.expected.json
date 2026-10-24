@@ -20,7 +20,8 @@
       "passenger_count": 2,
       "airline": {
         "iata": "IB",
-        "name": "Iberia Airlines"
+        "name": "Iberia Airlines",
+        "logo_url": "/v1/airlines/IB/logo"
       },
       "operated_by": null,
       "origin_airport": {
@@ -67,7 +68,8 @@
       "passenger_count": 2,
       "airline": {
         "iata": "IB",
-        "name": "Iberia Airlines"
+        "name": "Iberia Airlines",
+        "logo_url": "/v1/airlines/IB/logo"
       },
       "operated_by": null,
       "origin_airport": {

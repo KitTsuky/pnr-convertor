@@ -30,7 +30,8 @@
       "passenger_count": 1,
       "airline": {
         "iata": "TK",
-        "name": "Turkish Airlines"
+        "name": "Turkish Airlines",
+        "logo_url": "/v1/airlines/TK/logo"
       },
       "operated_by": null,
       "origin_airport": {
@@ -77,7 +78,8 @@
       "passenger_count": 1,
       "airline": {
         "iata": "TK",
-        "name": "Turkish Airlines"
+        "name": "Turkish Airlines",
+        "logo_url": "/v1/airlines/TK/logo"
       },
       "operated_by": null,
       "origin_airport": {
@@ -124,7 +126,8 @@
       "passenger_count": 1,
       "airline": {
         "iata": "TK",
-        "name": "Turkish Airlines"
+        "name": "Turkish Airlines",
+        "logo_url": "/v1/airlines/TK/logo"
       },
       "operated_by": null,
       "origin_airport": {
@@ -171,7 +174,8 @@
       "passenger_count": 1,
       "airline": {
         "iata": "TK",
-        "name": "Turkish Airlines"
+        "name": "Turkish Airlines",
+        "logo_url": "/v1/airlines/TK/logo"
       },
       "operated_by": null,
       "origin_airport": {

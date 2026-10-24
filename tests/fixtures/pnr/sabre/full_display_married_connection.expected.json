@@ -48,7 +48,8 @@
       "passenger_count": 3,
       "airline": {
         "iata": "RO",
-        "name": "Tarom"
+        "name": "Tarom",
+        "logo_url": "/v1/airlines/RO/logo"
       },
       "operated_by": null,
       "origin_airport": {
@@ -95,7 +96,8 @@
       "passenger_count": 3,
       "airline": {
         "iata": "KL",
-        "name": "KLM Royal Dutch Airlines"
+        "name": "KLM Royal Dutch Airlines",
+        "logo_url": "/v1/airlines/KL/logo"
       },
       "operated_by": null,
       "origin_airport": {
@@ -142,7 +144,8 @@
       "passenger_count": 3,
       "airline": {
         "iata": "BA",
-        "name": "British Airways"
+        "name": "British Airways",
+        "logo_url": "/v1/airlines/BA/logo"
       },
       "operated_by": null,
       "origin_airport": {

@@ -6,7 +6,7 @@ from typing import Annotated
 from fastapi import Depends, Request
 
 from pnr_convertor.application.convert_pnr import ConvertPnr
-from pnr_convertor.application.ports import ItineraryRenderer, RenderFormat
+from pnr_convertor.application.ports import AirlineLogoRepository, ItineraryRenderer, RenderFormat
 from pnr_convertor.bootstrap import Container
 
 
@@ -29,3 +29,12 @@ def get_renderers(
 
 
 RenderersDep = Annotated[Mapping[RenderFormat, ItineraryRenderer], Depends(get_renderers)]
+
+
+def get_airline_logos(
+    container: Annotated[Container, Depends(get_container)],
+) -> AirlineLogoRepository:
+    return container.airline_logos
+
+
+AirlineLogosDep = Annotated[AirlineLogoRepository, Depends(get_airline_logos)]

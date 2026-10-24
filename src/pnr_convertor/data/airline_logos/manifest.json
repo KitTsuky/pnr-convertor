@@ -1,0 +1,4695 @@
+{
+  "source": "Wikidata P154 / Wikimedia Commons",
+  "logos": [
+    {
+      "code": "0B",
+      "airline": "Blue Air",
+      "wikidata": "Q804561",
+      "source": "https://commons.wikimedia.org/wiki/File:Blue_Air_logo.svg",
+      "license": "Public domain",
+      "author": "Blue Air",
+      "file": "0B.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "1B",
+      "airline": "BH Air",
+      "wikidata": "Q266781",
+      "source": "https://commons.wikimedia.org/wiki/File:BH_AIR_Logo.png",
+      "license": "Public domain",
+      "author": "bhairlines",
+      "file": "1B.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "1X",
+      "airline": "Branson Air Express",
+      "wikidata": "Q4957559",
+      "source": "https://commons.wikimedia.org/wiki/File:Branson_air_express.JPG",
+      "license": "Public domain",
+      "author": "Branson Airport LLC",
+      "file": "1X.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "2A",
+      "airline": "Deutsche Bahn",
+      "wikidata": "Q9322",
+      "source": "https://commons.wikimedia.org/wiki/File:Deutsche_Bahn_AG-Logo.svg",
+      "license": "Public domain",
+      "author": "™/®Deutsche Bahn AG",
+      "file": "2A.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "2B",
+      "airline": "Aerocondor",
+      "wikidata": "Q381415",
+      "source": "https://commons.wikimedia.org/wiki/File:Aerocondor_Logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "2B.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "2D",
+      "airline": "Eastern Airlines, LLC",
+      "wikidata": "Q17109272",
+      "source": "https://commons.wikimedia.org/wiki/File:Eastern_Airlines_logo_new.svg",
+      "license": "Public domain",
+      "author": "Eastern Airlines",
+      "file": "2D.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "2I",
+      "airline": "Star Perú",
+      "wikidata": "Q1798128",
+      "source": "https://commons.wikimedia.org/wiki/File:Star_Per%C3%BA_logo.svg",
+      "license": "Public domain",
+      "author": "Star Perú",
+      "file": "2I.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "2K",
+      "airline": "Avianca Ecuador",
+      "wikidata": "Q196221",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_wordmark_Avianca_(Colombia).png",
+      "license": "Public domain",
+      "author": "Avianca",
+      "file": "2K.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "2L",
+      "airline": "Helvetic Airways",
+      "wikidata": "Q152490",
+      "source": "https://commons.wikimedia.org/wiki/File:Helvetic_Logo_2019_red.svg",
+      "license": "Public domain",
+      "author": "Helvetic Airways",
+      "file": "2L.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "2R",
+      "airline": "Via Rail",
+      "wikidata": "Q876720",
+      "source": "https://commons.wikimedia.org/wiki/File:VIA_Rail_Canada_simplified.svg",
+      "license": "Public domain",
+      "author": "Useddenim",
+      "file": "2R.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "2U",
+      "airline": "Sun d'Or International Airlines",
+      "wikidata": "Q553149",
+      "source": "https://commons.wikimedia.org/wiki/File:Sun_d%27Or_logo.svg",
+      "license": "Public domain",
+      "author": "Sun d'Or International Airlines (Markenrechte liegen bei El Al Israel Airlines)",
+      "file": "2U.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "2W",
+      "airline": "Welcome Air",
+      "wikidata": "Q240348",
+      "source": "https://commons.wikimedia.org/wiki/File:Welcome_Air_Logo.svg",
+      "license": "Public domain",
+      "author": "Welcome Air",
+      "file": "2W.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "3B",
+      "airline": "Central Connect Airlines",
+      "wikidata": "Q1053758",
+      "source": "https://commons.wikimedia.org/wiki/File:Central_Connect_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "Central Connect Airlines",
+      "file": "3B.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "3E",
+      "airline": "Air Choice One",
+      "wikidata": "Q4697804",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Choice_One.jpg",
+      "license": "FAL",
+      "author": "Air Choice One",
+      "file": "3E.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "3F",
+      "airline": "Q109973625",
+      "wikidata": "Q109973625",
+      "source": "https://commons.wikimedia.org/wiki/File:FLYONE_AM_LOGO_NEW.png",
+      "license": "Public domain",
+      "author": "FLYONE Armenia",
+      "file": "3F.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "3K",
+      "airline": "Jetstar Asia Airways",
+      "wikidata": "Q935837",
+      "source": "https://commons.wikimedia.org/wiki/File:Jetstar_Logo.svg",
+      "license": "Public domain",
+      "author": "Jetstar Airways",
+      "file": "3K.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "3L",
+      "airline": "Q79467978",
+      "wikidata": "Q79467978",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Arabia_Logo.svg",
+      "license": "Public domain",
+      "author": "Air Arabia",
+      "file": "3L.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "3M",
+      "airline": "Silver Airways",
+      "wikidata": "Q1554309",
+      "source": "https://commons.wikimedia.org/wiki/File:Silver_Airways_logo.png",
+      "license": "Public domain",
+      "author": "silverairways",
+      "file": "3M.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "3O",
+      "airline": "Air Arabia Maroc",
+      "wikidata": "Q406803",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Arabia_Logo.svg",
+      "license": "Public domain",
+      "author": "Air Arabia",
+      "file": "3O.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "3P",
+      "airline": "Q113588275",
+      "wikidata": "Q113588275",
+      "source": "https://commons.wikimedia.org/wiki/File:W2fly_logo.svg",
+      "license": "Public domain",
+      "author": "World 2 Fly, S.L.U.",
+      "file": "3P.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "3R",
+      "airline": "Divi Divi Air",
+      "wikidata": "Q2068729",
+      "source": "https://commons.wikimedia.org/wiki/File:Divi_Divi_Air_logo.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Divi Divi Air",
+      "file": "3R.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "3S",
+      "airline": "Air Antilles",
+      "wikidata": "Q406779",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Air_Antilles.svg",
+      "license": "Public domain",
+      "author": "Air Antilles",
+      "file": "3S.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "3T",
+      "airline": "Turan Air",
+      "wikidata": "Q219002",
+      "source": "https://commons.wikimedia.org/wiki/File:Turan_Air_logo.jpg",
+      "license": "Public domain",
+      "author": "Turan Air",
+      "file": "3T.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "4A",
+      "airline": "Atsa Airlines",
+      "wikidata": "Q33274057",
+      "source": "https://commons.wikimedia.org/wiki/File:LOGO_ATSA_AIRLINES-01_REDUCIDO.png",
+      "license": "CC BY-SA 4.0",
+      "author": "Ccbo1094",
+      "file": "4A.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "4C",
+      "airline": "LATAM Airlines Colombia",
+      "wikidata": "Q408655",
+      "source": "https://commons.wikimedia.org/wiki/File:Latam-logo_-v_(Indigo).svg",
+      "license": "Public domain",
+      "author": "Sao Paolo, Santiago and Madrid offices of Interbrand [1]\n\nvector file: Mliu92",
+      "file": "4C.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "4G",
+      "airline": "Gazprom Avia",
+      "wikidata": "Q2476367",
+      "source": "https://commons.wikimedia.org/wiki/File:Gazprom_Avia_Logo.svg",
+      "license": "Public domain",
+      "author": "Benutzer:SafetyCard",
+      "file": "4G.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "4K",
+      "airline": "Kenn Borek Air",
+      "wikidata": "Q1738781",
+      "source": "https://commons.wikimedia.org/wiki/File:Kenn_Borek_Air_logo.jpg",
+      "license": "Public domain",
+      "author": "Usuarioquelegustanlosdirigibles",
+      "file": "4K.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "4L",
+      "airline": "Líneas Aéreas Suramericanas",
+      "wikidata": "Q1879549",
+      "source": "https://commons.wikimedia.org/wiki/File:L%C3%ADneas_A%C3%A9reas_Suramericanas_logo.svg",
+      "license": "Public domain",
+      "author": "Líneas Aéreas Suramericanas",
+      "file": "4L.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "4M",
+      "airline": "Q113278691",
+      "wikidata": "Q113278691",
+      "source": "https://commons.wikimedia.org/wiki/File:Mavi_G%C3%B6k_Airlines_logo.svg",
+      "license": "CC0",
+      "author": "Mavi Gök Airlines",
+      "file": "4M.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "4O",
+      "airline": "Interjet",
+      "wikidata": "Q1115295",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Interjet_transparent.svg",
+      "license": "Public domain",
+      "author": "Юкатан",
+      "file": "4O.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "4T",
+      "airline": "Belair",
+      "wikidata": "Q339700",
+      "source": "https://commons.wikimedia.org/wiki/File:BelairLogo.png",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "4T.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "4U",
+      "airline": "Germanwings",
+      "wikidata": "Q155038",
+      "source": "https://commons.wikimedia.org/wiki/File:Germanwings_logo.png",
+      "license": "Public domain",
+      "author": "germanwings",
+      "file": "4U.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "5G",
+      "airline": "MAYAir",
+      "wikidata": "Q11217915",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_MAYAir.png",
+      "license": "CC BY-SA 4.0",
+      "author": "UncBol",
+      "file": "5G.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "5J",
+      "airline": "Cebu Pacific",
+      "wikidata": "Q995151",
+      "source": "https://commons.wikimedia.org/wiki/File:Cebu_Pacific_logo.png",
+      "license": "Public domain",
+      "author": "Cebu Pacific",
+      "file": "5J.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "5K",
+      "airline": "Hi Fly",
+      "wikidata": "Q281710",
+      "source": "https://commons.wikimedia.org/wiki/File:Hi_Fly_logo.svg",
+      "license": "Public domain",
+      "author": "Hi Fly",
+      "file": "5K.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "5N",
+      "airline": "Smartavia",
+      "wikidata": "Q519211",
+      "source": "https://commons.wikimedia.org/wiki/File:Smartavia_logo.svg",
+      "license": "CC BY-SA 4.0",
+      "author": "Fau1986",
+      "file": "5N.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "5Q",
+      "airline": "Holiday Europe",
+      "wikidata": "Q67310782",
+      "source": "https://commons.wikimedia.org/wiki/File:Holiday_Europe_logo.svg",
+      "license": "Public domain",
+      "author": "Holiday Europe",
+      "file": "5Q.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "5T",
+      "airline": "Canadian North",
+      "wikidata": "Q1032237",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Canadian_North_Airlines_(2021).svg",
+      "license": "Public domain",
+      "author": "Canadian North Airlines",
+      "file": "5T.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "5W",
+      "airline": "Astraeus Airlines",
+      "wikidata": "Q750374",
+      "source": "https://commons.wikimedia.org/wiki/File:Astraeus-airlines.png",
+      "license": "CC BY-SA 3.0",
+      "author": "L doddrell",
+      "file": "5W.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "5Y",
+      "airline": "Atlas Air",
+      "wikidata": "Q757135",
+      "source": "https://commons.wikimedia.org/wiki/File:Atlas_Air_Worldwide_logo.svg",
+      "license": "CC BY-SA 4.0",
+      "author": "Atlas Air Worldwide Holdings, Inc.",
+      "file": "5Y.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "6B",
+      "airline": "TUIfly Nordic",
+      "wikidata": "Q1147955",
+      "source": "https://commons.wikimedia.org/wiki/File:TUIfly_Nordic_Logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "6B.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "6C",
+      "airline": "Aerosucre",
+      "wikidata": "Q381195",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_wordmark_Aerosucre_Cargo.png",
+      "license": "Public domain",
+      "author": "Aerosucre Cargo Colombia",
+      "file": "6C.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "6D",
+      "airline": "Pelita Air Service",
+      "wikidata": "Q2197692",
+      "source": "https://commons.wikimedia.org/wiki/File:Pelita_Air_(2022_Logo).png",
+      "license": "Public domain",
+      "author": "PT Pelita Air Service &amp; PT Pertamina",
+      "file": "6D.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "6E",
+      "airline": "IndiGo",
+      "wikidata": "Q1057110",
+      "source": "https://commons.wikimedia.org/wiki/File:IndiGo_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "IndiGo",
+      "file": "6E.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "6H",
+      "airline": "Israir Airlines",
+      "wikidata": "Q558002",
+      "source": "https://commons.wikimedia.org/wiki/File:Israir_Airlines_Logo.svg",
+      "license": "Public domain",
+      "author": "Israir Airlines Ltd.",
+      "file": "6H.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "6I",
+      "airline": "Air Alsie",
+      "wikidata": "Q3545238",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Alsie_logo.svg",
+      "license": "Public domain",
+      "author": "Air Alsie",
+      "file": "6I.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "6J",
+      "airline": "Solaseed Air",
+      "wikidata": "Q1367476",
+      "source": "https://commons.wikimedia.org/wiki/File:Solaseed_Air_logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "6J.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "6R",
+      "airline": "ALROSA Air Company",
+      "wikidata": "Q2573788",
+      "source": "https://commons.wikimedia.org/wiki/File:Alrosa_Air_Company_logo_(old).png",
+      "license": "Public domain",
+      "author": "ALROSA Air Compay",
+      "file": "6R.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "6T",
+      "airline": "Air Mandalay",
+      "wikidata": "Q407508",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Mandelay_Logo.png",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "6T.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "6U",
+      "airline": "Air Cargo Germany",
+      "wikidata": "Q325722",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Cargo_Germany_logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "6U.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "6W",
+      "airline": "FlyBosnia",
+      "wikidata": "Q60614280",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo-FlyBosnia.jpg",
+      "license": "Public domain",
+      "author": "Alaskaair",
+      "file": "6W.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "7C",
+      "airline": "Jeju Air",
+      "wikidata": "Q482642",
+      "source": "https://commons.wikimedia.org/wiki/File:Jeju_Air_Logo.svg",
+      "license": "Public domain",
+      "author": "Jeju Air, Vectorization:  Jeromi Mikhael",
+      "file": "7C.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "7E",
+      "airline": "Sylt Air",
+      "wikidata": "Q321856",
+      "source": "https://commons.wikimedia.org/wiki/File:SyltAir-logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "7E.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "7F",
+      "airline": "First Air",
+      "wikidata": "Q1419271",
+      "source": "https://commons.wikimedia.org/wiki/File:First_Air_logo_(2017).svg",
+      "license": "Public domain",
+      "author": "First Air",
+      "file": "7F.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "7G",
+      "airline": "StarFlyer",
+      "wikidata": "Q1344355",
+      "source": "https://commons.wikimedia.org/wiki/File:StarFlyer_logo.svg",
+      "license": "Public domain",
+      "author": "Starflyer",
+      "file": "7G.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "7I",
+      "airline": "Insel Air",
+      "wikidata": "Q1664413",
+      "source": "https://commons.wikimedia.org/wiki/File:RGB_New_InselAir_logo.jpg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "7I.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "7L",
+      "airline": "Silk Way West Airlines",
+      "wikidata": "Q18434260",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_of_Silk_Way_West_Airlines.svg",
+      "license": "Public domain",
+      "author": "Fairy Bliss",
+      "file": "7L.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "7Q",
+      "airline": "Elite Airways",
+      "wikidata": "Q16974622",
+      "source": "https://commons.wikimedia.org/wiki/File:Eliteairwayslogo-F.jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Beachsidepr",
+      "file": "7Q.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "7W",
+      "airline": "Windrose Airlines",
+      "wikidata": "Q1029273",
+      "source": "https://commons.wikimedia.org/wiki/File:WINDROSE_reliable_wings.png",
+      "license": "Public domain",
+      "author": "Tetiana Zhovnir",
+      "file": "7W.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "7Z",
+      "airline": "Ameristar Jet Charter",
+      "wikidata": "Q4745808",
+      "source": "https://commons.wikimedia.org/wiki/File:AmeristarAirCargo.jpg",
+      "license": "Public domain",
+      "author": "Ameristar Air Cargo",
+      "file": "7Z.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "8E",
+      "airline": "Bering Air",
+      "wikidata": "Q4035042",
+      "source": "https://commons.wikimedia.org/wiki/File:Bering_Air_Logo.svg",
+      "license": "Public domain",
+      "author": "Bering Air",
+      "file": "8E.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "8F",
+      "airline": "STP Airways",
+      "wikidata": "Q1327224",
+      "source": "https://commons.wikimedia.org/wiki/File:STP_Airways.png",
+      "license": "CC BY-SA 4.0",
+      "author": "STP Airways",
+      "file": "8F.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "8H",
+      "airline": "BH Air",
+      "wikidata": "Q266781",
+      "source": "https://commons.wikimedia.org/wiki/File:BH_AIR_Logo.png",
+      "license": "Public domain",
+      "author": "bhairlines",
+      "file": "8H.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "8J",
+      "airline": "Jet4you",
+      "wikidata": "Q1156843",
+      "source": "https://commons.wikimedia.org/wiki/File:Jet4you.svg",
+      "license": "Public domain",
+      "author": "Jet4you",
+      "file": "8J.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "9R",
+      "airline": "SATENA",
+      "wikidata": "Q1810636",
+      "source": "https://commons.wikimedia.org/wiki/File:Letras_Satena.jpg",
+      "license": "Public domain",
+      "author": "Satena",
+      "file": "9R.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "9U",
+      "airline": "Air Moldova",
+      "wikidata": "Q407606",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Moldova.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "9U.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "9V",
+      "airline": "Avior Airlines",
+      "wikidata": "Q791117",
+      "source": "https://commons.wikimedia.org/wiki/File:Avior_Airlines_2017.svg",
+      "license": "Public domain",
+      "author": "Avior Airlines",
+      "file": "9V.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "9X",
+      "airline": "Southern Airways Express",
+      "wikidata": "Q14628874",
+      "source": "https://commons.wikimedia.org/wiki/File:Southern_Airways_Express_logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "9X.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "9Y",
+      "airline": "Air Kazakhstan",
+      "wikidata": "Q117766",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Kazakhstan.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "9Y.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "A3",
+      "airline": "Aegean Airlines",
+      "wikidata": "Q380580",
+      "source": "https://commons.wikimedia.org/wiki/File:Aegean_Airlines_Logo_2020.svg",
+      "license": "Public domain",
+      "author": "Aegean Airlines",
+      "file": "A3.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "A4",
+      "airline": "Azimuth",
+      "wikidata": "Q30890991",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%90%D0%B2%D0%B8%D0%B0%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F-%D0%90%D0%B7%D0%B8%D0%BC%D1%83%D1%82.png",
+      "license": "Public domain",
+      "author": "Азимут",
+      "file": "A4.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "A5",
+      "airline": "Air France Hop",
+      "wikidata": "Q3951786",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_France_Hop_Logo.svg",
+      "license": "Public domain",
+      "author": "Air France",
+      "file": "A5.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "A6",
+      "airline": "Air Alps",
+      "wikidata": "Q406755",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Alps.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "A6.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "AA",
+      "airline": "American Airlines",
+      "wikidata": "Q32396",
+      "source": "https://commons.wikimedia.org/wiki/File:AA_Symbol.svg",
+      "license": "Public domain",
+      "author": "American Airlines",
+      "file": "AA.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "AB",
+      "airline": "Air Berlin",
+      "wikidata": "Q156829",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Berlin_Logo.svg",
+      "license": "Public domain",
+      "author": "ויקיפדיה באנגלית",
+      "file": "AB.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "AC",
+      "airline": "Air Canada",
+      "wikidata": "Q185339",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Canada_2017.svg",
+      "license": "Public domain",
+      "author": "Air Canada",
+      "file": "AC.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "AD",
+      "airline": "Q794272",
+      "wikidata": "Q794272",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_da_Azul_Linhas_A%C3%A9reas_Brasileiras.svg",
+      "license": "Public domain",
+      "author": "Azul Linhas Aéreas Brasileiras",
+      "file": "AD.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "AF",
+      "airline": "Air France",
+      "wikidata": "Q131005",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_France_Logo.svg",
+      "license": "Public domain",
+      "author": "Air France",
+      "file": "AF.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "AH",
+      "airline": "Air Algérie",
+      "wikidata": "Q406764",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Air_Alg%C3%A9rie.svg",
+      "license": "Public domain",
+      "author": "Mouh2jijel",
+      "file": "AH.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "AI",
+      "airline": "Air India",
+      "wikidata": "Q69906",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_India_2023.svg",
+      "license": "Public domain",
+      "author": "Air India",
+      "file": "AI.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "AJ",
+      "airline": "Aero Contractors",
+      "wikidata": "Q381286",
+      "source": "https://commons.wikimedia.org/wiki/File:Aerologo.jpg",
+      "license": "Copyrighted free use",
+      "author": "The file was created by explicit communications for  the branding of the new aero company",
+      "file": "AJ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "AK",
+      "airline": "AirAsia",
+      "wikidata": "Q406643",
+      "source": "https://commons.wikimedia.org/wiki/File:AirAsia_New_Logo_(2020).svg",
+      "license": "Public domain",
+      "author": "AirAsia",
+      "file": "AK.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "AM",
+      "airline": "Aeroméxico",
+      "wikidata": "Q381563",
+      "source": "https://commons.wikimedia.org/wiki/File:Aerom%C3%A9xico_wordmark.svg",
+      "license": "Public domain",
+      "author": "Aeroméxico",
+      "file": "AM.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "AN",
+      "airline": "Ansett Australia",
+      "wikidata": "Q247116",
+      "source": "https://commons.wikimedia.org/wiki/File:Flag_of_Ansett_Australia.svg",
+      "license": "CC BY-SA 4.0",
+      "author": "Solleali39445",
+      "file": "AN.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "AP",
+      "airline": "AlbaStar",
+      "wikidata": "Q1887288",
+      "source": "https://commons.wikimedia.org/wiki/File:Alba_Star_Logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "AP.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "AQ",
+      "airline": "Aloha Airlines",
+      "wikidata": "Q167721",
+      "source": "https://commons.wikimedia.org/wiki/File:Aloha_Airlines_Logo.svg",
+      "license": "Public domain",
+      "author": "KUsam at en.wikipedia",
+      "file": "AQ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "AR",
+      "airline": "Q83535",
+      "wikidata": "Q83535",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_wordmark_Aerol%C3%ADneas_Argentinas_(2010).svg",
+      "license": "Public domain",
+      "author": "Aerolíneas Argentinas",
+      "file": "AR.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "AS",
+      "airline": "Alaska Airlines",
+      "wikidata": "Q822614",
+      "source": "https://commons.wikimedia.org/wiki/File:Alaska_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "Alaska Airlines",
+      "file": "AS.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "AT",
+      "airline": "Royal Air Maroc",
+      "wikidata": "Q866103",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Royal_Air_Maroc.svg",
+      "license": "Public domain",
+      "author": "Royal Air Maroc",
+      "file": "AT.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "AV",
+      "airline": "Avianca",
+      "wikidata": "Q308911",
+      "source": "https://commons.wikimedia.org/wiki/File:Avianca_2023_wordmark.svg",
+      "license": "Public domain",
+      "author": "Avianca S.A.",
+      "file": "AV.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "AY",
+      "airline": "Finnair",
+      "wikidata": "Q201821",
+      "source": "https://commons.wikimedia.org/wiki/File:Finnair_Logo.svg",
+      "license": "Public domain",
+      "author": "Finnair, Mikael Kivelä",
+      "file": "AY.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "AZ",
+      "airline": "Alitalia",
+      "wikidata": "Q153975",
+      "source": "https://commons.wikimedia.org/wiki/File:Alitalia_logo.svg",
+      "license": "Public domain",
+      "author": "Alitalia",
+      "file": "AZ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "B2",
+      "airline": "Belavia",
+      "wikidata": "Q815314",
+      "source": "https://commons.wikimedia.org/wiki/File:Belavia_logo.svg",
+      "license": "Public domain",
+      "author": "Belavia",
+      "file": "B2.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "B6",
+      "airline": "JetBlue Airways",
+      "wikidata": "Q161086",
+      "source": "https://commons.wikimedia.org/wiki/File:JetBlue_Airways_Logo.svg",
+      "license": "Public domain",
+      "author": "JetBlue Airways",
+      "file": "B6.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "B8",
+      "airline": "Eritrean Airlines",
+      "wikidata": "Q685418",
+      "source": "https://commons.wikimedia.org/wiki/File:Eritrean_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "Siirski",
+      "file": "B8.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "BA",
+      "airline": "British Airways",
+      "wikidata": "Q8766",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_wordmark_British_Airways.png",
+      "license": "Public domain",
+      "author": "British Airways",
+      "file": "BA.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "BB",
+      "airline": "Seaborne Airlines",
+      "wikidata": "Q3476678",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_SEABORNE_Airlines_(USA).png",
+      "license": "Public domain",
+      "author": "Seaborne Airlines",
+      "file": "BB.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "BC",
+      "airline": "Skymark Airlines",
+      "wikidata": "Q735664",
+      "source": "https://commons.wikimedia.org/wiki/File:Skymark_Airlines_Logo_(SKY).svg",
+      "license": "Public domain",
+      "author": "Skymark Airlines Inc.",
+      "file": "BC.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "BF",
+      "airline": "French Bee",
+      "wikidata": "Q23979091",
+      "source": "https://commons.wikimedia.org/wiki/File:French_Bee_Logo.svg",
+      "license": "Public domain",
+      "author": "French Bee",
+      "file": "BF.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "BG",
+      "airline": "Q863432",
+      "wikidata": "Q863432",
+      "source": "https://commons.wikimedia.org/wiki/File:Biman_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "Biman Bangladesh Airlines Ltd.",
+      "file": "BG.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "BI",
+      "airline": "Royal Brunei Airlines",
+      "wikidata": "Q1050783",
+      "source": "https://commons.wikimedia.org/wiki/File:Royal_Brunei_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "Royal Brunei Airlines Sdn Bhd",
+      "file": "BI.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "BJ",
+      "airline": "Nouvelair",
+      "wikidata": "Q225988",
+      "source": "https://commons.wikimedia.org/wiki/File:Nouvelair_Logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "BJ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "BL",
+      "airline": "Pacific Airlines",
+      "wikidata": "Q1156874",
+      "source": "https://commons.wikimedia.org/wiki/File:Paa-logos-01.png",
+      "license": "CC BY-SA 4.0",
+      "author": "leductho1710",
+      "file": "BL.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "BQ",
+      "airline": "Sky Alps",
+      "wikidata": "Q99546065",
+      "source": "https://commons.wikimedia.org/wiki/File:SkyAlps_Logo.svg",
+      "license": "Public domain",
+      "author": "Sky Alps S.r.l.",
+      "file": "BQ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "BR",
+      "airline": "EVA Air",
+      "wikidata": "Q715113",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_EVA_Air.svg",
+      "license": "Public domain",
+      "author": "EVA Air",
+      "file": "BR.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "BT",
+      "airline": "AirBaltic",
+      "wikidata": "Q300924",
+      "source": "https://commons.wikimedia.org/wiki/File:AirBaltic_logo.svg",
+      "license": "Public domain",
+      "author": "AirBaltic",
+      "file": "BT.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "BV",
+      "airline": "Blue Panorama Airlines S.p.A.",
+      "wikidata": "Q885841",
+      "source": "https://commons.wikimedia.org/wiki/File:Blue_Panorama_Airlines_Logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "BV.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "BW",
+      "airline": "Q1036118",
+      "wikidata": "Q1036118",
+      "source": "https://commons.wikimedia.org/wiki/File:Caribbean_Airlines_logo.png",
+      "license": "Public domain",
+      "author": "Caribbean Airlines",
+      "file": "BW.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "BX",
+      "airline": "Air Busan",
+      "wikidata": "Q406932",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Busan_logo.svg",
+      "license": "Public domain",
+      "author": "Air Busan",
+      "file": "BX.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "BY",
+      "airline": "TUI Airways",
+      "wikidata": "Q1156859",
+      "source": "https://commons.wikimedia.org/wiki/File:TUI_Logo_2016.svg",
+      "license": "Public domain",
+      "author": "TUI Group",
+      "file": "BY.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "BZ",
+      "airline": "Blue Dart Aviation",
+      "wikidata": "Q237246",
+      "source": "https://commons.wikimedia.org/wiki/File:Blue_Dart_logo_transparent.png",
+      "license": "Public domain",
+      "author": "BLUE DART",
+      "file": "BZ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "C0",
+      "airline": "Centralwings",
+      "wikidata": "Q1054124",
+      "source": "https://commons.wikimedia.org/wiki/File:Centralwings_Logo_2.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "C0.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "C5",
+      "airline": "CommuteAir",
+      "wikidata": "Q528492",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_wordmark_CommuteAir_(2025).png",
+      "license": "Public domain",
+      "author": "CommuteAir",
+      "file": "C5.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "CA",
+      "airline": "Air China",
+      "wikidata": "Q51747",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_China_wordmark.svg",
+      "license": "Public domain",
+      "author": "Air China Limited",
+      "file": "CA.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "CD",
+      "airline": "Corendon Dutch Airlines",
+      "wikidata": "Q1150325",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Corendon-Dutch_(2017).svg",
+      "license": "Public domain",
+      "author": "Corendon Dutch Airlines",
+      "file": "CD.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "CM",
+      "airline": "Copa Airlines",
+      "wikidata": "Q849404",
+      "source": "https://commons.wikimedia.org/wiki/File:Copa_airlines_logo.png",
+      "license": "Public domain",
+      "author": "EEIM",
+      "file": "CM.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "CS",
+      "airline": "Q19744058",
+      "wikidata": "Q19744058",
+      "source": "https://commons.wikimedia.org/wiki/File:Chair_Airlines.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "CS.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "CT",
+      "airline": "Alitalia CityLiner",
+      "wikidata": "Q1189286",
+      "source": "https://commons.wikimedia.org/wiki/File:Alitalia_CityLiner_logo_2017.svg",
+      "license": "Public domain",
+      "author": "Alitalia - Società Aerea Italiana S.p.A.",
+      "file": "CT.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "CU",
+      "airline": "Cubana de Aviación",
+      "wikidata": "Q849910",
+      "source": "https://commons.wikimedia.org/wiki/File:Cubana_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "Cubana de Aviación S.A",
+      "file": "CU.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "CV",
+      "airline": "Cargolux",
+      "wikidata": "Q1036100",
+      "source": "https://commons.wikimedia.org/wiki/File:Cargolux_logo.svg",
+      "license": "Public domain",
+      "author": "Cargolux",
+      "file": "CV.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "CX",
+      "airline": "Cathay Pacific",
+      "wikidata": "Q32141",
+      "source": "https://commons.wikimedia.org/wiki/File:Cathay_Pacific_Ltd._logo.svg",
+      "license": "Public domain",
+      "author": "Cathay Pacific",
+      "file": "CX.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "CY",
+      "airline": "Cyprus Airways",
+      "wikidata": "Q28719599",
+      "source": "https://commons.wikimedia.org/wiki/File:Cyprus_Airways_(logo,_2017).svg",
+      "license": "Public domain",
+      "author": "Cyprus Airways",
+      "file": "CY.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "D2",
+      "airline": "Severstal Air Company",
+      "wikidata": "Q2068300",
+      "source": "https://commons.wikimedia.org/wiki/File:Severstal_Avia_logo.png",
+      "license": "Public domain",
+      "author": "Severstal Avia",
+      "file": "D2.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "D6",
+      "airline": "Interair South Africa",
+      "wikidata": "Q1188334",
+      "source": "https://commons.wikimedia.org/wiki/File:Interair_South_Africa_Logo.gif",
+      "license": "CC BY-SA 4.0",
+      "author": "Jules Oreilien",
+      "file": "D6.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "D7",
+      "airline": "AirAsia X",
+      "wikidata": "Q406632",
+      "source": "https://commons.wikimedia.org/wiki/File:AirAsia_X_Logo.svg",
+      "license": "Public domain",
+      "author": "AirAsia X",
+      "file": "D7.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "D8",
+      "airline": "Norwegian Air Sweden",
+      "wikidata": "Q60456802",
+      "source": "https://commons.wikimedia.org/wiki/File:Norwegian_Logo_2024.svg",
+      "license": "Public domain",
+      "author": "Norwegian Air Shuttle ASA",
+      "file": "D8.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "DB",
+      "airline": "Brit Air",
+      "wikidata": "Q918006",
+      "source": "https://commons.wikimedia.org/wiki/File:Brit_Air_logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "DB.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "DD",
+      "airline": "Nok Air",
+      "wikidata": "Q1065088",
+      "source": "https://commons.wikimedia.org/wiki/File:Nokair_logo.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Nok Airlines Co. Ltd",
+      "file": "DD.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "DE",
+      "airline": "Condor Flugdienst",
+      "wikidata": "Q312517",
+      "source": "https://commons.wikimedia.org/wiki/File:Condor_logo_2022.svg",
+      "license": "Public domain",
+      "author": "Condor Flugdienst GmbH",
+      "file": "DE.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "DI",
+      "airline": "Marabu Airlines",
+      "wikidata": "Q116939897",
+      "source": "https://commons.wikimedia.org/wiki/File:Marabu.svg",
+      "license": "Public domain",
+      "author": "Marabu Airlines staff",
+      "file": "DI.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "DK",
+      "airline": "Sunclass Airlines",
+      "wikidata": "Q1190358",
+      "source": "https://commons.wikimedia.org/wiki/File:Sunclass_airlines_logo_2.png",
+      "license": "CC BY-SA 4.0",
+      "author": "Sunclass Airlines",
+      "file": "DK.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "DL",
+      "airline": "Delta Air Lines",
+      "wikidata": "Q188920",
+      "source": "https://commons.wikimedia.org/wiki/File:Delta_logo.svg",
+      "license": "Public domain",
+      "author": "Delta Air Lines",
+      "file": "DL.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "DM",
+      "airline": "Maersk Air",
+      "wikidata": "Q1754153",
+      "source": "https://commons.wikimedia.org/wiki/File:Maersk_Air_logo.svg",
+      "license": "Public domain",
+      "author": "Maersk Air",
+      "file": "DM.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "DN",
+      "airline": "Sénégal Airlines",
+      "wikidata": "Q1548886",
+      "source": "https://commons.wikimedia.org/wiki/File:Senegal_Airlines_Logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "DN.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "DP",
+      "airline": "Pobeda",
+      "wikidata": "Q18398469",
+      "source": "https://commons.wikimedia.org/wiki/File:Pobeda_logo.svg",
+      "license": "Public domain",
+      "author": "ООО «Авиакомпания «Победа»",
+      "file": "DP.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "DS",
+      "airline": "EasyJet Switzerland",
+      "wikidata": "Q1050862",
+      "source": "https://commons.wikimedia.org/wiki/File:EasyJet_logo.svg",
+      "license": "Public domain",
+      "author": "easyJet.",
+      "file": "DS.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "DT",
+      "airline": "TAAG Angola Airlines",
+      "wikidata": "Q1050518",
+      "source": "https://commons.wikimedia.org/wiki/File:TAAG_2023_wordmark.svg",
+      "license": "Public domain",
+      "author": "TAAG Angola Airlines E.P.",
+      "file": "DT.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "DV",
+      "airline": "SCAT Airlines",
+      "wikidata": "Q650170",
+      "source": "https://commons.wikimedia.org/wiki/File:SCAT_Air_Company_Logo.svg",
+      "license": "Public domain",
+      "author": "SCAT",
+      "file": "DV.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "DY",
+      "airline": "Norwegian Air Shuttle",
+      "wikidata": "Q215392",
+      "source": "https://commons.wikimedia.org/wiki/File:Norwegian_Logo_2024.svg",
+      "license": "Public domain",
+      "author": "Norwegian Air Shuttle ASA",
+      "file": "DY.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "E4",
+      "airline": "Enter Air",
+      "wikidata": "Q1344593",
+      "source": "https://commons.wikimedia.org/wiki/File:Enter_Air_logo.svg",
+      "license": "Public domain",
+      "author": "Enter Air",
+      "file": "E4.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "E5",
+      "airline": "Air Arabia Egypt",
+      "wikidata": "Q406794",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Arabia_Logo.svg",
+      "license": "Public domain",
+      "author": "Air Arabia",
+      "file": "E5.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "E9",
+      "airline": "Evelop Airlines",
+      "wikidata": "Q15407859",
+      "source": "https://commons.wikimedia.org/wiki/File:Iberojetlogo.png",
+      "license": "Public domain",
+      "author": "iberojet",
+      "file": "E9.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "EC",
+      "airline": "easyJet Europe",
+      "wikidata": "Q33232651",
+      "source": "https://commons.wikimedia.org/wiki/File:EasyJet_logo.svg",
+      "license": "Public domain",
+      "author": "easyJet.",
+      "file": "EC.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "ED",
+      "airline": "Q406653",
+      "wikidata": "Q406653",
+      "source": "https://commons.wikimedia.org/wiki/File:AirExplore_logo.svg",
+      "license": "Public domain",
+      "author": "AirExplore, s.r.o.",
+      "file": "ED.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "EG",
+      "airline": "Japan Asia Airways",
+      "wikidata": "Q702200",
+      "source": "https://commons.wikimedia.org/wiki/File:JAA_company_logos.svg",
+      "license": "Public domain",
+      "author": "User:Great Brightstar",
+      "file": "EG.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "EI",
+      "airline": "Aer Lingus",
+      "wikidata": "Q83716",
+      "source": "https://commons.wikimedia.org/wiki/File:Aer_Lingus_2022_logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "EI.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "EK",
+      "airline": "Emirates",
+      "wikidata": "Q180432",
+      "source": "https://commons.wikimedia.org/wiki/File:Emirates_banner_logo.svg",
+      "license": "Public domain",
+      "author": "Fly Emirates Group",
+      "file": "EK.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "EM",
+      "airline": "Aero Benin",
+      "wikidata": "Q508005",
+      "source": "https://commons.wikimedia.org/wiki/File:Aero_Benin_logo.gif",
+      "license": "Public domain",
+      "author": "Idealo",
+      "file": "EM.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "EN",
+      "airline": "Air Dolomiti",
+      "wikidata": "Q162174",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Dolomiti-Logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "EN.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "EQ",
+      "airline": "TAME",
+      "wikidata": "Q1530726",
+      "source": "https://commons.wikimedia.org/wiki/File:Logotame.png",
+      "license": "CC BY-SA 4.0",
+      "author": "CharlieTango1234578",
+      "file": "EQ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "ES",
+      "airline": "Aerolíneas Estelar",
+      "wikidata": "Q16303234",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Aerolineas_Estelar.png",
+      "license": "CC BY 4.0",
+      "author": "Aerolíneas Estelar",
+      "file": "ES.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "ET",
+      "airline": "Ethiopian Airlines",
+      "wikidata": "Q245233",
+      "source": "https://commons.wikimedia.org/wiki/File:Ethiopian_Airlines_Logo.svg",
+      "license": "Public domain",
+      "author": "Ethiopian Airlines",
+      "file": "ET.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "EW",
+      "airline": "Eurowings",
+      "wikidata": "Q168836",
+      "source": "https://commons.wikimedia.org/wiki/File:Eurowings_Logo_2026.svg",
+      "license": "Public domain",
+      "author": "Eurowings GmbH",
+      "file": "EW.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "EX",
+      "airline": "Avianca Express",
+      "wikidata": "Q63371258",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Avianca_Express.svg",
+      "license": "Public domain",
+      "author": "Avianca Express",
+      "file": "EX.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "EY",
+      "airline": "Etihad Airways",
+      "wikidata": "Q212304",
+      "source": "https://commons.wikimedia.org/wiki/File:Etihad-airways-logo.svg",
+      "license": "Public domain",
+      "author": "Moheen Reeyad",
+      "file": "EY.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "F5",
+      "airline": "Aerotranscargo",
+      "wikidata": "Q56261069",
+      "source": "https://commons.wikimedia.org/wiki/File:Atcfze_logo.png",
+      "license": "CC BY-SA 4.0",
+      "author": "Aerotranscargo",
+      "file": "F5.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "F8",
+      "airline": "Flair Airlines",
+      "wikidata": "Q4038797",
+      "source": "https://commons.wikimedia.org/wiki/File:Flair_Airlines_logo_(2019).svg",
+      "license": "Public domain",
+      "author": "Flair Airlines",
+      "file": "F8.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "F9",
+      "airline": "Frontier Airlines",
+      "wikidata": "Q1139541",
+      "source": "https://commons.wikimedia.org/wiki/File:Frontier_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "Frontier Airlines",
+      "file": "F9.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "FB",
+      "airline": "Q822130",
+      "wikidata": "Q822130",
+      "source": "https://commons.wikimedia.org/wiki/File:Bulgaria_Air_logo.png",
+      "license": "CC BY 2.5",
+      "author": "Bulgaria Air",
+      "file": "FB.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "FD",
+      "airline": "Thai AirAsia",
+      "wikidata": "Q1148568",
+      "source": "https://commons.wikimedia.org/wiki/File:AirAsia_New_Logo.svg",
+      "license": "Public domain",
+      "author": "AirAsia",
+      "file": "FD.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "FG",
+      "airline": "Ariana Afghan Airlines",
+      "wikidata": "Q654953",
+      "source": "https://commons.wikimedia.org/wiki/File:Ariana_Afghan_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "w:Zahir Shah.[1]",
+      "file": "FG.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "FH",
+      "airline": "Freebird Airlines",
+      "wikidata": "Q1453488",
+      "source": "https://commons.wikimedia.org/wiki/File:Freebird_Airlines_Logo_(2021).svg",
+      "license": "Public domain",
+      "author": "Freebird Havayolları",
+      "file": "FH.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "FI",
+      "airline": "Icelandair",
+      "wikidata": "Q216645",
+      "source": "https://commons.wikimedia.org/wiki/File:Icelandairlogo.svg",
+      "license": "Public domain",
+      "author": "Icelandair",
+      "file": "FI.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "FJ",
+      "airline": "Fiji Airways",
+      "wikidata": "Q407719",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Pacific_logo.svg",
+      "license": "Public domain",
+      "author": "Air Pacific",
+      "file": "FJ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "FL",
+      "airline": "AirTran Airways",
+      "wikidata": "Q406695",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Tran_Airways_Logo.svg",
+      "license": "Public domain",
+      "author": "AirTran Airways",
+      "file": "FL.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "FO",
+      "airline": "Airlines of Tasmania",
+      "wikidata": "Q1058133",
+      "source": "https://commons.wikimedia.org/wiki/File:Airlines_of_Tasmania_logo.svg",
+      "license": "Public domain",
+      "author": "Airlines of Tasmania",
+      "file": "FO.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "FR",
+      "airline": "Ryanair",
+      "wikidata": "Q170614",
+      "source": "https://commons.wikimedia.org/wiki/File:Ryanair_wordmark.svg",
+      "license": "Public domain",
+      "author": "Ryanair Holdings plc",
+      "file": "FR.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "FV",
+      "airline": "Rossiya",
+      "wikidata": "Q727452",
+      "source": "https://commons.wikimedia.org/wiki/File:Rossiya_airlines_logo_2016.png",
+      "license": "Public domain",
+      "author": "OTVETDESIGN",
+      "file": "FV.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "FX",
+      "airline": "FedEx Express",
+      "wikidata": "Q782557",
+      "source": "https://commons.wikimedia.org/wiki/File:FedEx_Express.svg",
+      "license": "Public domain",
+      "author": "FedEx Express",
+      "file": "FX.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "FY",
+      "airline": "Firefly",
+      "wikidata": "Q1418913",
+      "source": "https://commons.wikimedia.org/wiki/File:Firefly_Logo.svg",
+      "license": "Public domain",
+      "author": "Firefly",
+      "file": "FY.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "FZ",
+      "airline": "flydubai",
+      "wikidata": "Q1048495",
+      "source": "https://commons.wikimedia.org/wiki/File:Fly_Dubai_logo_2010_03.svg",
+      "license": "Public domain",
+      "author": "Fly Dubai",
+      "file": "FZ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "G3",
+      "airline": "Gol Transportes Aéreos",
+      "wikidata": "Q691637",
+      "source": "https://commons.wikimedia.org/wiki/File:Gol_Linhas_A%C3%A9reas_Inteligentes_logo_(2015,_without_the_slogan).svg",
+      "license": "Public domain",
+      "author": "Gol Linhas Aéreas Inteligentes",
+      "file": "G3.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "G4",
+      "airline": "Allegiant Air",
+      "wikidata": "Q1319601",
+      "source": "https://commons.wikimedia.org/wiki/File:Allegiant_Air_logo.svg",
+      "license": "Public domain",
+      "author": "Allegiant Air",
+      "file": "G4.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "G8",
+      "airline": "Go First",
+      "wikidata": "Q1350144",
+      "source": "https://commons.wikimedia.org/wiki/File:GoAir_Logo.png",
+      "license": "Public domain",
+      "author": "सुजय यादव",
+      "file": "G8.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "G9",
+      "airline": "Air Arabia",
+      "wikidata": "Q406798",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Arabia_Logo.svg",
+      "license": "Public domain",
+      "author": "Air Arabia",
+      "file": "G9.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "GB",
+      "airline": "ABX Air",
+      "wikidata": "Q1366724",
+      "source": "https://commons.wikimedia.org/wiki/File:Abx_Air_logo.svg",
+      "license": "Public domain",
+      "author": "ABX Air",
+      "file": "GB.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "GE",
+      "airline": "TransAsia Airways",
+      "wikidata": "Q383707",
+      "source": "https://commons.wikimedia.org/wiki/File:TransAsia_Airways_Logo.gif",
+      "license": "MPL 1.1",
+      "author": "TransAsia Airways",
+      "file": "GE.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "GF",
+      "airline": "Gulf Air",
+      "wikidata": "Q473231",
+      "source": "https://commons.wikimedia.org/wiki/File:Gulf_Air_2018_wordmark.svg",
+      "license": "Public domain",
+      "author": "Gulf Air Company G.S.C.",
+      "file": "GF.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "GK",
+      "airline": "Jetstar Japan",
+      "wikidata": "Q117433",
+      "source": "https://commons.wikimedia.org/wiki/File:Jetstar_logo.svg",
+      "license": "Public domain",
+      "author": "Jetstar Group",
+      "file": "GK.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "GL",
+      "airline": "Air Greenland",
+      "wikidata": "Q407292",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Greenland_logo.svg",
+      "license": "Public domain",
+      "author": "Air Greenland",
+      "file": "GL.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "GM",
+      "airline": "Asia Cargo Airlines",
+      "wikidata": "Q619050",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Asia_Cargo_Airlines.png",
+      "license": "Public domain",
+      "author": "Asia Cargo Airlines",
+      "file": "GM.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "GR",
+      "airline": "Aurigny Air Services",
+      "wikidata": "Q776145",
+      "source": "https://commons.wikimedia.org/wiki/File:Aurigny_logo.svg",
+      "license": "Public domain",
+      "author": "Aurigny",
+      "file": "GR.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "H2",
+      "airline": "Sky Airline",
+      "wikidata": "Q1427299",
+      "source": "https://commons.wikimedia.org/wiki/File:Sky_Airline_Logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "H2.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "H6",
+      "airline": "European Air Charter",
+      "wikidata": "Q1003679",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_of_European_Air_Charter.png",
+      "license": "CC0",
+      "author": "European Air Charter",
+      "file": "H6.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "HA",
+      "airline": "Hawaiian Airlines",
+      "wikidata": "Q642610",
+      "source": "https://commons.wikimedia.org/wiki/File:Hawaiian_Airlines_2017_wordmark.svg",
+      "license": "Public domain",
+      "author": "Hawaiian Airlines, Inc.",
+      "file": "HA.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "HC",
+      "airline": "Air Senegal",
+      "wikidata": "Q56754455",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Senegal_Logo.png",
+      "license": "CC BY-SA 4.0",
+      "author": "Air Senegal (logo)",
+      "file": "HC.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "HD",
+      "airline": "Air Do",
+      "wikidata": "Q948500",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Do.svg",
+      "license": "Public domain",
+      "author": "Air Do",
+      "file": "HD.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "HF",
+      "airline": "Air Côte d'Ivoire",
+      "wikidata": "Q392864",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_C%C3%B4te_d%27Ivoire_logo.png",
+      "license": "Public domain",
+      "author": "Air Côte d'Ivoire",
+      "file": "HF.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "HH",
+      "airline": "Air Hamburg",
+      "wikidata": "Q407294",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Hamburg_Logo.svg",
+      "license": "Public domain",
+      "author": "Air Hamburg",
+      "file": "HH.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "HP",
+      "airline": "Amapola Flyg",
+      "wikidata": "Q454611",
+      "source": "https://commons.wikimedia.org/wiki/File:Amapola_Flyg_Logo.jpg",
+      "license": "Public domain",
+      "author": "Amapola Flyg",
+      "file": "HP.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "HV",
+      "airline": "Transavia",
+      "wikidata": "Q246952",
+      "source": "https://commons.wikimedia.org/wiki/File:Transavia_2025_logo.svg",
+      "license": "Public domain",
+      "author": "Transavia Airlines C.V. / Transavia France S.A.S.",
+      "file": "HV.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "HZ",
+      "airline": "Aurora",
+      "wikidata": "Q15222475",
+      "source": "https://commons.wikimedia.org/wiki/File:Aurora_airline_logo.svg",
+      "license": "Public domain",
+      "author": "Landor Associates",
+      "file": "HZ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "I2",
+      "airline": "Iberia Express",
+      "wikidata": "Q1655820",
+      "source": "https://commons.wikimedia.org/wiki/File:Iberia_Express.svg",
+      "license": "Public domain",
+      "author": "Andreuvv",
+      "file": "I2.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "I3",
+      "airline": "Q4115026",
+      "wikidata": "Q4115026",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_text_ATA_Airlines_(Iran)_2025.png",
+      "license": "Public domain",
+      "author": "ATA Airlines (Iran)",
+      "file": "I3.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "I5",
+      "airline": "AIX Connect",
+      "wikidata": "Q5103383",
+      "source": "https://commons.wikimedia.org/wiki/File:AirAsia_New_Logo.svg",
+      "license": "Public domain",
+      "author": "AirAsia",
+      "file": "I5.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "IA",
+      "airline": "Iraqi Airways",
+      "wikidata": "Q853937",
+      "source": "https://commons.wikimedia.org/wiki/File:Iraqi_Airways_Logo.svg",
+      "license": "Public domain",
+      "author": "The original uploader was Jovianeye at English Wikipedia.",
+      "file": "IA.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "IB",
+      "airline": "Iberia",
+      "wikidata": "Q187972",
+      "source": "https://commons.wikimedia.org/wiki/File:Logotipo_de_Iberia.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "IB.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "IC",
+      "airline": "Indian Airlines",
+      "wikidata": "Q876323",
+      "source": "https://commons.wikimedia.org/wiki/File:Indian_Airlines_old_logo_(text-only).svg",
+      "license": "Public domain",
+      "author": "Original: Indian Airlines\n\nDerived work: Soumya-8974",
+      "file": "IC.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "IF",
+      "airline": "Fly Baghdad",
+      "wikidata": "Q20165812",
+      "source": "https://commons.wikimedia.org/wiki/File:FlyBaghdad.svg",
+      "license": "CC BY-SA 4.0",
+      "author": "Alishamsi82",
+      "file": "IF.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "IG",
+      "airline": "Meridiana",
+      "wikidata": "Q1156345",
+      "source": "https://commons.wikimedia.org/wiki/File:MeridianaflyLogo.png",
+      "license": "Public domain",
+      "author": "Meridiana",
+      "file": "IG.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "IJ",
+      "airline": "Spring Airlines Japan",
+      "wikidata": "Q11513792",
+      "source": "https://commons.wikimedia.org/wiki/File:Spring_Airlines_Japan_Logo.png",
+      "license": "Public domain",
+      "author": "Spring Airlines Japan Co., Ltd.",
+      "file": "IJ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "IK",
+      "airline": "Ikar",
+      "wikidata": "Q5995362",
+      "source": "https://commons.wikimedia.org/wiki/File:Pegas_Fly_logo.png",
+      "license": "Public domain",
+      "author": "Pegas Fly",
+      "file": "IK.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "IO",
+      "airline": "IrAero",
+      "wikidata": "Q2033681",
+      "source": "https://commons.wikimedia.org/wiki/File:IrAero_logo.png",
+      "license": "Public domain",
+      "author": "IrAero",
+      "file": "IO.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "IP",
+      "airline": "Inter European Airways",
+      "wikidata": "Q6045073",
+      "source": "https://commons.wikimedia.org/wiki/File:Inter_european_logo.svg",
+      "license": "Public domain",
+      "author": "Inter European Airways",
+      "file": "IP.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "IQ",
+      "airline": "Augsburg Airways",
+      "wikidata": "Q677726",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Augsburg_Airways.svg",
+      "license": "Public domain",
+      "author": "Augsburg Airways",
+      "file": "IQ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "IR",
+      "airline": "Q461631",
+      "wikidata": "Q461631",
+      "source": "https://commons.wikimedia.org/wiki/File:Iran_Air_logo.svg",
+      "license": "Public domain",
+      "author": "Iran Air",
+      "file": "IR.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "IS",
+      "airline": "AIS Airlines",
+      "wikidata": "Q2354839",
+      "source": "https://commons.wikimedia.org/wiki/File:AIS_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "AIS Airlines",
+      "file": "IS.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "IT",
+      "airline": "Tigerair Taiwan",
+      "wikidata": "Q15434492",
+      "source": "https://commons.wikimedia.org/wiki/File:Tigerair_Taiwan_logo.svg",
+      "license": "Public domain",
+      "author": "Tigerair Taiwan",
+      "file": "IT.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "IX",
+      "airline": "Air India Express",
+      "wikidata": "Q407343",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_India_Express_logo.svg",
+      "license": "Public domain",
+      "author": "Air India",
+      "file": "IX.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "IZ",
+      "airline": "Arkia",
+      "wikidata": "Q553915",
+      "source": "https://commons.wikimedia.org/wiki/File:Arkia_Israeli_logo.svg",
+      "license": "Public domain",
+      "author": "Arkia",
+      "file": "IZ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "J2",
+      "airline": "Azerbaijan Airlines",
+      "wikidata": "Q333679",
+      "source": "https://commons.wikimedia.org/wiki/File:Azerbaijan_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "Azerbaijan Hava Yollari",
+      "file": "J2.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "J7",
+      "airline": "Denim Air",
+      "wikidata": "Q1187202",
+      "source": "https://commons.wikimedia.org/wiki/File:Company_logo_Denim_Air_ACMI.png",
+      "license": "Public domain",
+      "author": "Denim Air ACMI",
+      "file": "J7.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "J9",
+      "airline": "Jazeera Airways",
+      "wikidata": "Q1064048",
+      "source": "https://commons.wikimedia.org/wiki/File:Jazeera_Airways_logo.svg",
+      "license": "Public domain",
+      "author": "Jazeera Airways",
+      "file": "J9.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "JA",
+      "airline": "JetSmart",
+      "wikidata": "Q30106175",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_JetSmart.svg",
+      "license": "Public domain",
+      "author": "JetSmart",
+      "file": "JA.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "JC",
+      "airline": "Japan Air Commuter",
+      "wikidata": "Q1191485",
+      "source": "https://commons.wikimedia.org/wiki/File:Japan_Air_Commuter_Logo.png",
+      "license": "Public domain",
+      "author": "日本エアコミューター株式会社",
+      "file": "JC.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "JD",
+      "airline": "Japan Air System",
+      "wikidata": "Q1138263",
+      "source": "https://commons.wikimedia.org/wiki/File:Japan_Air_System_Logo.svg",
+      "license": "Public domain",
+      "author": "Japan Air System",
+      "file": "JD.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "JI",
+      "airline": "Midway Airlines",
+      "wikidata": "Q6843264",
+      "source": "https://commons.wikimedia.org/wiki/File:Midway_Airlines_Logo,_July_2001.svg",
+      "license": "Public domain",
+      "author": "Midway Airlines (1993–2003)",
+      "file": "JI.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "JJ",
+      "airline": "LATAM Brasil",
+      "wikidata": "Q690789",
+      "source": "https://commons.wikimedia.org/wiki/File:Latam-logo_-v_(Indigo).svg",
+      "license": "Public domain",
+      "author": "Sao Paolo, Santiago and Madrid offices of Interbrand [1]\n\nvector file: Mliu92",
+      "file": "JJ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "JK",
+      "airline": "Spanair",
+      "wikidata": "Q204122",
+      "source": "https://commons.wikimedia.org/wiki/File:Spanair_Logo_2.jpg",
+      "license": "Public domain",
+      "author": "Spanair",
+      "file": "JK.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "JL",
+      "airline": "Japan Airlines",
+      "wikidata": "Q213140",
+      "source": "https://commons.wikimedia.org/wiki/File:Japan_Airlines_Wordmark_(2011).svg",
+      "license": "Public domain",
+      "author": "Copyright©Japan Airlines. All rights reserved.",
+      "file": "JL.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "JO",
+      "airline": "Jet Time",
+      "wikidata": "Q28357",
+      "source": "https://commons.wikimedia.org/wiki/File:Jet_Time_logo_(2016).svg",
+      "license": "Public domain",
+      "author": "Jet Time",
+      "file": "JO.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "JP",
+      "airline": "Adria Airways",
+      "wikidata": "Q223191",
+      "source": "https://commons.wikimedia.org/wiki/File:Adria_Airways_Logo_Star.svg",
+      "license": "Public domain",
+      "author": "Adria Airways",
+      "file": "JP.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "JQ",
+      "airline": "Jetstar Airways",
+      "wikidata": "Q767627",
+      "source": "https://commons.wikimedia.org/wiki/File:Jetstar_logo.svg",
+      "license": "Public domain",
+      "author": "Jetstar Group",
+      "file": "JQ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "JU",
+      "airline": "Air Serbia",
+      "wikidata": "Q460373",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Serbia_logo.svg",
+      "license": "Public domain",
+      "author": "Air Serbia",
+      "file": "JU.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "JX",
+      "airline": "Starlux Airlines",
+      "wikidata": "Q28056940",
+      "source": "https://commons.wikimedia.org/wiki/File:Starlux_wordmark.svg",
+      "license": "Public domain",
+      "author": "STARLUX Airlines Co.",
+      "file": "JX.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "JY",
+      "airline": "InterCaribbean Airways",
+      "wikidata": "Q4698234",
+      "source": "https://commons.wikimedia.org/wiki/File:InterCaribbean_Airways_Logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "JY.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "K7",
+      "airline": "Mingalar Aviation Services",
+      "wikidata": "Q2494087",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_of_Mingalar_Aviation_Services.svg",
+      "license": "Public domain",
+      "author": "Ninjastrikers",
+      "file": "K7.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "KC",
+      "airline": "Air Astana",
+      "wikidata": "Q406828",
+      "source": "https://commons.wikimedia.org/wiki/File:AirAstanaNewLogo.png",
+      "license": "Public domain",
+      "author": "Air Astana",
+      "file": "KC.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "KD",
+      "airline": "KD Avia",
+      "wikidata": "Q602521",
+      "source": "https://commons.wikimedia.org/wiki/File:KD_Avia_Logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "KD.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "KE",
+      "airline": "Q213147",
+      "wikidata": "Q213147",
+      "source": "https://commons.wikimedia.org/wiki/File:Korean_Air_2025.svg",
+      "license": "Public domain",
+      "author": "Korean Air (designed by Lippincott)",
+      "file": "KE.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "KF",
+      "airline": "Blue1",
+      "wikidata": "Q214675",
+      "source": "https://commons.wikimedia.org/wiki/File:Blue1_Logo.svg",
+      "license": "Public domain",
+      "author": "SAS Group\n\nUploaded by JetBlast at en.wikipedia",
+      "file": "KF.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "KG",
+      "airline": "Aerogaviota",
+      "wikidata": "Q381474",
+      "source": "https://commons.wikimedia.org/wiki/File:Aerogaviota_logo.jpg",
+      "license": "Copyrighted free use",
+      "author": "Unknown authorUnknown author",
+      "file": "KG.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "KH",
+      "airline": "Aloha Air Cargo",
+      "wikidata": "Q901266",
+      "source": "https://commons.wikimedia.org/wiki/File:Aloha_Air_Cargo_Logo.svg",
+      "license": "Public domain",
+      "author": "Aloha Air Cargo",
+      "file": "KH.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "KI",
+      "airline": "KrasAvia",
+      "wikidata": "Q6436151",
+      "source": "https://commons.wikimedia.org/wiki/File:%D0%9B%D0%BE%D0%B3%D0%BE_%D0%93%D0%9F_%D0%9A%D0%9A_%C2%AB%D0%9A%D1%80%D0%B0%D1%81%D0%90%D0%B2%D0%B8%D0%B0%C2%BB.jpg",
+      "license": "Public domain",
+      "author": "АО «КрасАвиа»",
+      "file": "KI.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "KJ",
+      "airline": "Air Incheon",
+      "wikidata": "Q11289522",
+      "source": "https://commons.wikimedia.org/wiki/File:AirZeta_logo_2025.svg",
+      "license": "Public domain",
+      "author": "Air Incheon",
+      "file": "KJ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "KL",
+      "airline": "KLM",
+      "wikidata": "Q181912",
+      "source": "https://commons.wikimedia.org/wiki/File:KLM_logo.svg",
+      "license": "Public domain",
+      "author": "Designed by F.H.K. Henrion, in 1961. Modified by Chris Ludlow at Henrion, Ludlow &amp; Schmidt, in 1991.",
+      "file": "KL.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "KM",
+      "airline": "Air Malta",
+      "wikidata": "Q221604",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Malta_(2012).svg",
+      "license": "Public domain",
+      "author": "Air Malta",
+      "file": "KM.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "KQ",
+      "airline": "Kenya Airways",
+      "wikidata": "Q638900",
+      "source": "https://commons.wikimedia.org/wiki/File:Kenya_Airways_logo.svg",
+      "license": "Public domain",
+      "author": "Kenya Airways Ltd.",
+      "file": "KQ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "KS",
+      "airline": "PenAir",
+      "wikidata": "Q1811285",
+      "source": "https://commons.wikimedia.org/wiki/File:Peninsula_Airways_(PenAir)_Logo.png",
+      "license": "Public domain",
+      "author": "Peninsula Airlines, uploaded by Quintin Soloviev",
+      "file": "KS.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "KU",
+      "airline": "Kuwait Airways",
+      "wikidata": "Q860389",
+      "source": "https://commons.wikimedia.org/wiki/File:Kuwait_Airways_wordmark.svg",
+      "license": "Public domain",
+      "author": "Kuwait Airways Company K.S.C.",
+      "file": "KU.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "KZ",
+      "airline": "Nippon Cargo Airlines",
+      "wikidata": "Q1364998",
+      "source": "https://commons.wikimedia.org/wiki/File:Nippon_Cargo_Airlines_Logo.svg",
+      "license": "Public domain",
+      "author": "Nippon Cargo Airlines",
+      "file": "KZ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "L6",
+      "airline": "Mauritania Airlines",
+      "wikidata": "Q3852483",
+      "source": "https://commons.wikimedia.org/wiki/File:%D8%B4%D8%B9%D8%A7%D8%B1_%D8%A7%D9%84%D9%85%D9%88%D8%B1%D9%8A%D8%AA%D8%A7%D9%86%D9%8A%D8%A9_%D9%84%D9%84%D8%B7%D9%8A%D8%B1%D8%A7%D9%86.png",
+      "license": "Public domain",
+      "author": "Mauritania Airlines",
+      "file": "L6.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "L7",
+      "airline": "LATAM Cargo Colombia",
+      "wikidata": "Q537223",
+      "source": "https://commons.wikimedia.org/wiki/File:Latam-logo_-v_(Indigo).svg",
+      "license": "Public domain",
+      "author": "Sao Paolo, Santiago and Madrid offices of Interbrand [1]\n\nvector file: Mliu92",
+      "file": "L7.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "LA",
+      "airline": "LAN Airlines",
+      "wikidata": "Q9018213",
+      "source": "https://commons.wikimedia.org/wiki/File:LAN_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "LA.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "LF",
+      "airline": "Contour Airlines",
+      "wikidata": "Q54933181",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Contour_Airlines.svg",
+      "license": "Public domain",
+      "author": "Contour Airlines",
+      "file": "LF.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "LG",
+      "airline": "Luxair",
+      "wikidata": "Q726813",
+      "source": "https://commons.wikimedia.org/wiki/File:Luxair_Logo_2007.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "LG.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "LH",
+      "airline": "Lufthansa",
+      "wikidata": "Q9325",
+      "source": "https://commons.wikimedia.org/wiki/File:Lufthansa_Logo_2018.svg",
+      "license": "Public domain",
+      "author": "Lufthansa Group",
+      "file": "LH.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "LK",
+      "airline": "Air Luxor",
+      "wikidata": "Q13403867",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Luxor_logo.svg",
+      "license": "Public domain",
+      "author": "Air Luxor",
+      "file": "LK.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "LN",
+      "airline": "Libyan Airlines",
+      "wikidata": "Q1056939",
+      "source": "https://commons.wikimedia.org/wiki/File:LN_Airlines.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Borg elarab",
+      "file": "LN.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "LO",
+      "airline": "LOT Polish Airlines",
+      "wikidata": "Q204268",
+      "source": "https://commons.wikimedia.org/wiki/File:LOT_Polish_Airlines_wordmark.svg",
+      "license": "Public domain",
+      "author": "Polskie Linie Lotnicze LOT S.A.",
+      "file": "LO.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "LP",
+      "airline": "LATAM Airlines Peru",
+      "wikidata": "Q1145155",
+      "source": "https://commons.wikimedia.org/wiki/File:Latam-logo_-v_(Indigo).svg",
+      "license": "Public domain",
+      "author": "Sao Paolo, Santiago and Madrid offices of Interbrand [1]\n\nvector file: Mliu92",
+      "file": "LP.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "LR",
+      "airline": "Avianca Costa Rica",
+      "wikidata": "Q19259875",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_wordmark_Avianca_(Colombia).png",
+      "license": "Public domain",
+      "author": "Avianca",
+      "file": "LR.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "LS",
+      "airline": "Jet2.com",
+      "wikidata": "Q1140807",
+      "source": "https://commons.wikimedia.org/wiki/File:Jet2Logo.svg",
+      "license": "Public domain",
+      "author": "Jet2.com",
+      "file": "LS.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "LU",
+      "airline": "Q546812",
+      "wikidata": "Q546812",
+      "source": "https://commons.wikimedia.org/wiki/File:Latam-logo_-v_(Indigo).svg",
+      "license": "Public domain",
+      "author": "Sao Paolo, Santiago and Madrid offices of Interbrand [1]\n\nvector file: Mliu92",
+      "file": "LU.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "LV",
+      "airline": "Albanian Airlines",
+      "wikidata": "Q860601",
+      "source": "https://commons.wikimedia.org/wiki/File:Albanian_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "Albanian Airlines",
+      "file": "LV.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "LX",
+      "airline": "Swiss International Air Lines",
+      "wikidata": "Q156776",
+      "source": "https://commons.wikimedia.org/wiki/File:Swiss_International_Air_Lines_Logo_2011.svg",
+      "license": "Public domain",
+      "author": "Swiss International Air Lines",
+      "file": "LX.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "LY",
+      "airline": "EL AL Israel Airlines Ltd.",
+      "wikidata": "Q208489",
+      "source": "https://commons.wikimedia.org/wiki/File:El_Al_logo.svg",
+      "license": "Public domain",
+      "author": "El Al",
+      "file": "LY.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "LZ",
+      "airline": "Balkan Bulgarian Airlines",
+      "wikidata": "Q278906",
+      "source": "https://commons.wikimedia.org/wiki/File:Balkan-airlines-logo.png",
+      "license": "CC BY-SA 4.0",
+      "author": "Balkan Bulgarian Airlines",
+      "file": "LZ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "M2",
+      "airline": "MHS Aviation",
+      "wikidata": "Q15525949",
+      "source": "https://commons.wikimedia.org/wiki/File:MHS_Aviation_gmbh.jpg",
+      "license": "Copyrighted free use",
+      "author": "MHS Aviation GmbH",
+      "file": "M2.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "M3",
+      "airline": "Q1189545",
+      "wikidata": "Q1189545",
+      "source": "https://commons.wikimedia.org/wiki/File:Latam-logo_-v_(Indigo).svg",
+      "license": "Public domain",
+      "author": "Sao Paolo, Santiago and Madrid offices of Interbrand [1]\n\nvector file: Mliu92",
+      "file": "M3.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "M4",
+      "airline": "Poste Air Cargo",
+      "wikidata": "Q1939338",
+      "source": "https://commons.wikimedia.org/wiki/File:Poste_Air_Cargo_logo.svg",
+      "license": "Public domain",
+      "author": "Poste Italiane S.p.A.",
+      "file": "M4.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "MA",
+      "airline": "Malév Hungarian Airlines",
+      "wikidata": "Q208372",
+      "source": "https://commons.wikimedia.org/wiki/File:Malev_logo.svg",
+      "license": "Public domain",
+      "author": "Malev",
+      "file": "MA.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "MB",
+      "airline": "MNG Airlines",
+      "wikidata": "Q1881674",
+      "source": "https://commons.wikimedia.org/wiki/File:MNG_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "MNG Airlines",
+      "file": "MB.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "ME",
+      "airline": "Middle East Airlines - Air Liban",
+      "wikidata": "Q859510",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Middle_East_Airlines_(Lebanon).jpg",
+      "license": "Public domain",
+      "author": "Middle East Airlines (Lebanon)",
+      "file": "ME.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "MH",
+      "airline": "MASkargo",
+      "wikidata": "Q1368765",
+      "source": "https://commons.wikimedia.org/wiki/File:MalaysiaAirlinesLogo_MASKargoNew.jpg",
+      "license": "Public domain",
+      "author": "The original uploader was Yamahaboy81 at English Wikipedia.",
+      "file": "MH.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "MI",
+      "airline": "Freebird Airlines Europe",
+      "wikidata": "Q62250188",
+      "source": "https://commons.wikimedia.org/wiki/File:Freebird_Airlines_Europe_logo.png",
+      "license": "Public domain",
+      "author": "Unknown",
+      "file": "MI.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "MJ",
+      "airline": "MyWay Airlines",
+      "wikidata": "Q51828835",
+      "source": "https://commons.wikimedia.org/wiki/File:MyWay_Airlines_logo.png",
+      "license": "Public domain",
+      "author": "MyWay Airlines",
+      "file": "MJ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "MM",
+      "airline": "Peach",
+      "wikidata": "Q1376634",
+      "source": "https://commons.wikimedia.org/wiki/File:Peach_Aviation_Logo,_March_2026.svg",
+      "license": "Public domain",
+      "author": "nendo.jp &amp; Peach Aviation",
+      "file": "MM.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "MN",
+      "airline": "Comair",
+      "wikidata": "Q1113248",
+      "source": "https://commons.wikimedia.org/wiki/File:Comair_Limited_Logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "MN.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "MO",
+      "airline": "Calm Air",
+      "wikidata": "Q958500",
+      "source": "https://commons.wikimedia.org/wiki/File:Calm_Air_Logo.svg",
+      "license": "Public domain",
+      "author": "Connormah",
+      "file": "MO.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "MP",
+      "airline": "Martinair",
+      "wikidata": "Q426851",
+      "source": "https://commons.wikimedia.org/wiki/File:Martinair_logo.svg",
+      "license": "Public domain",
+      "author": "Martinair",
+      "file": "MP.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "MQ",
+      "airline": "Envoy Air",
+      "wikidata": "Q371306",
+      "source": "https://commons.wikimedia.org/wiki/File:Envoy_air_logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "MQ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "MS",
+      "airline": "EgyptAir",
+      "wikidata": "Q374740",
+      "source": "https://commons.wikimedia.org/wiki/File:Egyptair-Logo-2010.svg",
+      "license": "Public domain",
+      "author": "Egyptair",
+      "file": "MS.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "MW",
+      "airline": "Malta Air",
+      "wikidata": "Q64555797",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Malta_Air.png",
+      "license": "Public domain",
+      "author": "Ryanair",
+      "file": "MW.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "MX",
+      "airline": "Mexicana de Aviación",
+      "wikidata": "Q53085",
+      "source": "https://commons.wikimedia.org/wiki/File:Mexicana_logo_2008.svg",
+      "license": "Public domain",
+      "author": "Compañía Mexicana de Aviación, S.A.B. de C.V.",
+      "file": "MX.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "N0",
+      "airline": "Norse Atlantic Airways",
+      "wikidata": "Q107300119",
+      "source": "https://commons.wikimedia.org/wiki/File:Norse.svg",
+      "license": "Public domain",
+      "author": "Original:  Norse\n\nVectorization:  CODINGWIZZ",
+      "file": "N0.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "N4",
+      "airline": "Nordwind Airlines",
+      "wikidata": "Q1858300",
+      "source": "https://commons.wikimedia.org/wiki/File:Nordwind_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "Nordwind Airlines",
+      "file": "N4.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "N8",
+      "airline": "National Airlines",
+      "wikidata": "Q899774",
+      "source": "https://commons.wikimedia.org/wiki/File:National_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "National Airlines",
+      "file": "N8.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "NE",
+      "airline": "Nesma Airlines",
+      "wikidata": "Q1572717",
+      "source": "https://commons.wikimedia.org/wiki/File:Nesma_Airlines_logo.svg",
+      "license": "CC BY-SA 4.0",
+      "author": "Steve W",
+      "file": "NE.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "NG",
+      "airline": "Lauda Air",
+      "wikidata": "Q1807298",
+      "source": "https://commons.wikimedia.org/wiki/File:Lauda_OS.svg",
+      "license": "Public domain",
+      "author": "Austrian Airlines AG",
+      "file": "NG.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "NH",
+      "airline": "All Nippon Airways",
+      "wikidata": "Q204284",
+      "source": "https://commons.wikimedia.org/wiki/File:All_Nippon_Airways_Logo.svg",
+      "license": "Public domain",
+      "author": "All Nippon Airways Co., Ltd.",
+      "file": "NH.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "NI",
+      "airline": "Portugália",
+      "wikidata": "Q618058",
+      "source": "https://commons.wikimedia.org/wiki/File:Portugalia_Airlines_New_Logo.svg",
+      "license": "CC BY-SA 4.0",
+      "author": "Portugália Airlines",
+      "file": "NI.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "NK",
+      "airline": "Spirit Airlines",
+      "wikidata": "Q1190598",
+      "source": "https://commons.wikimedia.org/wiki/File:Spirit_Airlines_logo_2014.svg",
+      "license": "Public domain",
+      "author": "Barkley (Agency of Record; Kansas City)",
+      "file": "NK.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "NM",
+      "airline": "Air Madrid",
+      "wikidata": "Q407486",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Madrid.svg",
+      "license": "Public domain",
+      "author": "Air Madrid",
+      "file": "NM.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "NP",
+      "airline": "Nile Air",
+      "wikidata": "Q536368",
+      "source": "https://commons.wikimedia.org/wiki/File:Nile_air.png",
+      "license": "CC BY-SA 4.0",
+      "author": "Nile Air",
+      "file": "NP.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "NQ",
+      "airline": "Air Japan",
+      "wikidata": "Q1189087",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Japan_blue_logo.svg",
+      "license": "Public domain",
+      "author": "Air Japan Co., Ltd.",
+      "file": "NQ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "NT",
+      "airline": "Binter Canarias",
+      "wikidata": "Q864087",
+      "source": "https://commons.wikimedia.org/wiki/File:Binter_logo.svg",
+      "license": "Public domain",
+      "author": "Binter Canarias",
+      "file": "NT.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "NU",
+      "airline": "Japan Transocean Air",
+      "wikidata": "Q574659",
+      "source": "https://commons.wikimedia.org/wiki/File:JTA_logo_2011.svg",
+      "license": "Public domain",
+      "author": "Japan Transocean Air",
+      "file": "NU.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "NW",
+      "airline": "Northwest Airlines",
+      "wikidata": "Q309174",
+      "source": "https://commons.wikimedia.org/wiki/File:Northwest_Airlines_Logo.svg",
+      "license": "Public domain",
+      "author": "Northwest Airlines",
+      "file": "NW.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "NX",
+      "airline": "Air Macau",
+      "wikidata": "Q407478",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Macau_Logo.svg",
+      "license": "Public domain",
+      "author": "Air Macau",
+      "file": "NX.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "NZ",
+      "airline": "Air New Zealand",
+      "wikidata": "Q204296",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_New_Zealand_logo.svg",
+      "license": "Public domain",
+      "author": "Air New Zealand",
+      "file": "NZ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "O7",
+      "airline": "OzJet",
+      "wikidata": "Q2043003",
+      "source": "https://commons.wikimedia.org/wiki/File:OzJet.svg",
+      "license": "Public domain",
+      "author": "Strategic Airlines, bzw. deren Rechtsnachfolger",
+      "file": "O7.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "OA",
+      "airline": "Olympic Airlines",
+      "wikidata": "Q2021591",
+      "source": "https://commons.wikimedia.org/wiki/File:Olympic_Airlines_logo.png",
+      "license": "CC BY-SA 3.0",
+      "author": "Nicola1993",
+      "file": "OA.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "OB",
+      "airline": "Boliviana de Aviación",
+      "wikidata": "Q891372",
+      "source": "https://commons.wikimedia.org/wiki/File:Logotipo_de_BoA.svg",
+      "license": "Public domain",
+      "author": "Boliviana de Aviación",
+      "file": "OB.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "OC",
+      "airline": "Oriental Air Bridge",
+      "wikidata": "Q1151882",
+      "source": "https://commons.wikimedia.org/wiki/File:ORC%27s_new_logo.png",
+      "license": "Public domain",
+      "author": "オリエンタルエアブリッジ株式会社",
+      "file": "OC.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "OF",
+      "airline": "Air Finland",
+      "wikidata": "Q407108",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Finland_logo.svg",
+      "license": "Public domain",
+      "author": "Air Finland",
+      "file": "OF.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "OG",
+      "airline": "Air Onix",
+      "wikidata": "Q2374942",
+      "source": "https://commons.wikimedia.org/wiki/File:AirOnix_(%D0%BB%D0%BE%D0%B3%D0%BE).jpg",
+      "license": "Public domain",
+      "author": "aironix.ua",
+      "file": "OG.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "OH",
+      "airline": "Comair",
+      "wikidata": "Q1113243",
+      "source": "https://commons.wikimedia.org/wiki/File:Comair_logo.svg",
+      "license": "Public domain",
+      "author": "Comair",
+      "file": "OH.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "OJ",
+      "airline": "Nyxair",
+      "wikidata": "Q66121841",
+      "source": "https://commons.wikimedia.org/wiki/File:Nyxair-logo.png",
+      "license": "Public domain",
+      "author": "Mrc.causa",
+      "file": "OJ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "OK",
+      "airline": "Czech Airlines",
+      "wikidata": "Q192653",
+      "source": "https://commons.wikimedia.org/wiki/File:Czech_Airlines_Logo.svg",
+      "license": "Public domain",
+      "author": "České Aerolinie, a.s.",
+      "file": "OK.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "OM",
+      "airline": "MIAT Mongolian Airlines",
+      "wikidata": "Q564717",
+      "source": "https://commons.wikimedia.org/wiki/File:MIAT_Eng_Logo_JPG_(1).jpg",
+      "license": "CC BY-SA 4.0",
+      "author": "Batzorig888",
+      "file": "OM.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "OO",
+      "airline": "SkyWest Airlines",
+      "wikidata": "Q773662",
+      "source": "https://commons.wikimedia.org/wiki/File:SkyWest_Airlines_(United_States)_logo.svg",
+      "license": "Public domain",
+      "author": "SkyWest Airlines",
+      "file": "OO.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "OQ",
+      "airline": "Chongqing Airlines",
+      "wikidata": "Q1076141",
+      "source": "https://commons.wikimedia.org/wiki/File:Chongqing_Airlines_logo_2023.png",
+      "license": "Public domain",
+      "author": "Chongqing Airlines",
+      "file": "OQ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "OR",
+      "airline": "TUI fly Netherlands",
+      "wikidata": "Q520869",
+      "source": "https://commons.wikimedia.org/wiki/File:TUIfly_Logo_2016.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "OR.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "OS",
+      "airline": "Austrian Airlines",
+      "wikidata": "Q781770",
+      "source": "https://commons.wikimedia.org/wiki/File:Austrian_Airlines_Logo_2018.svg",
+      "license": "Public domain",
+      "author": "Austrian Airlines AG",
+      "file": "OS.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "OT",
+      "airline": "Aeropelican Air Services",
+      "wikidata": "Q381606",
+      "source": "https://commons.wikimedia.org/wiki/File:Aeropelican_logo.svg",
+      "license": "Public domain",
+      "author": "Aeropelican",
+      "file": "OT.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "OU",
+      "airline": "Croatia Airlines",
+      "wikidata": "Q308974",
+      "source": "https://commons.wikimedia.org/wiki/File:Croatia_Airlines_2024_logo.svg",
+      "license": "Public domain",
+      "author": "Croatia Airlines Ltd.",
+      "file": "OU.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "OV",
+      "airline": "Estonian Air",
+      "wikidata": "Q641422",
+      "source": "https://commons.wikimedia.org/wiki/File:Estonian_Air_logo.svg",
+      "license": "Public domain",
+      "author": "Estonian Air",
+      "file": "OV.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "OY",
+      "airline": "Omni Air International",
+      "wikidata": "Q593931",
+      "source": "https://commons.wikimedia.org/wiki/File:Omni_Air_International_Logo.svg",
+      "license": "Public domain",
+      "author": "Air Transport Services Group",
+      "file": "OY.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "OZ",
+      "airline": "Asiana Airlines",
+      "wikidata": "Q211165",
+      "source": "https://commons.wikimedia.org/wiki/File:Asiana_Airlines.svg",
+      "license": "Public domain",
+      "author": "Asiana Airlines",
+      "file": "OZ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "P4",
+      "airline": "Aerolíneas Sosa",
+      "wikidata": "Q381522",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo-aerolineasosa.png",
+      "license": "CC BY 4.0",
+      "author": "Dreamer0832",
+      "file": "P4.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "P5",
+      "airline": "Wingo",
+      "wikidata": "Q27493922",
+      "source": "https://commons.wikimedia.org/wiki/File:Wingo_logo_2016.svg",
+      "license": "Public domain",
+      "author": "Aero República S.A.",
+      "file": "P5.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "P9",
+      "airline": "Q673852",
+      "wikidata": "Q673852",
+      "source": "https://commons.wikimedia.org/wiki/File:Peruvian_Airlines_-_Logo.png",
+      "license": "Public domain",
+      "author": "Sedenio300",
+      "file": "P9.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "PA",
+      "airline": "airblue",
+      "wikidata": "Q310107",
+      "source": "https://commons.wikimedia.org/wiki/File:Airblue_Logo.svg",
+      "license": "Public domain",
+      "author": "Airblue",
+      "file": "PA.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "PC",
+      "airline": "Pegasus Airlines",
+      "wikidata": "Q1100424",
+      "source": "https://commons.wikimedia.org/wiki/File:Pegasus_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "Pegasus Airlines",
+      "file": "PC.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "PD",
+      "airline": "Porter Airlines",
+      "wikidata": "Q1811473",
+      "source": "https://commons.wikimedia.org/wiki/File:Porter_Airlines_Logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "PD.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "PE",
+      "airline": "Air Europe",
+      "wikidata": "Q407085",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Europe_Logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "PE.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "PF",
+      "airline": "AirSial",
+      "wikidata": "Q41498064",
+      "source": "https://commons.wikimedia.org/wiki/File:AirSial.png",
+      "license": "Public domain",
+      "author": "Air Sial",
+      "file": "PF.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "PG",
+      "airline": "Bangkok Airways",
+      "wikidata": "Q806487",
+      "source": "https://commons.wikimedia.org/wiki/File:Bangkok_Airways_Logo.svg",
+      "license": "Public domain",
+      "author": "Bangkok Airways",
+      "file": "PG.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "PK",
+      "airline": "Pakistan International Airlines",
+      "wikidata": "Q204887",
+      "source": "https://commons.wikimedia.org/wiki/File:PakistanPIA2014Logo.jpg",
+      "license": "Public domain",
+      "author": "Myself",
+      "file": "PK.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "PO",
+      "airline": "Polar Air Cargo",
+      "wikidata": "Q1186574",
+      "source": "https://commons.wikimedia.org/wiki/File:Polar_Air_Cargo_logo.svg",
+      "license": "Public domain",
+      "author": "Polar Air Cargo",
+      "file": "PO.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "PP",
+      "airline": "Jet Aviation",
+      "wikidata": "Q941940",
+      "source": "https://commons.wikimedia.org/wiki/File:Jet_Aviation_logo.svg",
+      "license": "Public domain",
+      "author": "Jet Aviation",
+      "file": "PP.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "PQ",
+      "airline": "SkyUp",
+      "wikidata": "Q47009940",
+      "source": "https://commons.wikimedia.org/wiki/File:SkyUp_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "SkyUp",
+      "file": "PQ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "PR",
+      "airline": "Philippine Airlines",
+      "wikidata": "Q846910",
+      "source": "https://commons.wikimedia.org/wiki/File:Philippine_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "Philippine Airlines, Inc.",
+      "file": "PR.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "PU",
+      "airline": "Plus Ultra Líneas Aéreas",
+      "wikidata": "Q18026968",
+      "source": "https://commons.wikimedia.org/wiki/File:Plus_Ultra_L%C3%ADneas_A%C3%A9reas_Logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "PU.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "PV",
+      "airline": "St Barth Commuter",
+      "wikidata": "Q1810598",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_St_Barth_Commuter.svg",
+      "license": "Public domain",
+      "author": "Lulucmy",
+      "file": "PV.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "PY",
+      "airline": "Surinam Airways",
+      "wikidata": "Q1059033",
+      "source": "https://commons.wikimedia.org/wiki/File:SUR-MEDIUM-LOGO.png",
+      "license": "Public domain",
+      "author": "Keka.dinha",
+      "file": "PY.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "PZ",
+      "airline": "LATAM Airlines Paraguay",
+      "wikidata": "Q3512020",
+      "source": "https://commons.wikimedia.org/wiki/File:Latam-logo_-v_(Indigo).svg",
+      "license": "Public domain",
+      "author": "Sao Paolo, Santiago and Madrid offices of Interbrand [1]\n\nvector file: Mliu92",
+      "file": "PZ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "Q6",
+      "airline": "Volaris Costa Rica",
+      "wikidata": "Q27970677",
+      "source": "https://commons.wikimedia.org/wiki/File:Volaris-logo.svg",
+      "license": "Public domain",
+      "author": "volaris",
+      "file": "Q6.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "Q8",
+      "airline": "Q2496162",
+      "wikidata": "Q2496162",
+      "source": "https://commons.wikimedia.org/wiki/File:Trans_Air_Congo_logo.jpg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "Q8.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "QD",
+      "airline": "Dobrolet Airlines",
+      "wikidata": "Q16644952",
+      "source": "https://commons.wikimedia.org/wiki/File:Dobrolet_logo_(Russian).svg",
+      "license": "Public domain",
+      "author": "Landor",
+      "file": "QD.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "QF",
+      "airline": "Qantas Airways",
+      "wikidata": "Q32491",
+      "source": "https://commons.wikimedia.org/wiki/File:Qantas_wordmark_2016.svg",
+      "license": "Public domain",
+      "author": "Qantas Airways Limited",
+      "file": "QF.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "QG",
+      "airline": "Citilink",
+      "wikidata": "Q1093383",
+      "source": "https://commons.wikimedia.org/wiki/File:2012_Citilink_Logo.svg",
+      "license": "Public domain",
+      "author": "PT. Garuda Indonesia",
+      "file": "QG.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "QH",
+      "airline": "Bamboo Airways",
+      "wikidata": "Q51779763",
+      "source": "https://commons.wikimedia.org/wiki/File:Bamboo_Airways_Logo.svg",
+      "license": "Public domain",
+      "author": "Great Brightstar",
+      "file": "QH.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "QK",
+      "airline": "Jazz Aviation",
+      "wikidata": "Q1458703",
+      "source": "https://commons.wikimedia.org/wiki/File:Jazz_Aviation_logo.svg",
+      "license": "Public domain",
+      "author": "Jazz Aviation",
+      "file": "QK.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "QL",
+      "airline": "LASER Airlines",
+      "wikidata": "Q548133",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Laser_Airlines_(2018).jpg",
+      "license": "Public domain",
+      "author": "Laser Airlines",
+      "file": "QL.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "QM",
+      "airline": "Air Malawi",
+      "wikidata": "Q407497",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Malawi_-_2010.svg",
+      "license": "Public domain",
+      "author": "Air Malawi",
+      "file": "QM.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "QP",
+      "airline": "Akasa Air",
+      "wikidata": "Q109536115",
+      "source": "https://commons.wikimedia.org/wiki/File:Akasa_Air_logo.svg",
+      "license": "Public domain",
+      "author": "Akasa Air",
+      "file": "QP.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "QQ",
+      "airline": "Alliance Airlines",
+      "wikidata": "Q2622310",
+      "source": "https://commons.wikimedia.org/wiki/File:Allianceairlineslogo.jpg",
+      "license": "Public domain",
+      "author": "Alliance Airlines",
+      "file": "QQ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "QR",
+      "airline": "Qatar Airways",
+      "wikidata": "Q208033",
+      "source": "https://commons.wikimedia.org/wiki/File:Qatar_Airways_logo.svg",
+      "license": "Public domain",
+      "author": "Qatar Airways",
+      "file": "QR.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "QS",
+      "airline": "Smartwings",
+      "wikidata": "Q1853488",
+      "source": "https://commons.wikimedia.org/wiki/File:Smartwings_logo.svg",
+      "license": "Public domain",
+      "author": "Smartwings",
+      "file": "QS.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "QT",
+      "airline": "Avianca Cargo",
+      "wikidata": "Q1139445",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_wordmark_Avianca_Cargo_(2023).png",
+      "license": "Public domain",
+      "author": "Avianca Cargo",
+      "file": "QT.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "QU",
+      "airline": "Skyline Express Airlines",
+      "wikidata": "Q1058657",
+      "source": "https://commons.wikimedia.org/wiki/File:Skyline-express.svg",
+      "license": "CC0",
+      "author": "Skyline Express Airline LCC",
+      "file": "QU.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "QX",
+      "airline": "Horizon Air",
+      "wikidata": "Q1200062",
+      "source": "https://commons.wikimedia.org/wiki/File:Horizon_Air_Logo.svg",
+      "license": "Public domain",
+      "author": "Alaska Air Group",
+      "file": "QX.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "QZ",
+      "airline": "Indonesia AirAsia",
+      "wikidata": "Q745971",
+      "source": "https://commons.wikimedia.org/wiki/File:AirAsia_New_Logo.svg",
+      "license": "Public domain",
+      "author": "AirAsia",
+      "file": "QZ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "R7",
+      "airline": "Aserca Airlines",
+      "wikidata": "Q724282",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_wordmark_Aserca_Airlines_(2012-2018).svg",
+      "license": "Public domain",
+      "author": "Aserca Airlines",
+      "file": "R7.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "RE",
+      "airline": "Airhub Airlines",
+      "wikidata": "Q113352162",
+      "source": "https://commons.wikimedia.org/wiki/File:Airhub_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "RE.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "RF",
+      "airline": "Aero K",
+      "wikidata": "Q65272521",
+      "source": "https://commons.wikimedia.org/wiki/File:Aero_K_logo.svg",
+      "license": "Public domain",
+      "author": "Aero K",
+      "file": "RF.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "RJ",
+      "airline": "Royal Jordanian",
+      "wikidata": "Q824225",
+      "source": "https://commons.wikimedia.org/wiki/File:Royal_Jordanian_logo.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Borg elarab",
+      "file": "RJ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "RM",
+      "airline": "Air Dilijans",
+      "wikidata": "Q24765258",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Dilijans_logo.svg",
+      "license": "Public domain",
+      "author": "Air Dilijans",
+      "file": "RM.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "RO",
+      "airline": "TAROM",
+      "wikidata": "Q240656",
+      "source": "https://commons.wikimedia.org/wiki/File:TAROM_Logo_tail_(blue).svg",
+      "license": "CC BY-SA 3.0",
+      "author": "Great Brightstar",
+      "file": "RO.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "RP",
+      "airline": "Chautauqua Airlines",
+      "wikidata": "Q183547",
+      "source": "https://commons.wikimedia.org/wiki/File:Chautauqua_Airlines.png",
+      "license": "Public domain",
+      "author": "Chautauqua Airlines",
+      "file": "RP.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "RQ",
+      "airline": "Kam Air",
+      "wikidata": "Q597485",
+      "source": "https://commons.wikimedia.org/wiki/File:Kam_Air_Logo.png",
+      "license": "Public domain",
+      "author": "Kam Air, P.O. Box 62, Kabul, Afghanistan",
+      "file": "RQ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "RS",
+      "airline": "Sky Regional Airlines",
+      "wikidata": "Q7537476",
+      "source": "https://commons.wikimedia.org/wiki/File:Sky_Regional_Airlines_Logo.svg",
+      "license": "Public domain",
+      "author": "Lệ Xuân",
+      "file": "RS.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "RV",
+      "airline": "Air Canada Rouge",
+      "wikidata": "Q2828184",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Canada_Rouge_logo.svg",
+      "license": "Public domain",
+      "author": "Air Canada Rouge, via user AtomCrusher",
+      "file": "RV.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "RX",
+      "airline": "Riyadh Air",
+      "wikidata": "Q115802741",
+      "source": "https://commons.wikimedia.org/wiki/File:Riyadh_Air_Logo_(AR).svg",
+      "license": "Public domain",
+      "author": "Cergun62",
+      "file": "RX.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "S1",
+      "airline": "Saurya Airlines",
+      "wikidata": "Q18636606",
+      "source": "https://commons.wikimedia.org/wiki/File:Saurya_Airlines_Logo.png",
+      "license": "Public domain",
+      "author": "Saurya Airlines",
+      "file": "S1.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "S6",
+      "airline": "Star Air (Denmark)",
+      "wikidata": "Q825150",
+      "source": "https://commons.wikimedia.org/wiki/File:Star_Air_(Denmark)_logo.png",
+      "license": "Public domain",
+      "author": "Star Air (Denmark)",
+      "file": "S6.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "S7",
+      "airline": "Q740844",
+      "wikidata": "Q740844",
+      "source": "https://commons.wikimedia.org/wiki/File:S7_new_logo.svg",
+      "license": "Public domain",
+      "author": "unknown",
+      "file": "S7.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "SA",
+      "airline": "South African Airways",
+      "wikidata": "Q223763",
+      "source": "https://commons.wikimedia.org/wiki/File:South_African_Airways_2019_logo.svg",
+      "license": "Public domain",
+      "author": "South African Airways SOC Ltd.",
+      "file": "SA.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "SB",
+      "airline": "Aircalin",
+      "wikidata": "Q408408",
+      "source": "https://commons.wikimedia.org/wiki/File:Aircalin_wordmark.svg",
+      "license": "Public domain",
+      "author": "Société Aircalin",
+      "file": "SB.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "SD",
+      "airline": "Sudan Airways",
+      "wikidata": "Q864117",
+      "source": "https://commons.wikimedia.org/wiki/File:Sudan_Airways_Logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "SD.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "SE",
+      "airline": "XL Airways France",
+      "wikidata": "Q1783588",
+      "source": "https://commons.wikimedia.org/wiki/File:XL_Airways_France_logo.svg",
+      "license": "Public domain",
+      "author": "XL Airways",
+      "file": "SE.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "SH",
+      "airline": "Simrik Airlines",
+      "wikidata": "Q17019623",
+      "source": "https://commons.wikimedia.org/wiki/File:Simriklogo.png",
+      "license": "CC BY-SA 4.0",
+      "author": "Simrik Airlines",
+      "file": "SH.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "SK",
+      "airline": "Scandinavian Airlines",
+      "wikidata": "Q187854",
+      "source": "https://commons.wikimedia.org/wiki/File:Scandinavian_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "Scandinavian Airlines",
+      "file": "SK.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "SM",
+      "airline": "Air Cairo",
+      "wikidata": "Q1147012",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Cairo_logo.svg",
+      "license": "Public domain",
+      "author": "Air Cairo",
+      "file": "SM.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "SN",
+      "airline": "Brussels Airlines",
+      "wikidata": "Q153571",
+      "source": "https://commons.wikimedia.org/wiki/File:Brussels_airlines_logo_2021.svg",
+      "license": "Public domain",
+      "author": "Brussels Airlines",
+      "file": "SN.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "SQ",
+      "airline": "Singapore Airlines",
+      "wikidata": "Q32245",
+      "source": "https://commons.wikimedia.org/wiki/File:Singapore_Airlines_wordmark.svg",
+      "license": "Public domain",
+      "author": "Singapore Airlines Limited",
+      "file": "SQ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "SR",
+      "airline": "Swissair",
+      "wikidata": "Q694098",
+      "source": "https://commons.wikimedia.org/wiki/File:Swissair_logo.svg",
+      "license": "Public domain",
+      "author": "The original uploader was Vargklo at English Wikipedia.",
+      "file": "SR.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "SU",
+      "airline": "Aeroflot",
+      "wikidata": "Q58707",
+      "source": "https://commons.wikimedia.org/wiki/File:Aeroflot_Russian_Airlines_logo_(en).svg",
+      "license": "Public domain",
+      "author": "Aeroflot Russian Airlines",
+      "file": "SU.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "SX",
+      "airline": "Sky Work Airlines",
+      "wikidata": "Q693008",
+      "source": "https://commons.wikimedia.org/wiki/File:Skywork_airlines_brandmark.jpg",
+      "license": "Public domain",
+      "author": "Sky Work LTD. &amp; Sky Work Airlines LTD.",
+      "file": "SX.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "SZ",
+      "airline": "Somon Air",
+      "wikidata": "Q2095409",
+      "source": "https://commons.wikimedia.org/wiki/File:Somon_Air_logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "SZ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "T7",
+      "airline": "Twin Jet",
+      "wikidata": "Q916101",
+      "source": "https://commons.wikimedia.org/wiki/File:Logotwinjet.jpg",
+      "license": "CC BY-SA 3.0",
+      "author": "Helara",
+      "file": "T7.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "TA",
+      "airline": "Avianca El Salvador",
+      "wikidata": "Q19259876",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_wordmark_Avianca_(Colombia).png",
+      "license": "Public domain",
+      "author": "Avianca",
+      "file": "TA.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "TB",
+      "airline": "TUI fly Belgium",
+      "wikidata": "Q526550",
+      "source": "https://commons.wikimedia.org/wiki/File:TUIfly_Logo_2016.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "TB.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "TI",
+      "airline": "Tailwind Airlines",
+      "wikidata": "Q660062",
+      "source": "https://commons.wikimedia.org/wiki/File:Tailwind_Airlines_Logo.svg",
+      "license": "Public domain",
+      "author": "Tailwind Airlines",
+      "file": "TI.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "TK",
+      "airline": "Turkish Airlines",
+      "wikidata": "Q4548",
+      "source": "https://commons.wikimedia.org/wiki/File:Turkish_Airlines_logo_2019_compact.svg",
+      "license": "Public domain",
+      "author": "Turkish Airlines",
+      "file": "TK.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "TO",
+      "airline": "Transavia France",
+      "wikidata": "Q1188990",
+      "source": "https://commons.wikimedia.org/wiki/File:Transavia_logo.svg",
+      "license": "Public domain",
+      "author": "Transavia",
+      "file": "TO.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "TP",
+      "airline": "TAP Air Portugal",
+      "wikidata": "Q208232",
+      "source": "https://commons.wikimedia.org/wiki/File:TAP-Portugal-Logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "TP.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "TR",
+      "airline": "Tiger Airways",
+      "wikidata": "Q483281",
+      "source": "https://commons.wikimedia.org/wiki/File:Tigerair.svg",
+      "license": "Public domain",
+      "author": "Tigerair",
+      "file": "TR.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "TS",
+      "airline": "Air Transat",
+      "wikidata": "Q407869",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Transat_logo.svg",
+      "license": "Public domain",
+      "author": "Air Transat",
+      "file": "TS.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "TT",
+      "airline": "Tiger Airways Australia",
+      "wikidata": "Q1319318",
+      "source": "https://commons.wikimedia.org/wiki/File:Tigerair.svg",
+      "license": "Public domain",
+      "author": "Tigerair",
+      "file": "TT.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "TV",
+      "airline": "Virgin Express",
+      "wikidata": "Q1191086",
+      "source": "https://commons.wikimedia.org/wiki/File:VEX_.svg",
+      "license": "Public domain",
+      "author": "Dalbre",
+      "file": "TV.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "TW",
+      "airline": "Trinity Airways",
+      "wikidata": "Q494775",
+      "source": "https://commons.wikimedia.org/wiki/File:Trinity_Airways.svg",
+      "license": "Public domain",
+      "author": "Trinity Airways Co., Ltd.",
+      "file": "TW.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "TX",
+      "airline": "Air Caraïbes",
+      "wikidata": "Q406992",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Caraibes_2019_logo.svg",
+      "license": "Public domain",
+      "author": "Air Caraïbes",
+      "file": "TX.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "TZ",
+      "airline": "Scoot",
+      "wikidata": "Q1319404",
+      "source": "https://commons.wikimedia.org/wiki/File:Scoot_logo.svg",
+      "license": "Public domain",
+      "author": "flyscoot.com",
+      "file": "TZ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "U2",
+      "airline": "easyJet",
+      "wikidata": "Q191551",
+      "source": "https://commons.wikimedia.org/wiki/File:EasyJet_logo.svg",
+      "license": "Public domain",
+      "author": "easyJet.",
+      "file": "U2.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "U5",
+      "airline": "USA3000 Airlines",
+      "wikidata": "Q2000608",
+      "source": "https://commons.wikimedia.org/wiki/File:USA3000_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "USA3000 Airlines",
+      "file": "U5.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "U6",
+      "airline": "Ural Airlines",
+      "wikidata": "Q581161",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_of_the_Ural_Airlines.svg",
+      "license": "Public domain",
+      "author": "Ural Airlines",
+      "file": "U6.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "U7",
+      "airline": "UniWorld Air Cargo",
+      "wikidata": "Q132765517",
+      "source": "https://commons.wikimedia.org/wiki/File:UniWorld_Logo.png",
+      "license": "CC BY 4.0",
+      "author": "UniWorld Air Cargo",
+      "file": "U7.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "U8",
+      "airline": "Armavia",
+      "wikidata": "Q679702",
+      "source": "https://commons.wikimedia.org/wiki/File:Armavia_Logo2.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "U8.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "UA",
+      "airline": "United Airlines",
+      "wikidata": "Q174769",
+      "source": "https://commons.wikimedia.org/wiki/File:United_Airlines_wordmark.svg",
+      "license": "Public domain",
+      "author": "United Airlines, Inc.",
+      "file": "UA.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "UB",
+      "airline": "Myanma Airways",
+      "wikidata": "Q1141636",
+      "source": "https://commons.wikimedia.org/wiki/File:Myanmarairway.svg",
+      "license": "CC BY-SA 3.0",
+      "author": "Hteink.min",
+      "file": "UB.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "UG",
+      "airline": "Tunisair Express",
+      "wikidata": "Q543645",
+      "source": "https://commons.wikimedia.org/wiki/File:Tunisair_Express_logo.jpg",
+      "license": "Public domain",
+      "author": "www.businessnews.com",
+      "file": "UG.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "UH",
+      "airline": "AtlasGlobal Ukraine",
+      "wikidata": "Q20072129",
+      "source": "https://commons.wikimedia.org/wiki/File:Atlasjet_%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%B0.png",
+      "license": "Copyrighted free use",
+      "author": "AtlasGlobal",
+      "file": "UH.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "UK",
+      "airline": "Vistara",
+      "wikidata": "Q17502128",
+      "source": "https://commons.wikimedia.org/wiki/File:Vistara_Logo.svg",
+      "license": "Public domain",
+      "author": "Tata SIA Airlines Limited",
+      "file": "UK.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "UN",
+      "airline": "Transaero Airlines",
+      "wikidata": "Q509920",
+      "source": "https://commons.wikimedia.org/wiki/File:Transaero.svg",
+      "license": "Public domain",
+      "author": "Transaero Airlines",
+      "file": "UN.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "UO",
+      "airline": "HK Express",
+      "wikidata": "Q1365358",
+      "source": "https://commons.wikimedia.org/wiki/File:HK_express_logo_2013.svg",
+      "license": "Public domain",
+      "author": "HK Express",
+      "file": "UO.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "UP",
+      "airline": "Q800208",
+      "wikidata": "Q800208",
+      "source": "https://commons.wikimedia.org/wiki/File:Bahamasair_Logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "UP.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "US",
+      "airline": "US Airways",
+      "wikidata": "Q208046",
+      "source": "https://commons.wikimedia.org/wiki/File:US_Airways_Logo.svg",
+      "license": "Public domain",
+      "author": "KUsam at en.wikipedia",
+      "file": "US.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "UT",
+      "airline": "UTair Aviation",
+      "wikidata": "Q1065835",
+      "source": "https://commons.wikimedia.org/wiki/File:Utair_logo.svg",
+      "license": "Public domain",
+      "author": "Utair",
+      "file": "UT.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "UX",
+      "airline": "Air Europa",
+      "wikidata": "Q332980",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Europa_Logo_(2015).svg",
+      "license": "Public domain",
+      "author": "Air Europa",
+      "file": "UX.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "V0",
+      "airline": "Conviasa",
+      "wikidata": "Q677606",
+      "source": "https://commons.wikimedia.org/wiki/File:Conviasa_Logo.svg",
+      "license": "Public domain",
+      "author": "Conviasa",
+      "file": "V0.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "V5",
+      "airline": "Q381789",
+      "wikidata": "Q381789",
+      "source": "https://commons.wikimedia.org/wiki/File:Aerov%C3%ADas_Dap.png",
+      "license": "Public domain",
+      "author": "Aerovías Dap",
+      "file": "V5.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "V7",
+      "airline": "Volotea",
+      "wikidata": "Q2296193",
+      "source": "https://commons.wikimedia.org/wiki/File:Volotea.svg",
+      "license": "CC BY-SA 4.0",
+      "author": "Andreuvv",
+      "file": "V7.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "V9",
+      "airline": "Van Air Europe",
+      "wikidata": "Q7913105",
+      "source": "https://commons.wikimedia.org/wiki/File:Van_Air_Europe_Logo.jpg",
+      "license": "CC0",
+      "author": "Vanair",
+      "file": "V9.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "VE",
+      "airline": "Clic Air",
+      "wikidata": "Q1278338",
+      "source": "https://commons.wikimedia.org/wiki/File:Clic_Air_Colombia.webp",
+      "license": "Public domain",
+      "author": "Clic Air",
+      "file": "VE.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "VF",
+      "airline": "AJet",
+      "wikidata": "Q483676",
+      "source": "https://commons.wikimedia.org/wiki/File:AJet_logo.svg",
+      "license": "Public domain",
+      "author": "AJet",
+      "file": "VF.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "VJ",
+      "airline": "VietJet Air",
+      "wikidata": "Q853878",
+      "source": "https://commons.wikimedia.org/wiki/File:VietJet_Air_logo.svg",
+      "license": "Public domain",
+      "author": "VietJet Air",
+      "file": "VJ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "VL",
+      "airline": "Air VIA",
+      "wikidata": "Q407897",
+      "source": "https://commons.wikimedia.org/wiki/File:Airvia-logo.jpg",
+      "license": "Public domain",
+      "author": "Air VIA",
+      "file": "VL.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "VN",
+      "airline": "Vietnam Airlines",
+      "wikidata": "Q174386",
+      "source": "https://commons.wikimedia.org/wiki/File:Vietnam_Airlines_2015_wordmark.svg",
+      "license": "Public domain",
+      "author": "Vietnam Airlines JSC",
+      "file": "VN.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "VP",
+      "airline": "FlyMe",
+      "wikidata": "Q5463088",
+      "source": "https://commons.wikimedia.org/wiki/File:Villa_air_logo.png",
+      "license": "Public domain",
+      "author": "8qblog",
+      "file": "VP.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "VR",
+      "airline": "Cabo Verde Airlines",
+      "wikidata": "Q669686",
+      "source": "https://commons.wikimedia.org/wiki/File:Cabo_Verde_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "Cabo Verde Airlines",
+      "file": "VR.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "VS",
+      "airline": "Virgin Atlantic",
+      "wikidata": "Q32277",
+      "source": "https://commons.wikimedia.org/wiki/File:Virgin_Atlantic_logo_2018.svg",
+      "license": "Public domain",
+      "author": "Virgin Atlantic",
+      "file": "VS.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "VV",
+      "airline": "Aerosvit Airlines",
+      "wikidata": "Q381779",
+      "source": "https://commons.wikimedia.org/wiki/File:AeroSv%C3%ADt_logo.svg",
+      "license": "Public domain",
+      "author": "Aerosvit Airlines",
+      "file": "VV.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "VW",
+      "airline": "Aeromar",
+      "wikidata": "Q53082",
+      "source": "https://commons.wikimedia.org/wiki/File:Aeromar_Logo.jpg",
+      "license": "Public domain",
+      "author": "Jhony 24056",
+      "file": "VW.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "VX",
+      "airline": "Virgin America",
+      "wikidata": "Q645084",
+      "source": "https://commons.wikimedia.org/wiki/File:Virgin_America_logo.svg",
+      "license": "Public domain",
+      "author": "Virgin America",
+      "file": "VX.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "VY",
+      "airline": "Vueling",
+      "wikidata": "Q646741",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Vueling.svg",
+      "license": "Public domain",
+      "author": "Vueling Airlines SA",
+      "file": "VY.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "VZ",
+      "airline": "Thai Vietjet Air",
+      "wikidata": "Q23899316",
+      "source": "https://commons.wikimedia.org/wiki/File:Vietjet_Air_Thailand_logo.svg",
+      "license": "Public domain",
+      "author": "Vietjet Air",
+      "file": "VZ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "W3",
+      "airline": "Arik Air",
+      "wikidata": "Q660986",
+      "source": "https://commons.wikimedia.org/wiki/File:Arik_Air_logo.svg",
+      "license": "Public domain",
+      "author": "Arik Air Ltd.",
+      "file": "W3.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "W4",
+      "airline": "Wizz Air Malta",
+      "wikidata": "Q113637091",
+      "source": "https://commons.wikimedia.org/wiki/File:Wizz_Air_logo_2015.svg",
+      "license": "Public domain",
+      "author": "Wizz Air",
+      "file": "W4.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "W6",
+      "airline": "Wizz Air",
+      "wikidata": "Q335147",
+      "source": "https://commons.wikimedia.org/wiki/File:Wizz_Air_logo_2015.svg",
+      "license": "Public domain",
+      "author": "Wizz Air",
+      "file": "W6.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "W9",
+      "airline": "Wizz Air UK",
+      "wikidata": "Q55525155",
+      "source": "https://commons.wikimedia.org/wiki/File:Wizz_Air_logo_2015.svg",
+      "license": "Public domain",
+      "author": "Wizz Air",
+      "file": "W9.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "WB",
+      "airline": "RwandAir",
+      "wikidata": "Q392542",
+      "source": "https://commons.wikimedia.org/wiki/File:RwandAir_Logotype.png",
+      "license": "Public domain",
+      "author": "Rwandair",
+      "file": "WB.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "WC",
+      "airline": "Avianca Honduras",
+      "wikidata": "Q846922",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_wordmark_Avianca_(Colombia).png",
+      "license": "Public domain",
+      "author": "Avianca",
+      "file": "WC.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "WD",
+      "airline": "Amsterdam Airlines",
+      "wikidata": "Q478476",
+      "source": "https://commons.wikimedia.org/wiki/File:Amsterdam_Airlines_-_Logo.png",
+      "license": "Public domain",
+      "author": "The original uploader was Oxxo at English Wikipedia.",
+      "file": "WD.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "WE",
+      "airline": "Centurion Air Cargo",
+      "wikidata": "Q256496",
+      "source": "https://commons.wikimedia.org/wiki/File:Centurion_Cargo_Logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "WE.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "WF",
+      "airline": "Widerøe",
+      "wikidata": "Q28344",
+      "source": "https://commons.wikimedia.org/wiki/File:Wideroe_logo_2002.svg",
+      "license": "Public domain",
+      "author": "Wideroe's Flyveselskap ASA",
+      "file": "WF.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "WG",
+      "airline": "Sunwing Airlines",
+      "wikidata": "Q1198402",
+      "source": "https://commons.wikimedia.org/wiki/File:Sunwings_logo_2015.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "WG.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "WK",
+      "airline": "Edelweiss Air",
+      "wikidata": "Q662050",
+      "source": "https://commons.wikimedia.org/wiki/File:Edelweiss_Air_wordmark.svg",
+      "license": "Public domain",
+      "author": "Edelweiss Air AG",
+      "file": "WK.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "WM",
+      "airline": "Winair",
+      "wikidata": "Q1119913",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_Winair.svg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ltmoon",
+      "file": "WM.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "WN",
+      "airline": "Southwest Airlines",
+      "wikidata": "Q503308",
+      "source": "https://commons.wikimedia.org/wiki/File:Southwest_Airlines_logo_2014.svg",
+      "license": "Public domain",
+      "author": "Lippincott Studio, NY",
+      "file": "WN.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "WO",
+      "airline": "World Airways",
+      "wikidata": "Q1188319",
+      "source": "https://commons.wikimedia.org/wiki/File:World_Airways_Logo.svg",
+      "license": "Public domain",
+      "author": "World Airways",
+      "file": "WO.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "WR",
+      "airline": "WestJet Encore",
+      "wikidata": "Q12072764",
+      "source": "https://commons.wikimedia.org/wiki/File:WestJet_Logo.svg",
+      "license": "Public domain",
+      "author": "The original uploader was Fry1989 at English Wikipedia.",
+      "file": "WR.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "WS",
+      "airline": "WestJet",
+      "wikidata": "Q1059770",
+      "source": "https://commons.wikimedia.org/wiki/File:WestJetLogo2018.svg",
+      "license": "Public domain",
+      "author": "WestJet",
+      "file": "WS.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "WU",
+      "airline": "Wizz Air Ukraine",
+      "wikidata": "Q2417732",
+      "source": "https://commons.wikimedia.org/wiki/File:Wizz_Air_logo.svg",
+      "license": "Public domain",
+      "author": "Wizz Air",
+      "file": "WU.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "WW",
+      "airline": "Bmibaby",
+      "wikidata": "Q310448",
+      "source": "https://commons.wikimedia.org/wiki/File:Bmibaby.png",
+      "license": "Public domain",
+      "author": "British Midland International",
+      "file": "WW.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "WX",
+      "airline": "CityJet",
+      "wikidata": "Q163625",
+      "source": "https://commons.wikimedia.org/wiki/File:Cityjet_logo.svg",
+      "license": "Public domain",
+      "author": "Philphos  11:00, 11 November 2010 (UTC)",
+      "file": "WX.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "WY",
+      "airline": "Oman Air",
+      "wikidata": "Q860379",
+      "source": "https://commons.wikimedia.org/wiki/File:Oman_Air_logo.png",
+      "license": "CC BY-SA 4.0",
+      "author": "Rajcurator",
+      "file": "WY.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "X3",
+      "airline": "TUI fly Deutschland",
+      "wikidata": "Q508417",
+      "source": "https://commons.wikimedia.org/wiki/File:TUIfly_Logo_2016.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "X3.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "XA",
+      "airline": "ARINC",
+      "wikidata": "Q10854414",
+      "source": "https://commons.wikimedia.org/wiki/File:ARINC_logo.svg",
+      "license": "Public domain",
+      "author": "ARINC",
+      "file": "XA.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "XF",
+      "airline": "Vladivostok Air",
+      "wikidata": "Q1068446",
+      "source": "https://commons.wikimedia.org/wiki/File:Vladivostok_Air_Logo.svg",
+      "license": "Public domain",
+      "author": "Vladivostok Air",
+      "file": "XF.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "XJ",
+      "airline": "Mesaba Airlines",
+      "wikidata": "Q1535675",
+      "source": "https://commons.wikimedia.org/wiki/File:Mesaba_Airlines_Logo.svg",
+      "license": "Public domain",
+      "author": "Mesaba Airlines",
+      "file": "XJ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "XK",
+      "airline": "Air Corsica",
+      "wikidata": "Q407054",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Corsica_Logo.svg",
+      "license": "Public domain",
+      "author": "Air Corsica",
+      "file": "XK.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "XL",
+      "airline": "LATAM Airlines Ecuador",
+      "wikidata": "Q651491",
+      "source": "https://commons.wikimedia.org/wiki/File:Latam-logo_-v_(Indigo).svg",
+      "license": "Public domain",
+      "author": "Sao Paolo, Santiago and Madrid offices of Interbrand [1]\n\nvector file: Mliu92",
+      "file": "XL.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "XM",
+      "airline": "Alitalia Express",
+      "wikidata": "Q1057130",
+      "source": "https://commons.wikimedia.org/wiki/File:Airbus_A320-216,_Alitalia_JP7056506.jpg",
+      "license": "GFDL 1.2",
+      "author": "Aldo Bidini",
+      "file": "XM.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "XN",
+      "airline": "Aerolínea del Estado Mexicano (Mexicana)",
+      "wikidata": "Q118868077",
+      "source": "https://commons.wikimedia.org/wiki/File:AEM_Mexicana_de_Aviaci%C3%B3n_logo.svg",
+      "license": "Public domain",
+      "author": "Secretariat of National Defense",
+      "file": "XN.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "XO",
+      "airline": "PUTANG INA KA Airways",
+      "wikidata": "Q17088704",
+      "source": "https://commons.wikimedia.org/wiki/File:Xplorasia_Airways_Logo_-_XO.png",
+      "license": "CC BY-SA 4.0",
+      "author": "Xplorasiaair2020",
+      "file": "XO.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "XP",
+      "airline": "Avelo Airlines",
+      "wikidata": "Q8045045",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo_of_Avelo_Airlines.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "XP.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "XQ",
+      "airline": "SunExpress",
+      "wikidata": "Q1137136",
+      "source": "https://commons.wikimedia.org/wiki/File:SunExpress_Logo.svg",
+      "license": "Public domain",
+      "author": "SunExpress",
+      "file": "XQ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "XR",
+      "airline": "Corendon Airlines Europe",
+      "wikidata": "Q55371187",
+      "source": "https://commons.wikimedia.org/wiki/File:Corendon_Airlines_Logo_2017.svg",
+      "license": "Public domain",
+      "author": "Corendon Airlines",
+      "file": "XR.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "XY",
+      "airline": "Q1189080",
+      "wikidata": "Q1189080",
+      "source": "https://commons.wikimedia.org/wiki/File:Flynas_Logo.svg",
+      "license": "Public domain",
+      "author": "flynas",
+      "file": "XY.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "XZ",
+      "airline": "Aeroitalia",
+      "wikidata": "Q113144143",
+      "source": "https://commons.wikimedia.org/wiki/File:Logo-aeroitalia.svg",
+      "license": "CC BY-SA 4.0",
+      "author": "Ckiikc",
+      "file": "XZ.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "Y4",
+      "airline": "Volaris",
+      "wikidata": "Q431757",
+      "source": "https://commons.wikimedia.org/wiki/File:Volaris-logo.svg",
+      "license": "Public domain",
+      "author": "volaris",
+      "file": "Y4.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "Y7",
+      "airline": "Taimyr Air Company",
+      "wikidata": "Q152425",
+      "source": "https://commons.wikimedia.org/wiki/File:Nordstar_airlines_logo.png",
+      "license": "Public domain",
+      "author": "Philphos (talk) 11:23, 11 November 2010 (UTC)",
+      "file": "Y7.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "YE",
+      "airline": "Yanair",
+      "wikidata": "Q15030106",
+      "source": "https://commons.wikimedia.org/wiki/File:Yanair_airline_logo.png",
+      "license": "Public domain",
+      "author": "Yanair",
+      "file": "YE.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "YS",
+      "airline": "Régional",
+      "wikidata": "Q1139054",
+      "source": "https://commons.wikimedia.org/wiki/File:R%C3%A9gional_Compagnie_A%C3%A9rienne_Europ%C3%A9enne_logo.png",
+      "license": "Public domain",
+      "author": "Régional",
+      "file": "YS.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "YV",
+      "airline": "Mesa Airlines",
+      "wikidata": "Q1922297",
+      "source": "https://commons.wikimedia.org/wiki/File:MesaAirlinesLogo2.jpg",
+      "license": "Public domain",
+      "author": "Mesa Airlines",
+      "file": "YV.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "YW",
+      "airline": "Air Nostrum",
+      "wikidata": "Q407694",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Nostrum_logo.svg",
+      "license": "Public domain",
+      "author": "Air Nostrum",
+      "file": "YW.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "Z0",
+      "airline": "Norse Atlantic UK",
+      "wikidata": "Q113213169",
+      "source": "https://commons.wikimedia.org/wiki/File:Norse.svg",
+      "license": "Public domain",
+      "author": "Original:  Norse\n\nVectorization:  CODINGWIZZ",
+      "file": "Z0.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "Z2",
+      "airline": "Zest Airways",
+      "wikidata": "Q196817",
+      "source": "https://commons.wikimedia.org/wiki/File:ZestAir.svg",
+      "license": "Public domain",
+      "author": "AMY Holdings, Inc. (Zest Airways)",
+      "file": "Z2.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "Z8",
+      "airline": "Línea Aérea Amaszonas",
+      "wikidata": "Q1320877",
+      "source": "https://commons.wikimedia.org/wiki/File:L%C3%ADnea_A%C3%A9rea_Amaszonas_logo.png",
+      "license": "CC BY-SA 4.0",
+      "author": "AMASZONAS",
+      "file": "Z8.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "ZE",
+      "airline": "Eastar Jet",
+      "wikidata": "Q489392",
+      "source": "https://commons.wikimedia.org/wiki/File:Eastar_Jet_Logo.svg",
+      "license": "Public domain",
+      "author": "Eastar Jet",
+      "file": "ZE.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "ZF",
+      "airline": "Azur Air",
+      "wikidata": "Q1751278",
+      "source": "https://commons.wikimedia.org/wiki/File:Azur_Air_logo.png",
+      "license": "Public domain",
+      "author": "Azur Air",
+      "file": "ZF.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "ZG",
+      "airline": "Viva Macau",
+      "wikidata": "Q1199737",
+      "source": "https://commons.wikimedia.org/wiki/File:Viva_Macau_Boeing_767-200ER_MEL_Zhao.jpg",
+      "license": "GFDL 1.2",
+      "author": "Allen Zhao",
+      "file": "ZG.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "ZI",
+      "airline": "Aigle Azur (1970)",
+      "wikidata": "Q212703",
+      "source": "https://commons.wikimedia.org/wiki/File:Aigle_Azur_Logo.svg",
+      "license": "Public domain",
+      "author": "Unknown authorUnknown author",
+      "file": "ZI.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "ZL",
+      "airline": "Rex Airlines",
+      "wikidata": "Q788906",
+      "source": "https://commons.wikimedia.org/wiki/File:Rex_Airlines_logo.svg",
+      "license": "Public domain",
+      "author": "Regional Express Pty. Ltd.",
+      "file": "ZL.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "ZV",
+      "airline": "Aerus",
+      "wikidata": "Q115869920",
+      "source": "https://commons.wikimedia.org/wiki/File:Aerus_logo.png",
+      "license": "CC BY-SA 4.0",
+      "author": "Vmzp85",
+      "file": "ZV.png",
+      "retrieved": "2026-10-24"
+    },
+    {
+      "code": "ZW",
+      "airline": "Air Wisconsin",
+      "wikidata": "Q407911",
+      "source": "https://commons.wikimedia.org/wiki/File:Air_Wisconsin_Logo,_December_2022.svg",
+      "license": "Public domain",
+      "author": "Air Wisconsin Airlines",
+      "file": "ZW.png",
+      "retrieved": "2026-10-24"
+    }
+  ]
+}
