@@ -37,7 +37,8 @@
       },
       "departure_at": "2025-06-14T10:00:00-07:00",
       "arrival_at": "2025-06-15T15:45:00+05:30",
-      "duration_minutes": 1035
+      "duration_minutes": 1035,
+      "seats": []
     },
     {
       "index": 2,
@@ -73,7 +74,8 @@
       },
       "departure_at": "2025-09-30T02:25:00+05:30",
       "arrival_at": "2025-09-30T07:35:00-04:00",
-      "duration_minutes": 880
+      "duration_minutes": 880,
+      "seats": []
     }
   ],
   "journeys": [
@@ -100,5 +102,7 @@
       "connections": []
     }
   ],
+  "tickets": [],
+  "contacts": [],
   "warnings": []
 }

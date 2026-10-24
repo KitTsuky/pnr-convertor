@@ -1,0 +1,121 @@
+{
+  "gds": "amadeus",
+  "record_locator": "9XZABC",
+  "passengers": [
+    {
+      "index": 1,
+      "last_name": "SMITH",
+      "first_name": "JOHN",
+      "title": "MR"
+    },
+    {
+      "index": 2,
+      "last_name": "BROWN",
+      "first_name": "ANNA",
+      "title": "MS"
+    }
+  ],
+  "segments": [
+    {
+      "index": 3,
+      "carrier": "BA",
+      "flight_number": "282",
+      "booking_class": "J",
+      "origin": "LAX",
+      "destination": "LHR",
+      "departure_local": "2026-09-16T15:40:00",
+      "arrival_local": "2026-09-16T10:05:00",
+      "status": {
+        "code": "SS",
+        "category": "confirmed"
+      },
+      "passenger_count": 1,
+      "airline": {
+        "iata": "BA",
+        "name": "British Airways"
+      },
+      "origin_airport": {
+        "iata": "LAX",
+        "name": "Los Angeles International Airport",
+        "city": "Los Angeles",
+        "country": "US",
+        "timezone": "America/Los_Angeles"
+      },
+      "destination_airport": {
+        "iata": "LHR",
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "country": "GB",
+        "timezone": "Europe/London"
+      },
+      "departure_at": "2026-09-16T15:40:00-07:00",
+      "arrival_at": "2026-09-16T10:05:00+01:00",
+      "duration_minutes": null,
+      "seats": []
+    },
+    {
+      "index": 4,
+      "carrier": "BA",
+      "flight_number": "283",
+      "booking_class": "J",
+      "origin": "LHR",
+      "destination": "LAX",
+      "departure_local": "2026-09-23T10:10:00",
+      "arrival_local": "2026-09-23T13:25:00",
+      "status": {
+        "code": "SS",
+        "category": "confirmed"
+      },
+      "passenger_count": 1,
+      "airline": {
+        "iata": "BA",
+        "name": "British Airways"
+      },
+      "origin_airport": {
+        "iata": "LHR",
+        "name": "London Heathrow Airport",
+        "city": "London",
+        "country": "GB",
+        "timezone": "Europe/London"
+      },
+      "destination_airport": {
+        "iata": "LAX",
+        "name": "Los Angeles International Airport",
+        "city": "Los Angeles",
+        "country": "US",
+        "timezone": "America/Los_Angeles"
+      },
+      "departure_at": "2026-09-23T10:10:00+01:00",
+      "arrival_at": "2026-09-23T13:25:00-07:00",
+      "duration_minutes": 675,
+      "seats": []
+    }
+  ],
+  "journeys": [
+    {
+      "segment_indexes": [
+        3
+      ],
+      "origin": "LAX",
+      "destination": "LHR",
+      "departure_at": "2026-09-16T15:40:00-07:00",
+      "arrival_at": "2026-09-16T10:05:00+01:00",
+      "duration_minutes": null,
+      "connections": []
+    },
+    {
+      "segment_indexes": [
+        4
+      ],
+      "origin": "LHR",
+      "destination": "LAX",
+      "departure_at": "2026-09-23T10:10:00+01:00",
+      "arrival_at": "2026-09-23T13:25:00-07:00",
+      "duration_minutes": 675,
+      "connections": []
+    }
+  ],
+  "tickets": [],
+  "contacts": [],
+  "warnings": []
+}

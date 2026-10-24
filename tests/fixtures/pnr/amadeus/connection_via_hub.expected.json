@@ -44,7 +44,8 @@
       },
       "departure_at": "2026-04-10T09:05:00+03:00",
       "arrival_at": "2026-04-10T10:50:00+03:00",
-      "duration_minutes": 105
+      "duration_minutes": 105,
+      "seats": []
     },
     {
       "index": 3,
@@ -80,7 +81,8 @@
       },
       "departure_at": "2026-04-10T13:35:00+03:00",
       "arrival_at": "2026-04-10T18:20:00+04:00",
-      "duration_minutes": 225
+      "duration_minutes": 225,
+      "seats": []
     },
     {
       "index": 4,
@@ -116,7 +118,8 @@
       },
       "departure_at": "2026-04-17T05:10:00+04:00",
       "arrival_at": "2026-04-17T09:05:00+03:00",
-      "duration_minutes": 295
+      "duration_minutes": 295,
+      "seats": []
     },
     {
       "index": 5,
@@ -152,7 +155,8 @@
       },
       "departure_at": "2026-04-17T11:50:00+03:00",
       "arrival_at": "2026-04-17T13:25:00+03:00",
-      "duration_minutes": 95
+      "duration_minutes": 95,
+      "seats": []
     }
   ],
   "journeys": [
@@ -191,5 +195,7 @@
       ]
     }
   ],
+  "tickets": [],
+  "contacts": [],
   "warnings": []
 }

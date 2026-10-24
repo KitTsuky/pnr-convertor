@@ -50,7 +50,17 @@
       },
       "departure_at": "2025-04-10T11:20:00+01:00",
       "arrival_at": "2025-04-10T14:15:00-04:00",
-      "duration_minutes": 475
+      "duration_minutes": 475,
+      "seats": [
+        {
+          "passenger_index": 1,
+          "seat": "12A"
+        },
+        {
+          "passenger_index": 2,
+          "seat": "12B"
+        }
+      ]
     },
     {
       "index": 4,
@@ -86,7 +96,17 @@
       },
       "departure_at": "2025-04-20T19:45:00-04:00",
       "arrival_at": "2025-04-21T07:50:00+01:00",
-      "duration_minutes": 425
+      "duration_minutes": 425,
+      "seats": [
+        {
+          "passenger_index": 1,
+          "seat": "14C"
+        },
+        {
+          "passenger_index": 2,
+          "seat": "14D"
+        }
+      ]
     }
   ],
   "journeys": [
@@ -111,6 +131,36 @@
       "arrival_at": "2025-04-21T07:50:00+01:00",
       "duration_minutes": 425,
       "connections": []
+    }
+  ],
+  "tickets": [
+    {
+      "number": "125-9876543210",
+      "passenger_index": 1,
+      "issuing_airline": "BA",
+      "issue_date": "2025-03-30",
+      "electronic": true
+    },
+    {
+      "number": "125-9876543211",
+      "passenger_index": 2,
+      "issuing_airline": "BA",
+      "issue_date": "2025-03-30",
+      "electronic": true
+    }
+  ],
+  "contacts": [
+    {
+      "kind": "phone",
+      "text": "LON020 7946 1234"
+    },
+    {
+      "kind": "email",
+      "text": "LONTRAVEL@EXAMPLE.COM"
+    },
+    {
+      "kind": "email",
+      "text": "J.SMITH@EXAMPLE.COM"
     }
   ],
   "warnings": []

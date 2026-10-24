@@ -8,10 +8,14 @@ from pydantic import BaseModel, ConfigDict, Field
 
 from pnr_convertor.domain.itinerary import Connection, EnrichedSegment, Itinerary, Journey
 from pnr_convertor.domain.models import (
+    Contact,
+    ContactKind,
     GdsFormat,
     ParseWarning,
     Passenger,
+    SeatAssignment,
     SegmentStatusCategory,
+    Ticket,
 )
 from pnr_convertor.domain.reference import Airline, Airport
 
@@ -87,6 +91,15 @@ class AirlineOut(_Schema):
         return None if airline is None else cls(iata=airline.iata, name=airline.name)
 
 
+class SeatOut(_Schema):
+    passenger_index: int | None
+    seat: str
+
+    @classmethod
+    def from_domain(cls, seat: SeatAssignment) -> SeatOut:
+        return cls(passenger_index=seat.passenger_index, seat=seat.seat)
+
+
 class SegmentStatusOut(_Schema):
     code: str
     category: SegmentStatusCategory
@@ -113,9 +126,12 @@ class FlightSegmentOut(_Schema):
         description="Arrival with UTC offset; null if the destination airport is unknown."
     )
     duration_minutes: int | None
+    seats: list[SeatOut]
 
     @classmethod
-    def from_domain(cls, enriched: EnrichedSegment) -> FlightSegmentOut:
+    def from_domain(
+        cls, enriched: EnrichedSegment, seats: list[SeatAssignment]
+    ) -> FlightSegmentOut:
         segment = enriched.segment
         return cls(
             index=segment.index,
@@ -134,6 +150,7 @@ class FlightSegmentOut(_Schema):
             departure_at=enriched.departure_at,
             arrival_at=enriched.arrival_at,
             duration_minutes=_minutes(enriched.duration),
+            seats=[SeatOut.from_domain(seat) for seat in seats],
         )
 
 
@@ -168,6 +185,33 @@ class JourneyOut(_Schema):
         )
 
 
+class TicketOut(_Schema):
+    number: str
+    passenger_index: int | None
+    issuing_airline: str | None
+    issue_date: date | None
+    electronic: bool
+
+    @classmethod
+    def from_domain(cls, ticket: Ticket) -> TicketOut:
+        return cls(
+            number=ticket.number,
+            passenger_index=ticket.passenger_index,
+            issuing_airline=ticket.issuing_airline,
+            issue_date=ticket.issue_date,
+            electronic=ticket.electronic,
+        )
+
+
+class ContactOut(_Schema):
+    kind: ContactKind
+    text: str = Field(description="Verbatim contact element, including any GDS prefix.")
+
+    @classmethod
+    def from_domain(cls, contact: Contact) -> ContactOut:
+        return cls(kind=contact.kind, text=contact.text)
+
+
 class WarningOut(_Schema):
     line_number: int
     message: str
@@ -186,16 +230,26 @@ class ConvertResponse(_Schema):
         description="Segments grouped into trips; a break over 24h starts a new journey. "
         "Cancelled segments are excluded."
     )
+    tickets: list[TicketOut]
+    contacts: list[ContactOut]
     warnings: list[WarningOut]
 
     @classmethod
     def from_domain(cls, itinerary: Itinerary) -> ConvertResponse:
         pnr = itinerary.pnr
+        seats_by_segment: dict[int, list[SeatAssignment]] = {}
+        for seat in pnr.seats:
+            seats_by_segment.setdefault(seat.segment_index, []).append(seat)
         return cls(
             gds=pnr.gds,
             record_locator=pnr.record_locator,
             passengers=[PassengerOut.from_domain(p) for p in pnr.passengers],
-            segments=[FlightSegmentOut.from_domain(s) for s in itinerary.segments],
+            segments=[
+                FlightSegmentOut.from_domain(s, seats_by_segment.get(s.segment.index, []))
+                for s in itinerary.segments
+            ],
             journeys=[JourneyOut.from_domain(j) for j in itinerary.journeys],
+            tickets=[TicketOut.from_domain(t) for t in pnr.tickets],
+            contacts=[ContactOut.from_domain(c) for c in pnr.contacts],
             warnings=[WarningOut.from_domain(w) for w in pnr.warnings],
         )
