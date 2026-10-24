@@ -45,7 +45,7 @@
       "destination_airport": {
         "iata": "IST",
         "name": "Istanbul Airport",
-        "city": "Arnavutk\u00f6y, Istanbul",
+        "city": "Istanbul",
         "country": "TR",
         "timezone": "Europe/Istanbul",
         "latitude": 41.27533,
@@ -83,7 +83,7 @@
       "origin_airport": {
         "iata": "IST",
         "name": "Istanbul Airport",
-        "city": "Arnavutk\u00f6y, Istanbul",
+        "city": "Istanbul",
         "country": "TR",
         "timezone": "Europe/Istanbul",
         "latitude": 41.27533,
@@ -139,7 +139,7 @@
       "destination_airport": {
         "iata": "IST",
         "name": "Istanbul Airport",
-        "city": "Arnavutk\u00f6y, Istanbul",
+        "city": "Istanbul",
         "country": "TR",
         "timezone": "Europe/Istanbul",
         "latitude": 41.27533,
@@ -177,7 +177,7 @@
       "origin_airport": {
         "iata": "IST",
         "name": "Istanbul Airport",
-        "city": "Arnavutk\u00f6y, Istanbul",
+        "city": "Istanbul",
         "country": "TR",
         "timezone": "Europe/Istanbul",
         "latitude": 41.27533,
