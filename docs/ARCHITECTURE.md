@@ -26,7 +26,8 @@
                 │ parsing/      │         │ infrastructure/    │
                 │  registry     │         │  SystemClock,      │
                 │  amadeus/     │         │  reference data,   │
-                │  sabre/ ...   │         │  caches ...        │
+                │  sabre/ ...   │         │ rendering/ (text,  │
+                │               │         │  HTML itineraries) │
                 └───────┬───────┘         └────────────────────┘
                         ▼
                 ┌──────────────────────────────────────────────┐
@@ -47,25 +48,28 @@ on `app.state.container`. Tests build their own container (e.g. with `FixedClock
 4. The parser walks the text line by line, producing domain objects and `ParseWarning`s.
 5. `ItineraryEnricher` resolves airports and airlines through ports, converts local times to
    timezone-aware datetimes, and groups segments into journeys (a break over 24h is a stopover).
-6. `ConvertResponse.from_domain` maps the domain model to the public schema.
+6. `ConvertResponse.from_domain` maps the domain model to the public schema, or, with
+   `?format=text|html`, an `ItineraryRenderer` turns it into a readable itinerary: `rendering/view.py`
+   builds the words and numbers once, Jinja2 templates lay them out (HTML is always escaped).
 
 ## Key decisions
 
-| Decision                                     | Reason                                                                                                    |
-| -------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
-| Python + FastAPI                             | Fast iteration on regex-heavy parsing; mature data ecosystem. See [ADR 0001](adr/0001-python-fastapi.md). |
-| Domain models are dataclasses, not Pydantic  | Domain stays framework-free; validation belongs at the boundary.                                          |
-| Separate API schemas                         | Public contract can evolve independently (`/v1`, `/v2`).                                                  |
-| Year inference via `reference_date`          | GDS dates have no year; clients can pass the display date for historical PNRs.                            |
-| Datetimes are airport-local until enrichment | The GDS shows local times; converting needs timezone data, which is an enrichment concern.                |
-| Warnings instead of failing                  | One unparseable line should not discard an otherwise valid itinerary.                                     |
-| RFC 9457 problem details                     | Standard, machine-readable errors with stable `code` values.                                              |
+| Decision                                         | Reason                                                                                                    |
+| ------------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
+| Python + FastAPI                                 | Fast iteration on regex-heavy parsing; mature data ecosystem. See [ADR 0001](adr/0001-python-fastapi.md). |
+| Domain models are dataclasses, not Pydantic      | Domain stays framework-free; validation belongs at the boundary.                                          |
+| Separate API schemas                             | Public contract can evolve independently (`/v1`, `/v2`).                                                  |
+| Year inference via `reference_date`              | GDS dates have no year; clients can pass the display date for historical PNRs.                            |
+| Datetimes are airport-local until enrichment     | The GDS shows local times; converting needs timezone data, which is an enrichment concern.                |
+| Warnings instead of failing                      | One unparseable line should not discard an otherwise valid itinerary.                                     |
+| RFC 9457 problem details                         | Standard, machine-readable errors with stable `code` values.                                              |
+| Rendered itineraries say only what the PNR shows | A single segment is "Direct", never "Nonstop"; no cabin, terminal or aircraft guesses.                    |
 
 ## Extension points
 
-| To add…                         | Implement                       | Register in                       |
-| ------------------------------- | ------------------------------- | --------------------------------- |
-| A GDS format                    | `PnrParser` in `parsing/<gds>/` | `bootstrap.build_parser_registry` |
-| A reference data source         | a port in `application/ports`   | adapter in `infrastructure/`      |
-| An output format (HTML, PDF...) | a renderer (Phase 4)            | renderer registry                 |
-| An API version                  | `api/v2/` package               | `main.create_app`                 |
+| To add…                     | Implement                           | Register in                                  |
+| --------------------------- | ----------------------------------- | -------------------------------------------- |
+| A GDS format                | `PnrParser` in `parsing/<gds>/`     | `bootstrap.build_parser_registry`            |
+| A reference data source     | a port in `application/ports`       | adapter in `infrastructure/`                 |
+| An output format (PDF, ...) | `ItineraryRenderer` in `rendering/` | `bootstrap.build_renderers` + `OutputFormat` |
+| An API version              | `api/v2/` package                   | `main.create_app`                            |

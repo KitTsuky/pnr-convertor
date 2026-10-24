@@ -45,10 +45,9 @@ roughly one PR.
 
 ## Phase 4 — Output renderers
 
-- [ ] Renderer port + registry; `format` query parameter (`json` default)
-- [ ] Plain text and HTML itinerary (Jinja2 templates)
+- [x] Renderer port + registry; `format` query parameter (`json` default)
+- [x] Plain text and HTML itinerary (Jinja2 templates), English
 - [ ] PDF (WeasyPrint)
-- [ ] Localization (EN, RO) for rendered outputs
 
 ## Phase 5 — Production hardening
 
