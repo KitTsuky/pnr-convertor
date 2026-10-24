@@ -50,6 +50,7 @@
         "iata": "DL",
         "name": "Delta Air Lines"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "ATL",
         "name": "Hartsfield/Jackson Atlanta International Airport",
@@ -96,6 +97,7 @@
         "iata": "DL",
         "name": "Delta Air Lines"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "LAX",
         "name": "Los Angeles International Airport",

@@ -32,6 +32,7 @@
         "iata": "TK",
         "name": "Turkish Airlines"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "OTP",
         "name": "Henri Coanda International Airport",
@@ -78,6 +79,7 @@
         "iata": "TK",
         "name": "Turkish Airlines"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "IST",
         "name": "Istanbul Airport",
@@ -124,6 +126,7 @@
         "iata": "TK",
         "name": "Turkish Airlines"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "DXB",
         "name": "Dubai International Airport",
@@ -170,6 +173,7 @@
         "iata": "TK",
         "name": "Turkish Airlines"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "IST",
         "name": "Istanbul Airport",

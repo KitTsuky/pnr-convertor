@@ -32,6 +32,7 @@
         "iata": "UA",
         "name": "United Airlines"
       },
+      "operated_by": "BRUSSELS AIRLINES",
       "origin_airport": {
         "iata": "NBO",
         "name": "Jomo Kenyatta International Airport",
@@ -78,6 +79,7 @@
         "iata": "UA",
         "name": "United Airlines"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "BRU",
         "name": "Brussels Airport",

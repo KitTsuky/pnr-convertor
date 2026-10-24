@@ -22,6 +22,7 @@
         "iata": "IB",
         "name": "Iberia Airlines"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "GIG",
         "name": "Galeao - Antonio Carlos Jobim International Airport",
@@ -68,6 +69,7 @@
         "iata": "IB",
         "name": "Iberia Airlines"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "MAD",
         "name": "Madrid Barajas International Airport",

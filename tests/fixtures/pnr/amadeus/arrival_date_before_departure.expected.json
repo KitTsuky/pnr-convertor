@@ -41,6 +41,7 @@
         "iata": "BA",
         "name": "British Airways"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "LAX",
         "name": "Los Angeles International Airport",
@@ -87,6 +88,7 @@
         "iata": "BA",
         "name": "British Airways"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "LHR",
         "name": "London Heathrow Airport",

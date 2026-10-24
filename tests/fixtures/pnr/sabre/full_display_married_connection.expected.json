@@ -50,6 +50,7 @@
         "iata": "RO",
         "name": "Tarom"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "OTP",
         "name": "Henri Coanda International Airport",
@@ -96,6 +97,7 @@
         "iata": "KL",
         "name": "KLM Royal Dutch Airlines"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "AMS",
         "name": "Amsterdam Airport Schiphol",
@@ -142,6 +144,7 @@
         "iata": "BA",
         "name": "British Airways"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "LHR",
         "name": "London Heathrow Airport",

@@ -50,6 +50,7 @@
         "iata": "RO",
         "name": "Tarom"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "OTP",
         "name": "Henri Coanda International Airport",
@@ -96,6 +97,7 @@
         "iata": "OS",
         "name": "Austrian Airlines"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "VIE",
         "name": "Vienna International Airport",

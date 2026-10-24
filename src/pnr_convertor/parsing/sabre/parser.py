@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import re
+from dataclasses import replace
 from datetime import date, datetime
 
 from pnr_convertor.domain.models import (
@@ -23,6 +24,7 @@ from pnr_convertor.parsing.dates import (
     resolve_past_date,
 )
 from pnr_convertor.parsing.sabre import patterns
+from pnr_convertor.parsing.text import operating_carrier
 
 
 class SabreParser:
@@ -49,6 +51,9 @@ class SabreParser:
         section: str | None = None
 
         for line_number, line in enumerate(text.splitlines(), start=1):
+            if segments and (operator := operating_carrier(line)):
+                segments[-1] = replace(segments[-1], operated_by=operator)
+                continue
             if header := patterns.SECTION_HEADER.match(line):
                 section = header["section"]
                 continue

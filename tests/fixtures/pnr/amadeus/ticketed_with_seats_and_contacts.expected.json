@@ -41,6 +41,7 @@
         "iata": "BA",
         "name": "British Airways"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "LHR",
         "name": "London Heathrow Airport",
@@ -96,6 +97,7 @@
         "iata": "BA",
         "name": "British Airways"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "JFK",
         "name": "John F Kennedy International Airport",

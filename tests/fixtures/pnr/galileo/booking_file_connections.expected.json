@@ -41,6 +41,7 @@
         "iata": "RO",
         "name": "Tarom"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "OTP",
         "name": "Henri Coanda International Airport",
@@ -87,6 +88,7 @@
         "iata": "KL",
         "name": "KLM Royal Dutch Airlines"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "AMS",
         "name": "Amsterdam Airport Schiphol",
@@ -133,6 +135,7 @@
         "iata": "KL",
         "name": "KLM Royal Dutch Airlines"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "JFK",
         "name": "John F Kennedy International Airport",
@@ -179,6 +182,7 @@
         "iata": "RO",
         "name": "Tarom"
       },
+      "operated_by": null,
       "origin_airport": {
         "iata": "AMS",
         "name": "Amsterdam Airport Schiphol",
